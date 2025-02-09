@@ -1,0 +1,528 @@
+Unnamed: 0,datetime,title,source,link
+0.0,2/22/2017 3:26:12 PM,BRIEF-Eaton increases dividend by five percent (ETN),Reuters,http://www.businessinsider.com/r-brief-eaton-increases-dividend-by-five-percent-2017-2
+1.0,3/20/2017 1:05:00 PM,"Research Reports Initiation on Machinery Stocks -- Eaton, AMETEK, Ingersoll-Rand, and 3M",PR Newswire,/news/stocks/research-reports-initiation-on-machinery-stocks-eaton-ametek-ingersoll-rand-and-3m-1001849835
+2.0,4/10/2017 4:25:08 PM,"BRIEF-Eaton, Cummins announce joint venture (CMI, ETN)",Reuters,http://www.businessinsider.com/r-brief-eaton-cummins-announce-joint-venture-2017-4
+3.0,5/2/2017 12:36:24 PM,Eaton Corp. Announces 7% Gain In Q1 Earnings,RTTNews,/news/stocks/eaton-corp-announces-7-gain-in-q1-earnings-1001968693
+4.0,5/2/2017 12:44:07 PM,Eaton Lifts 2017 Profit View ,RTTNews,/news/stocks/eaton-lifts-2017-profit-view-1001968709
+5.0,5/2/2017 12:50:00 PM,"Machinery Stocks Under Scanner -- Eaton, 3M, Ingersoll-Rand, and AMETEK",PR Newswire,/news/stocks/machinery-stocks-under-scanner-eaton-3m-ingersoll-rand-and-ametek-1001968742
+6.0,6/12/2017 1:10:00 PM,"Stock Performance Review on Machinery Industry -- Eaton, Ingersoll-Rand, 3M, and Rockwell Automation",PR Newswire,/news/stocks/stock-performance-review-on-machinery-industry-eaton-ingersoll-rand-3m-and-rockwell-automation-1002085104
+7.0,6/13/2017 3:18:05 PM,"EU mergers and takeovers (June 13) (PCLN, CMI, ETN, NK, 9984, 2317, RDSA, 521, C14, BX, MQG, FIG, 9101, 9104, 9107, FTI, LIN, RHI, MAGG3, UG, GM, BNP, GLE, DG, DUFN, GS, WRT1V, HLDX, 6501, 7267,...",Reuters,http://www.businessinsider.com/r-eu-mergers-and-takeovers-june-13-2017-6
+8.0,6/17/2017 1:30:05 AM,"EU mergers and takeovers (June 17) (RDSA, 521, C14, 9984, 2317, MQG, SEV, GE, 8001, 7911, NK, BX, FIG, 9101, 9104, 9107, FTI, LIN, RHI, MAGG3, UG, GM, BNP, GLE, DG, DUFN, GS, WRT1V, HLDX, 6501,...",Reuters,http://www.businessinsider.com/r-eu-mergers-and-takeovers-june-17-2017-6
+9.0,6/22/2017 5:52:03 PM,"EU mergers and takeovers (June 22) (BX, NK, FTI, LIN, 9984, FIG, GS, SDA1V, 9101, 9104, 9107, RHI, MAGG3, UG, GM, BNP, GLE, DG, DUFN, WRT1V, HLDX, 6501, 7267, SAZ, SAN, EDF, CBK, DD, FMC, CMI, ETN,...",Reuters,http://www.businessinsider.com/r-eu-mergers-and-takeovers-june-22-2017-6
+10.0,6/29/2017 6:08:05 PM,"EU mergers and takeovers (June 29) (9101, 9104, 9107, RHI, MAGG3, DE, QCOM, NXPI, UG, GM, BNP, GLE, DG, DUFN, GS, WRT1V, HLDX, 6501, 7267, SAZ, SAN, EDF, CBK, DD, FMC, CMI, ETN, 8001, 7911, PCLN,...",Reuters,http://www.businessinsider.com/r-eu-mergers-and-takeovers-june-29-2017-6
+11.0,7/4/2017 6:32:14 PM,"EU mergers and takeovers (July 4) (SAN, GS, MC, UG, GM, DG, DUFN, EDF, DD, FMC, CMI, ETN, 8001, 7911, PCLN, SEV, GE, BX, SDA1V, HLDX, VOLV , BP., CNA, DE, HWRI, MCO, 2160, BAYN, MON, QCOM, NXPI)",Reuters,http://www.businessinsider.com/r-eu-mergers-and-takeovers-july-4-2017-7
+12.0,7/5/2017 6:56:05 PM,"EU mergers and takeovers (July 5) (UG, GM, DG, DUFN, EDF, DD, FMC, CMI, ETN, 8001, 7911, PCLN, SEV, GE, BX, SDA1V, HLDX, VOLV , BP., GS, CNA, DE, HWRI, MCO, 2160, MC, BAYN, MON, QCOM, NXPI)",Reuters,http://www.businessinsider.com/r-eu-mergers-and-takeovers-july-5-2017-7
+13.0,7/7/2017 4:48:03 PM,"EU mergers and takeovers (July 7) (CMI, ETN, FMC, DD, 8001, 7911, PCLN, SEV, GE, BX, SDA1V, HLDX, VOLV , BP., GS, CNA, DE, HWRI, MCO, 2160, MC, BAYN, MON, QCOM, NXPI, VPK)",Reuters,http://www.businessinsider.com/r-eu-mergers-and-takeovers-july-7-2017-7
+14.0,7/24/2017 12:05:00 PM,"Technical Insights on Machinery Stocks -- Dover, Eaton, Ingersoll Rand, and 3M",PR Newswire,/news/stocks/technical-insights-on-machinery-stocks-dover-eaton-ingersoll-rand-and-3m-1002197935
+15.0,8/1/2017 12:38:30 PM,Eaton Corp. Q2 Earnings Climb 5%,RTTNews,/news/stocks/eaton-corp-q2-earnings-climb-5-1002221776
+16.0,8/29/2017 1:10:00 PM,"Stock Performance Review on Machinery Industry -- Dover, Eaton, Gardner Denver, and Ingersoll Rand",PR Newswire,/news/stocks/stock-performance-review-on-machinery-industry-dover-eaton-gardner-denver-and-ingersoll-rand-1002291012
+17.0,9/15/2017 5:42:08 PM,BRIEF-Eaton Corp updates on notes offering (ETN),Reuters,http://www.businessinsider.com/r-brief-eaton-corp-updates-on-notes-offering-2017-9
+18.0,9/20/2017 9:37:16 PM,BRIEF-Eaton wins dismissal of shareholder lawsuit alleging securities fraud--US judge (ETN),Reuters,http://www.businessinsider.com/r-brief-eaton-wins-dismissal-of-shareholder-lawsuit-alleging-securities-fraud--us-judge-2017-9
+19.0,10/10/2017 11:17:09 PM,BRIEF-Eaton Corporation sees negative impact in Q3 from hurricanes (ETN),Reuters,http://www.businessinsider.com/r-brief-eaton-corporation-sees-negative-impact-in-q3-from-hurricanes-2017-10
+20.0,10/31/2017 11:35:36 AM,Eaton Corp. Earnings Advance 166% In Q3,RTTNews,/news/stocks/eaton-corp-earnings-advance-166-in-q3-1006289944
+21.0,10/31/2017 11:45:57 AM,Eaton Corp. Updates Earnings Outlook; Affirms Midpoint Of Guidance - Quick Facts ,RTTNews,/news/stocks/eaton-corp-updates-earnings-outlook-affirms-midpoint-of-guidance-quick-facts-1006290914
+22.0,12/29/2017 12:07:03 AM,BRIEF-Eaton Provides Guidance On The Impact Of Newly-Signed U.S. Tax Legislation (ETN),Reuters,http://www.businessinsider.com/r-brief-eaton-provides-guidance-on-the-impact-of-newly-signed-us-tax-legislation-2017-12
+23.0,2/1/2018 12:38:56 PM,Eaton Corp. Reports Rise In Q4 Profit,RTTNews,/news/stocks/eaton-corp-reports-rise-in-q4-profit-1014788664
+24.0,2/1/2018 12:47:31 PM,"Eaton Sees Q1 Earnings Above View, Higher Results In FY18 - Quick Facts ",RTTNews,/news/stocks/eaton-sees-q1-earnings-above-view-higher-results-in-fy18-quick-facts-1014789409
+25.0,5/1/2018 12:38:46 PM,Eaton Corp. Reports Increase In Q1 Bottom Line,RTTNews,/news/stocks/eaton-corp-reports-increase-in-q1-bottom-line-1022998526
+26.0,5/1/2018 12:39:25 PM,Eaton Corp. Raises 2018 Earnings Guidance - Quick Facts ,RTTNews,/news/stocks/eaton-corp-raises-2018-earnings-guidance-quick-facts-1022998525
+27.0,7/29/2018 3:02:00 PM,Eaton earnings: here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-q2-quarterly-earnings-preview-stock-1027409433
+28.0,7/31/2018 12:36:25 PM,Eaton Corp. Q2 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q2-adjusted-earnings-beat-estimates-1027415472
+29.0,7/31/2018 12:40:55 PM,Eaton Lifts 2018 Profit View ,RTTNews,/news/stocks/eaton-lifts-2018-profit-view-1027415489
+30.0,10/28/2018 3:02:07 PM,Eaton is about to announce its earnings — here's what to expect,Markets Insider Automation,/news/stocks/eaton_1-q3-quarterly-earnings-preview-stock-1027662239
+31.0,10/30/2018 11:48:04 AM,Eaton Corp. Q3 adjusted earnings of $0.95 per share,RTTNews,/news/stocks/eaton-corp-q3-adjusted-earnings-of-0-95-per-share-1027670068
+32.0,1/29/2019 3:02:02 PM,Eaton earnings preview: what Wall Street is expecting,Markets Insider Automation,/news/stocks/eaton_1-q4-quarterly-earnings-preview-stock-1027905290
+33.0,1/31/2019 12:48:56 PM,Eaton Corp. Q4 adjusted earnings of $1.46 per share,RTTNews,/news/stocks/eaton-corp-q4-adjusted-earnings-of-1-46-per-share-1027912417
+34.0,2/1/2019 3:44:36 AM,Eaton To Acquire Controlling Interest In Ulusoy Elektrik ,RTTNews,/news/stocks/eaton-to-acquire-controlling-interest-in-ulusoy-elektrik-1027915124
+35.0,3/1/2019 3:00:16 PM,Eaton Plans To Pursue Spin-off Of Lighting Business ,RTTNews,/news/stocks/eaton-plans-to-pursue-spin-off-of-lighting-business-1027997070
+36.0,4/28/2019 3:02:09 PM,Here's what to expect from Eaton's earnings report,Markets Insider Automation,/news/stocks/eaton_1-stock-price-quarter-earnings-preview-q1-1028145612
+37.0,4/30/2019 12:39:32 PM,Eaton Corp. Q1 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q1-adjusted-earnings-beat-estimates-1028152633
+38.0,7/22/2019 2:46:01 PM,TransDigm Plans To Divest Souriau-Sunbank Connection Tech To Eaton ,RTTNews,/news/stocks/transdigm-plans-to-divest-souriau-sunbank-connection-tech-to-eaton-1028371757
+39.0,7/22/2019 2:50:23 PM,Eaton To Acquire Souriau-Sunbank Connection Technologies - Quick Facts ,RTTNews,/news/stocks/eaton-to-acquire-souriau-sunbank-connection-technologies-quick-facts-1028371756
+40.0,7/28/2019 3:01:56 PM,What Wall Street expects from Eaton's earnings,Markets Insider Automation,/news/stocks/eaton_1-quarter-earnings-preview-q2-1028391217
+41.0,7/30/2019 12:40:12 PM,Eaton Corp. Q2 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q2-adjusted-earnings-beat-estimates-1028397733
+42.0,10/15/2019 11:43:38 PM,Eaton To Sell Lighting Business To Signify For $1.4 Bln ,RTTNews,/news/stocks/eaton-to-sell-lighting-business-to-signify-for-1-4-bln-1028601596
+43.0,10/29/2019 11:44:37 AM,Eaton Corp. Q3 adjusted earnings of $1.52 per share,RTTNews,/news/stocks/eaton-corp-q3-adjusted-earnings-of-1-52-per-share-1028638435
+44.0,10/29/2019 11:55:45 AM,Eaton Lowers Midpoint Of 2019 Earnings Guidance Due To Lower Markets ,RTTNews,/news/stocks/eaton-lowers-midpoint-of-2019-earnings-guidance-due-to-lower-markets-1028638476
+45.0,1/21/2020 11:09:30 PM,Eaton To Divest Hydraulics Business To Danfoss A/S For $3.3 Bln Cash ,RTTNews,/news/stocks/eaton-to-divest-hydraulics-business-to-danfoss-a-s-for-3-3-bln-cash-1028833990
+46.0,2/3/2020 3:01:44 PM,Eaton earnings preview: what Wall Street is expecting,Markets Insider Automation,/news/stocks/eaton_1-stock-quarter-earnings-preview-q4-1028867911
+47.0,2/4/2020 12:38:13 PM,Eaton Corp. Q4 adjusted earnings Miss Estimates,RTTNews,/news/stocks/eaton-corp-q4-adjusted-earnings-miss-estimates-1028871244
+48.0,2/4/2020 12:46:36 PM,"Eaton Sees Q1, FY20 Earnings In Line With Estimates - Quick Facts ",RTTNews,/news/stocks/eaton-sees-q1-fy20-earnings-in-line-with-estimates-quick-facts-1028871263
+49.0,3/18/2020 2:56:04 PM,Suppliers tumble as Boeing seeks aid,Seeking Alpha,https://seekingalpha.com/news/3552969-suppliers-tumble-boeing-seeks-aid?utm_source=markets.businessinsider.com&utm_medium=referral
+50.0,4/13/2020 6:28:54 PM,Eaton cut at J.P. Morgan on less upside potential for industrials,Seeking Alpha,https://seekingalpha.com/news/3560260-eaton-cut-j-p-morgan-on-less-upside-potential-for-industrials?utm_source=markets.businessinsider.com&utm_medium=referral
+51.0,4/17/2020 2:57:50 PM,Boeing suppliers bounce big on production news,Seeking Alpha,https://seekingalpha.com/news/3561706-boeing-suppliers-bounce-big-on-production-news?utm_source=markets.businessinsider.com&utm_medium=referral
+52.0,4/29/2020 3:02:39 PM,Eaton is about to announce earnings — here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-q1-quarterly-earnings-preview-1029144760
+53.0,4/30/2020 12:39:34 PM,Eaton Corp. Q1 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q1-adjusted-earnings-beat-estimates-1029149234
+54.0,4/30/2020 12:44:50 PM,Eaton Corporation Plc Withdraws 2020 Earnings Guidance - Quick Facts ,RTTNews,/news/stocks/eaton-corporation-plc-withdraws-2020-earnings-guidance-quick-facts-1029149245
+55.0,6/11/2020 2:37:14 PM,Industrial sector sinks with broader market,Seeking Alpha,https://seekingalpha.com/news/3582330-industrial-sector-sinks-broader-market?utm_source=markets.businessinsider.com&utm_medium=referral
+56.0,7/28/2020 3:01:59 PM,Eaton earnings: here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-stock-price-quarter-earnings-preview-q2-1029439035
+57.0,7/29/2020 12:44:20 PM,Eaton Corp. Q2 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q2-adjusted-earnings-beat-estimates-1029444074
+58.0,9/28/2020 10:54:04 PM,"ETNs combine a bond's reliability with a stock's profitability. Here's how they work, and how to weigh the risks and rewards.",Business Insider,https://www.businessinsider.com/what-is-an-etn
+59.0,10/27/2020 1:27:43 PM,Eaton declares $0.73 dividend,Seeking Alpha,https://seekingalpha.com/news/3626418-eaton-declares-0_73-dividend?utm_source=markets.businessinsider.com&utm_medium=referral
+60.0,11/2/2020 3:01:54 PM,Eaton earnings: here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-stock-price-quarter-earnings-preview-q3-1029753564
+61.0,11/2/2020 5:36:54 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3629754-notable-earnings-tuesdays-open?utm_source=markets.businessinsider.com&utm_medium=referral
+62.0,11/2/2020 5:55:20 PM,Eaton Q3 2020 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3629774-eaton-q3-2020-earnings-preview?utm_source=markets.businessinsider.com&utm_medium=referral
+63.0,11/3/2020 11:27:04 AM,ChargePoint Is the Electric Gas Station Opportunity,InvestorPlace,/news/stocks/sbe-stock-chargepoint-electric-gas-station-opportunity-1029758593
+64.0,11/3/2020 11:33:12 AM,"Eaton EPS beats by $0.14, beats on revenue",Seeking Alpha,https://seekingalpha.com/news/3630213-eaton-eps-beats-0_14-beats-on-revenue?utm_source=markets.businessinsider.com&utm_medium=referral
+65.0,11/3/2020 12:38:57 PM,Eaton Corp. Q3 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q3-adjusted-earnings-beat-estimates-1029758114
+66.0,11/3/2020 12:50:04 PM,"Eaton advances after Q3 beats, sees ongoing momentum",Seeking Alpha,https://seekingalpha.com/news/3630292-eaton-advances-after-q3-beats-sees-ongoing-momentum?utm_source=markets.businessinsider.com&utm_medium=referral
+67.0,11/11/2020 8:31:43 PM,Trane double-downgraded at BofA as valuation runs its course,Seeking Alpha,https://seekingalpha.com/news/3635106-trane-double-downgraded-bofa-valuation-runs-course?utm_source=markets.businessinsider.com&utm_medium=referral
+68.0,12/3/2020 1:30:36 PM,Eaton Appoints Thomas Okray  As New CFO - Quick Facts ,RTTNews,/news/stocks/eaton-appoints-thomas-okray-as-new-cfo-quick-facts-1029861251
+69.0,12/15/2020 12:48:30 PM,Eaton To Buy 50% Stake In HuanYu High Tech - Quick Facts ,RTTNews,/news/stocks/eaton-to-buy-50-stake-in-huanyu-high-tech-quick-facts-1029893221
+70.0,1/19/2021 8:56:00 PM,A Biden presidency could make these stocks attractive picks: Kiplinger,Seeking Alpha,https://seekingalpha.com/news/3652397-joe-biden-presidency-could-make-these-stocks-attractive-picks-kiplinger?utm_source=markets.businessinsider.com&utm_medium=referral
+71.0,1/29/2021 11:59:45 AM,Eaton inks agreement to buy Tripp Lite for $1.65B,Seeking Alpha,https://seekingalpha.com/news/3656070-eaton-inks-agreement-to-buy-tripp-lite-for-165b?utm_source=markets.businessinsider.com&utm_medium=referral
+72.0,1/29/2021 1:24:01 PM,Eaton To Acquire Tripp Lite - Quick Facts ,RTTNews,/news/stocks/eaton-to-acquire-tripp-lite-quick-facts-1030019500
+73.0,1/31/2021 3:01:27 PM,Eaton earnings preview: what to expect,Markets Insider Automation,/news/stocks/eaton_1-stock-q4-earnings-preview-1030023052
+74.0,2/1/2021 1:07:51 PM,Eaton To Buy Cobham Mission Systems In $2.83 Bln Deal ,RTTNews,/news/stocks/eaton-to-buy-cobham-mission-systems-in-2-83-bln-deal-1030027070
+75.0,2/1/2021 5:19:44 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3656739-notable-earnings-before-tuesdays-open?utm_source=markets.businessinsider.com&utm_medium=referral
+76.0,2/1/2021 6:38:03 PM,Eaton Q4 2020 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3656801-eaton-q4-2020-earnings-preview?utm_source=markets.businessinsider.com&utm_medium=referral
+77.0,2/2/2021 11:32:29 AM,"Eaton EPS beats by $0.04, beats on revenue",Seeking Alpha,https://seekingalpha.com/news/3657069-eaton-eps-beats-0_04-beats-on-revenue?utm_source=markets.businessinsider.com&utm_medium=referral
+78.0,2/2/2021 12:37:49 PM,Eaton Corp. Q4 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q4-adjusted-earnings-beat-estimates-1030032010
+79.0,2/2/2021 12:52:59 PM,"Eaton Guides Q1, FY21 Adj. EPS Well Above Estimates - Quick Facts ",RTTNews,/news/stocks/eaton-guides-q1-fy21-adj-eps-well-above-estimates-quick-facts-1030032050
+80.0,2/2/2021 1:24:46 PM,"Eaton inches up after Q4 beats, gives guidance for 2021",Seeking Alpha,https://seekingalpha.com/news/3657169-eaton-inches-up-after-q4-beats-gives-guidance-for-2021?utm_source=markets.businessinsider.com&utm_medium=referral
+81.0,2/16/2021 4:38:04 PM,"Benzinga's Top Ratings Upgrades, Downgrades For February 16, 2021",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-february-16-2021-1030088178
+82.0,2/24/2021 2:57:57 PM,Eaton declares $0.76 dividend,Seeking Alpha,https://seekingalpha.com/news/3665548-eaton-declares-0_76-dividend?utm_source=markets.businessinsider.com&utm_medium=referral
+83.0,2/26/2021 8:15:12 PM,Seeking Alpha Catalyst Watch,Seeking Alpha,https://seekingalpha.com/news/3667253-seeking-alpha-catalyst-watch?utm_source=markets.businessinsider.com&utm_medium=referral
+84.0,3/3/2021 2:43:35 PM,10 Biggest Price Target Changes For Wednesday,Benzinga,/news/stocks/10-biggest-price-target-changes-for-wednesday-1030145476
+85.0,3/3/2021 4:02:31 PM,"Benzinga's Top Ratings Upgrades, Downgrades For March 3, 2021",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-march-3-2021-1030145958
+86.0,3/3/2021 5:58:08 PM,Eaton upped with Street-high PT at Morgan Stanley on electrification growth,Seeking Alpha,https://seekingalpha.com/news/3668935-eaton-upped-with-street-high-pt-at-morgan-stanley-on-electrification-growth?utm_source=markets.businessinsider.com&utm_medium=referral
+87.0,3/8/2021 4:04:40 PM,"Benzinga's Top Ratings Upgrades, Downgrades For March 8, 2021",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-march-8-2021-1030160061
+88.0,3/17/2021 6:02:00 PM,7 of the Best ETFs To Buy for the Second Quarter,InvestorPlace,/news/stocks/7-of-the-best-etfs-to-buy-for-the-second-quarter-1030221161
+89.0,3/18/2021 3:36:19 PM,Eaton's $3.3B hydraulics sale to Danfoss wins conditional EU OK,Seeking Alpha,https://seekingalpha.com/news/3674107-eatons-33b-hydraulics-sale-to-danfoss-wins-conditional-eu-ok?utm_source=markets.businessinsider.com&utm_medium=referral
+90.0,3/22/2021 8:25:16 PM,Eaton acquires Switzerland-based EV charging hardware company,Seeking Alpha,https://seekingalpha.com/news/3674985-eaton-acquires-switzerland-based-ev-charging-hardware-company?utm_source=markets.businessinsider.com&utm_medium=referral
+91.0,3/29/2021 11:02:26 AM,Eaton acquires 50% stake in HuanYu High Tech to expand low-voltage electrical components business in Asia,Seeking Alpha,https://seekingalpha.com/news/3677056-eaton-acquires-50-stake-in-huanyu-high-tech-to-expand-low-voltage-electrical-components-business-in-asia?utm_source=markets.businessinsider.com&utm_medium=referral
+92.0,4/9/2021 6:31:38 PM,7 Infrastructure Stocks Excited For The $2 Trillion Biden Plan,InvestorPlace,/news/stocks/7-infrastructure-stocks-excited-for-the-2-trillion-biden-plan-1030290298
+93.0,4/13/2021 5:23:08 PM,Gordon Haskett's John Inch On Why General Electric Is 'Very Overvalued',Benzinga,/news/stocks/exclusive-gordon-haskett-s-john-inch-on-why-general-electric-is-very-overvalued-1030299445
+94.0,4/26/2021 10:56:26 AM,Eaton buys 50% stake in Jiangsu YiNeng Electric’s busway business,Seeking Alpha,https://seekingalpha.com/news/3685356-eaton-to-acquire-a-50-stake-in-jiangsu-yineng-electrics-busway-business?utm_source=markets.businessinsider.com&utm_medium=referral
+95.0,4/26/2021 1:34:08 PM,Eaton To Acquire 50% Stake In Jiangsu YiNeng Electric's Busway Business - Quick Facts ,RTTNews,/news/stocks/eaton-to-acquire-50-stake-in-jiangsu-yineng-electric-s-busway-business-quick-facts-1030344924
+96.0,4/27/2021 5:23:23 PM,7 Stocks to Buy for May,InvestorPlace,/news/stocks/7-stocks-to-buy-for-may-1030353598
+97.0,4/28/2021 3:21:54 PM,Eaton declares $0.76 dividend,Seeking Alpha,https://seekingalpha.com/news/3686911-eaton-corporation-plc-declares-dividend?utm_source=markets.businessinsider.com&utm_medium=referral
+98.0,5/2/2021 3:01:32 PM,What Wall Street expects from Eaton's earnings,Markets Insider Automation,/news/stocks/eaton_1-stock-q1-earnings-preview-1030374586
+99.0,5/3/2021 5:04:25 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3689391-notable-earnings-tuesdays-open?utm_source=markets.businessinsider.com&utm_medium=referral
+100.0,5/3/2021 7:45:57 PM,Eaton Q1 2021 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3689655-eaton-q1-2021-earnings-preview?utm_source=markets.businessinsider.com&utm_medium=referral
+101.0,5/4/2021 12:41:09 PM,Eaton climbs after raising earnings guidance above estimates,Seeking Alpha,https://seekingalpha.com/news/3690108-eaton-climbs-after-raising-earnings-guidance-above-estimates?utm_source=markets.businessinsider.com&utm_medium=referral
+102.0,5/4/2021 12:42:40 PM,Eaton Corp. Q1 adjusted earnings Beat Estimates,RTTNews,/news/stocks/eaton-corp-q1-adjusted-earnings-beat-estimates-1030383310
+103.0,5/10/2021 5:26:20 PM,Stocks That Hit 52-Week Highs On Monday,Benzinga,/news/stocks/stocks-that-hit-52-week-highs-on-monday-1030410156
+104.0,5/15/2021 10:45:29 PM,The 'new momentum' stocks to watch: Alpha Tactics,Seeking Alpha,https://seekingalpha.com/news/3696874-the-new-momentum-stocks-to-watch?utm_source=markets.businessinsider.com&utm_medium=referral
+105.0,5/17/2021 6:45:29 PM,7 ETFs To Buy if You Want To Try To Outperform Cathie Wood,InvestorPlace,/news/stocks/7-etfs-to-buy-if-you-want-to-try-to-outperform-cathie-wood-1030438262
+106.0,6/9/2021 8:40:42 PM,7 ESG Stocks to Buy as Activists Take Aim at Big Oil,InvestorPlace,/news/stocks/7-esg-stocks-to-buy-as-activists-take-aim-at-big-oil-1030509522
+107.0,6/17/2021 1:59:40 PM,10 Biggest Price Target Changes For Thursday,Benzinga,/news/stocks/10-biggest-price-target-changes-for-thursday-1030531731
+108.0,7/8/2021 1:45:53 PM,10 Biggest Price Target Changes For Thursday,Benzinga,/news/stocks/10-biggest-price-target-changes-for-thursday-1030589267
+109.0,7/14/2021 5:43:54 PM,Eaton gains after DOJ conditionally approves sale of hydraulics unit to Danfoss,Seeking Alpha,https://seekingalpha.com/news/3715228-eaton-falls-after-report-doj-sues-to-block-danfosss-purchase-of-hydraulics-unit?utm_source=markets.businessinsider.com&utm_medium=referral
+110.0,7/14/2021 5:43:54 PM,Eaton gains after DOJ conditionally approves sale of hydraulics unit to Danfoss,Seeking Alpha,https://seekingalpha.com/news/3715228-eaton-pares-loss-after-doj-conditionally-approves-sale-of-hydraulics-unit-danfoss?utm_source=markets.businessinsider.com&utm_medium=referral
+111.0,7/14/2021 6:09:02 PM,Analyst Ratings For Eaton Corp,Benzinga,/news/stocks/analyst-ratings-for-eaton-corp-1030607671
+112.0,7/14/2021 6:20:44 PM,DOJ conditionally approves Eaton's $3.3B sale of hydraulics unit to Danfoss,Seeking Alpha,https://seekingalpha.com/news/3715250-doj-conditionally-approves-eatons-33b-sale-of-hydraulics-unit-to-danfoss?utm_source=markets.businessinsider.com&utm_medium=referral
+113.0,7/21/2021 12:23:43 PM,Eaton gets final regulatory nod to close sale of hydraulics business to Danfoss on Aug. 2,Seeking Alpha,https://seekingalpha.com/news/3717324-eaton-gets-final-regulatory-nod-to-close-sale-of-hydraulics-business-to-danfoss-on-aug-2?utm_source=markets.businessinsider.com&utm_medium=referral
+114.0,7/21/2021 12:53:12 PM,Eaton Gets All Approvals To Close Sale Of Hydraulics Business To Danfoss ,RTTNews,/news/stocks/eaton-gets-all-approvals-to-close-sale-of-hydraulics-business-to-danfoss-1030629607
+115.0,8/1/2021 3:01:51 PM,Here's what Wall Street expects from Eaton's earnings,Markets Insider Automation,/news/stocks/eaton_1-stock-price-q2-earnings-preview-1030671487
+116.0,8/2/2021 2:02:49 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3722982-notable-earnings-before-tuesdays-open?utm_source=markets.businessinsider.com&utm_medium=referral
+117.0,8/3/2021 10:34:31 AM,"Eaton EPS beats by $0.15, beats on revenue, raises FY guidance",Seeking Alpha,https://seekingalpha.com/news/3723645-eaton-eps-beats-0_15-beats-on-revenue?utm_source=markets.businessinsider.com&utm_medium=referral
+118.0,8/3/2021 1:28:01 PM,Eaton Boosts FY21 Adj. EPS Outlook - Quick Facts ,RTTNews,/news/stocks/eaton-boosts-fy21-adj-eps-outlook-quick-facts-1030682468
+119.0,8/4/2021 6:23:48 PM,Analyst Ratings For Eaton Corp,Benzinga,/news/stocks/analyst-ratings-for-eaton-corp-1030690533
+120.0,8/10/2021 7:05:21 PM,Where Eaton Corp Stands With Analysts,Benzinga,/news/stocks/where-eaton-corp-stands-with-analysts-1030714840
+121.0,8/11/2021 6:28:38 PM,Analyst Ratings For Eaton Corp,Benzinga,/news/stocks/analyst-ratings-for-eaton-corp-1030719927
+122.0,8/14/2021 6:33:14 PM,"The Past Week's Notable Insider Buys: ConocoPhillips, Cricut, Energy Transfer And More",Benzinga,/news/stocks/the-past-week-s-notable-insider-buys-conocophillips-cricut-energy-transfer-and-more-1030730913
+123.0,10/7/2021 6:23:20 PM,Expert Ratings For Eaton Corp,Benzinga,/news/stocks/expert-ratings-for-eaton-corp-1030851169
+124.0,10/8/2021 3:28:44 PM,Wells Fargo Initiates Coverage On 4 Electric Equipment Stocks With Mixed Ratings,Benzinga,/news/stocks/wells-fargo-initiates-coverage-on-4-electric-equipment-stocks-with-mixed-ratings-1030853055
+125.0,10/8/2021 5:52:27 PM,"Benzinga's Top Ratings Upgrades, Downgrades For October 8, 2021",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-october-8-2021-1030853335
+126.0,10/29/2021 7:00:57 PM,"Catalyst watch for next week: FOMC and OPEC meetings, Beyond Meat hits McDonald's stores and more eyes on crypto",Seeking Alpha,https://seekingalpha.com/news/3760981-catalyst-watch-for-next-week-fomc-and-opec-meetings-beyond-meat-hits-mcdonalds-stores-and-more-eyes-on-crypto?utm_source=markets.businessinsider.com&utm_medium=referral
+127.0,11/1/2021 3:01:13 PM,Eaton earnings preview: what Wall Street is expecting,Markets Insider Automation,/news/stocks/eaton_1-stock-price-q3-earnings-preview-1030921885
+128.0,11/1/2021 3:10:27 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3761481-notable-earnings-before-tuesdays-open?utm_source=markets.businessinsider.com&utm_medium=referral
+129.0,11/1/2021 5:35:59 PM,Eaton Q3 2021 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3761623-eaton-q3-2021-earnings-preview?utm_source=markets.businessinsider.com&utm_medium=referral
+130.0,11/2/2021 10:33:20 AM,"Eaton EPS beats by $0.02, misses on revenue; issues Q4 and updates full year guidance",Seeking Alpha,https://seekingalpha.com/news/3762631-eaton-eps-beats-by-002-misses-on-revenue-issues-q4-and-updates-full-year-guidance?utm_source=markets.businessinsider.com&utm_medium=referral
+131.0,11/2/2021 11:41:19 AM,Eaton Corp. Earnings Climb In Q3,RTTNews,/news/stocks/eaton-corp-earnings-climb-in-q3-1030925231
+132.0,11/3/2021 5:39:30 PM,Where Eaton Corp Stands With Analysts,Benzinga,/news/stocks/where-eaton-corp-stands-with-analysts-1030933500
+133.0,11/3/2021 8:33:04 PM,Analysts Bump Up Eaton Price Target Post Q3 Results,Benzinga,/news/stocks/analysts-bump-up-eaton-price-target-post-q3-results-1030933941
+134.0,11/9/2021 8:46:27 PM,"GE sum-of-the-parts analysis implies 20% upside, RBC analyst says",Seeking Alpha,https://seekingalpha.com/news/3768007-ge-sum-of-the-parts-analysis-implies-20-upside-rbc-analyst-says?utm_source=markets.businessinsider.com&utm_medium=referral
+135.0,11/19/2021 10:53:44 PM,7 Stocks That Could Get a Big Boost From Biden’s ‘Build Back Better’ Bill,InvestorPlace,/news/stocks/7-stocks-that-could-get-a-big-boost-from-bidens-build-back-better-bill-1030992660
+136.0,12/15/2021 6:57:20 PM,Expert Ratings For Eaton Corp,Benzinga,/news/stocks/expert-ratings-for-eaton-corp-1031048211
+137.0,12/17/2021 4:17:57 PM,"Benzinga's Top Ratings Upgrades, Downgrades For December 17, 2021",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-december-17-2021-1031053650
+138.0,12/17/2021 5:18:23 PM,"Mizuho Bullish On Hubbell, Eaton, AMETEK; Neutral On Rockwell Automation, Vertiv",Benzinga,/news/stocks/mizuho-bullish-on-hubbell-eaton-ametek-neutral-on-rockwell-automation-vertiv-1031053817
+139.0,12/19/2021 4:05:53 PM,BofA picks a stock for every sector for 2022: Sector Watch,Seeking Alpha,https://seekingalpha.com/news/3781435-bofa-picks-a-stock-for-every-sector-for-2022?utm_source=markets.businessinsider.com&utm_medium=referral
+140.0,1/3/2022 2:49:38 PM,"5 ETFs To With Major Growth Potential In January And Beyond, From Sports Betting To The Metaverse",Benzinga,/news/stocks/5-etfs-to-with-major-growth-potential-in-january-and-beyond-from-sports-betting-to-the-metaverse-1031074187
+141.0,1/3/2022 6:00:57 PM,"Carrier, Trane cut at Vertical on valuation with Johnson Controls tops in HVAC",Seeking Alpha,https://seekingalpha.com/news/3784657-carrier-trane-cut-at-vertical-on-valuation-with-johnson-controls-tops-in-hvac?utm_source=markets.businessinsider.com&utm_medium=referral
+142.0,1/5/2022 9:49:24 PM,Eaton acquires Royal Power Solutions for $600M,Seeking Alpha,https://seekingalpha.com/news/3785638-eaton-acquires-royal-power-solutions-for-600m?utm_source=markets.businessinsider.com&utm_medium=referral
+143.0,1/6/2022 1:40:44 PM,"OPEC misses production targets for December, but Saudi cuts pricing",Seeking Alpha,https://seekingalpha.com/news/3785800-opec-misses-production-targets-for-december-but-saudi-cuts-pricing?utm_source=markets.businessinsider.com&utm_medium=referral
+144.0,2/3/2022 3:01:13 PM,Eaton earnings: here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-q4-quarterly-earnings-preview-stock-1031158994
+145.0,2/3/2022 3:48:38 PM,Notable earnings before Friday's open,Seeking Alpha,https://seekingalpha.com/news/3795618-notable-earnings-before-fridays-open?utm_source=markets.businessinsider.com&utm_medium=referral
+146.0,2/3/2022 6:47:06 PM,Eaton Q4 2021 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3795685-eaton-q4-2021-earnings-preview?utm_source=markets.businessinsider.com&utm_medium=referral
+147.0,2/4/2022 11:35:57 AM,"Eaton Non-GAAP EPS of $1.72 beats by $0.01, revenue of $4.79B misses by $120M",Seeking Alpha,https://seekingalpha.com/news/3795951-eaton-non-gaap-eps-of-1_72-beats-0_01-revenue-of-4_79b-misses-120m?utm_source=markets.businessinsider.com&utm_medium=referral
+148.0,2/4/2022 12:36:08 PM,Eaton Corp. Bottom Line Rises In Q4,RTTNews,/news/stocks/eaton-corp-bottom-line-rises-in-q4-1031162171
+149.0,2/4/2022 12:48:48 PM,"Eaton Guides Q1, FY22 Adj. EPS In Line With Estimates - Quick Facts ",RTTNews,/news/stocks/eaton-guides-q1-fy22-adj-eps-in-line-with-estimates-quick-facts-1031162193
+150.0,2/4/2022 1:54:12 PM,"Eaton little changed after posting mixed Q4, issuing in-line guidance",Seeking Alpha,https://seekingalpha.com/news/3796037-eaton-little-changed-after-posting-mixed-q4-issuing-in-line-guidance?utm_source=markets.businessinsider.com&utm_medium=referral
+151.0,2/7/2022 4:05:00 PM,What 5 Analyst Ratings Have To Say About Eaton Corp,Benzinga,/news/stocks/what-5-analyst-ratings-have-to-say-about-eaton-corp-1031167621
+152.0,2/7/2022 7:25:12 PM,Read How Analysts Reacted to Eaton's Q4 Results,Benzinga,/news/stocks/read-how-analysts-reacted-to-eaton-s-q4-results-1031168274
+153.0,2/23/2022 3:21:06 PM,Eaton raises dividend by 6.6% to $0.81,Seeking Alpha,https://seekingalpha.com/news/3804167-eaton-corporation-plc-declares-0_81-dividend?utm_source=markets.businessinsider.com&utm_medium=referral
+154.0,3/1/2022 4:03:12 PM,What 6 Analyst Ratings Have To Say About Eaton Corp,Benzinga,/news/stocks/what-6-analyst-ratings-have-to-say-about-eaton-corp-1031243465
+155.0,3/2/2022 5:26:26 PM,Analyst Ratings For Eaton Corp,Benzinga,/news/stocks/analyst-ratings-for-eaton-corp-1031248454
+156.0,4/4/2022 4:04:36 PM,Expert Ratings For Eaton Corp,Benzinga,/news/stocks/expert-ratings-for-eaton-corp-1031330378
+157.0,4/26/2022 2:41:41 PM,Eaton declares $0.81 dividend,Seeking Alpha,https://seekingalpha.com/news/3826824-eaton-corporation-plc-declares-0_81-dividend?utm_source=markets.businessinsider.com&utm_medium=referral
+158.0,5/2/2022 10:15:00 AM,Morgan Stanley issues list of 45 highest conviction stock picks,Seeking Alpha,https://seekingalpha.com/news/3829447-morgan-stanley-issues-list-of-45-highest-conviction-stock-picks?utm_source=markets.businessinsider.com&utm_medium=referral
+159.0,5/2/2022 10:50:24 AM,Eaton to acquire 50% stake in Jiangsu Huineng Electric’s circuit breaker business,Seeking Alpha,https://seekingalpha.com/news/3829862-eaton-to-acquire-50-stake-in-jiangsu-huineng-electrics-circuit-breaker-business?utm_source=markets.businessinsider.com&utm_medium=referral
+160.0,5/2/2022 1:10:32 PM,Eaton To Buy 50% Stake In Jiangsu Huineng Electric's Circuit Breaker Business; Terms Not Disclosed ,RTTNews,/news/stocks/eaton-to-buy-50-stake-in-jiangsu-huineng-electric-s-circuit-breaker-business-terms-not-disclosed-1031408075
+161.0,5/2/2022 2:26:02 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3830038-notable-earnings-before-tuesdays-open?utm_source=markets.businessinsider.com&utm_medium=referral
+162.0,5/2/2022 3:01:13 PM,Here's what Wall Street expects from Eaton's earnings,Markets Insider Automation,/news/stocks/eaton_1-quarter-earnings-preview-q1-1031408656
+163.0,5/2/2022 9:00:43 PM,Eaton Q1 2022 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3830525-eaton-q1-2022-earnings-preview?utm_source=markets.businessinsider.com&utm_medium=referral
+164.0,5/3/2022 10:32:49 AM,"Eaton Non-GAAP EPS of $1.62 beats by $0.02, revenue of $4.8B beats by $20M; raises FY22 and issues Q2 guidance",Seeking Alpha,https://seekingalpha.com/news/3830757-eaton-non-gaap-eps-of-162-beats-by-002-revenue-of-48b-beats-by-20m-raises-fy22-and-issues-q2-guidance?utm_source=markets.businessinsider.com&utm_medium=referral
+165.0,5/3/2022 12:38:26 PM,"Eaton Corp. Q1 Profit Increases, beats estimates",RTTNews,/news/stocks/eaton-corp-q1-profit-increases-beats-estimates-1031412854
+166.0,5/3/2022 1:07:31 PM,Eaton Boosts FY22 Outlook; Guides Q2 Adj. EPS In Line With Estimates ,RTTNews,/news/stocks/eaton-boosts-fy22-outlook-guides-q2-adj-eps-in-line-with-estimates-1031413053
+167.0,5/4/2022 6:24:04 PM,13 Analysts Have This to Say About Eaton Corp,Benzinga,/news/stocks/13-analysts-have-this-to-say-about-eaton-corp-1031421103
+168.0,5/24/2022 4:04:33 PM,"Benzinga's Top Ratings Upgrades, Downgrades For May 24, 2022",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-may-24-2022-1031485498
+169.0,5/24/2022 4:05:01 PM,Expert Ratings for Eaton Corp,Benzinga,/news/stocks/expert-ratings-for-eaton-corp-1031485497
+170.0,6/4/2022 10:10:38 PM,"Barron's Latest Picks And Pans: Amazon, Exxon Mobile, Marriot, Eaton And More",Benzinga,/news/stocks/barron-s-latest-picks-and-pans-amazon-exxon-mobile-marriot-eaton-and-more-1031509593
+171.0,6/23/2022 4:20:39 PM,Where Eaton Corp Stands With Analysts,Benzinga,/news/stocks/where-eaton-corp-stands-with-analysts-1031546534
+172.0,7/5/2022 10:58:15 AM,Eaton acquires 50% stake in Jiangsu Huineng Electric,Seeking Alpha,https://seekingalpha.com/news/3854052-eaton-acquires-50-stake-in-jiangsu-huineng-electric?utm_source=businessinsider&utm_medium=referral
+173.0,7/11/2022 3:29:42 PM,Goldman screens stocks most and least vulnerable to recession margin pressure,Seeking Alpha,https://seekingalpha.com/news/3855643-goldman-screens-stocks-most-ane-least-vulnerable-to-recession-margin-pressure?utm_source=businessinsider&utm_medium=referral
+174.0,7/27/2022 2:00:03 PM,Eaton declares $0.81 dividend,Seeking Alpha,https://seekingalpha.com/news/3861362-eaton-corporation-plc-declares-0_81-dividend?utm_source=businessinsider&utm_medium=referral
+175.0,8/1/2022 2:59:27 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3863767-notable-earnings-before-tuesdays-open?utm_source=businessinsider&utm_medium=referral
+176.0,8/1/2022 3:01:13 PM,Here's what Wall Street expects from Eaton's earnings report,Markets Insider Automation,/news/stocks/eaton_1-q2-earnings-preview-stock-1031635387
+177.0,8/1/2022 5:01:56 PM,Eaton Q2 2022 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3863863-eaton-q2-2022-earnings-preview?utm_source=businessinsider&utm_medium=referral
+178.0,8/2/2022 10:34:42 AM,Eaton reports mixed Q2 earnings; raises FY22 guidance and issues Q3 guidance,Seeking Alpha,https://seekingalpha.com/news/3864460-eaton-reports-mixed-q2-earnings-raises-fy22-guidance-and-issues-q3-guidance?utm_source=businessinsider&utm_medium=referral
+179.0,8/2/2022 12:50:42 PM,"Eaton Corp. Q2 Profit Decreases, But Beats Estimates; Raises FY22 Outlook - Update ",RTTNews,/news/stocks/eaton-corp-q2-profit-decreases-but-beats-estimates-raises-fy22-outlook-update-1031639065
+180.0,8/3/2022 5:01:05 PM,16 Analysts Have This to Say About Eaton Corp,Benzinga,/news/stocks/16-analysts-have-this-to-say-about-eaton-corp-1031646249
+181.0,8/3/2022 6:05:38 PM,Barclays Maintains Underweight Rating for Eaton Corp: Here's What You Need To Know,Benzinga,/news/stocks/barclays-maintains-underweight-rating-for-eaton-corp-here-s-what-you-need-to-know-1031646522
+182.0,8/8/2022 11:59:14 AM,Stocks with tactical downside in a bear market bounce,Seeking Alpha,https://seekingalpha.com/news/3868674-stocks-with-tactical-downside-in-a-bear-market-bounce?utm_source=businessinsider&utm_medium=referral
+183.0,10/12/2022 6:08:58 PM,What 9 Analyst Ratings Have To Say About Eaton Corp,Benzinga,/news/stocks/what-9-analyst-ratings-have-to-say-about-eaton-corp-1031800426
+184.0,10/12/2022 7:07:25 PM,Where Eaton Corp Stands With Analysts,Benzinga,/news/stocks/where-eaton-corp-stands-with-analysts-1031800563
+185.0,10/20/2022 5:51:10 PM,Vertiv gains 10% after activist Starboard takes stake (update),Seeking Alpha,https://seekingalpha.com/news/3893065-vertiv-gains-on-report-activist-starboard-has-taken-stake?utm_source=businessinsider&utm_medium=referral
+186.0,10/25/2022 2:32:58 PM,Eaton declares $0.81 dividend,Seeking Alpha,https://seekingalpha.com/news/3894774-eaton-corporation-plc-declares-0_81-dividend?utm_source=businessinsider&utm_medium=referral
+187.0,10/31/2022 3:01:13 PM,Here's what Wall Street expects from Eaton's earnings,Markets Insider Automation,/news/stocks/eaton_1-q3-quarterly-earnings-preview-1031853865
+188.0,10/31/2022 3:21:29 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3897806-notable-earnings-before-tuesdays-open?utm_source=businessinsider&utm_medium=referral
+189.0,10/31/2022 4:27:12 PM,Eaton Q3 2022 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3897854-eaton-q3-2022-earnings-preview?utm_source=businessinsider&utm_medium=referral
+190.0,11/1/2022 10:31:10 AM,"Eaton Non-GAAP EPS of $2.02 beats by $0.01, revenue of $5.3B misses by $10M",Seeking Alpha,https://seekingalpha.com/news/3898333-eaton-non-gaap-eps-of-2_02-beats-0_01-revenue-of-5_3b-misses-10m?utm_source=businessinsider&utm_medium=referral
+191.0,11/1/2022 12:00:56 PM,"Eaton Corp. Q3 Profit Decreases, but beats estimates",RTTNews,/news/stocks/eaton-corp-q3-profit-decreases-but-beats-estimates-1031857728
+192.0,11/1/2022 12:23:55 PM,"Eaton Issues Q4 Outlook, Backs FY22 Adj. Earnings View - Update ",RTTNews,/news/stocks/eaton-issues-q4-outlook-backs-fy22-adj-earnings-view-update-1031857811
+193.0,11/2/2022 5:12:43 PM,Where Eaton Corp Stands With Analysts,Benzinga,/news/stocks/where-eaton-corp-stands-with-analysts-1031865331
+194.0,11/4/2022 5:15:52 AM,Mizuho Securities Remains a Buy on Eaton (ETN),TipRanks,/news/stocks/mizuho-securities-remains-a-buy-on-eaton-etn-1031873404
+195.0,11/14/2022 4:02:33 AM,Analysts Offer Insights on Industrial Goods Companies: Kinetik (KNTK) and Eaton (ETN),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-kinetik-kntk-and-eaton-etn-1031907200
+196.0,11/26/2022 1:15:11 AM,Credit Suisse Sticks to Their Buy Rating for Eaton (ETN),TipRanks,/news/stocks/credit-suisse-sticks-to-their-buy-rating-for-eaton-etn-1031938279
+197.0,12/6/2022 2:03:12 PM,Analyst Ratings for Eaton Corp,Benzinga,/news/stocks/analyst-ratings-for-eaton-corp-1031955254
+198.0,12/6/2022 4:05:04 PM,"Benzinga's Top Ratings Upgrades, Downgrades For December 6, 2022",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-december-6-2022-1031955691
+199.0,12/28/2022 11:33:47 AM,7 Stocks to Buy as Infrastructure Spending Starts to Boom,InvestorPlace,/news/stocks/7-stocks-to-buy-as-infrastructure-spending-starts-to-boom-1031992177
+200.0,1/6/2023 4:26:08 PM,Morgan Stanley Keeps Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/morgan-stanley-keeps-their-buy-rating-on-eaton-etn-1032004659
+201.0,1/13/2023 3:00:48 PM,What 8 Analyst Ratings Have To Say About Eaton Corp,Benzinga,/news/stocks/what-8-analyst-ratings-have-to-say-about-eaton-corp-1032017608
+202.0,1/20/2023 1:43:33 PM,5 Cheapest Industrials Stocks You Should Think About,Benzinga,/news/stocks/5-cheapest-industrials-stocks-you-should-think-about-1032030724
+203.0,1/21/2023 1:56:53 AM,Eaton (ETN) Receives a Hold from RBC Capital,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-rbc-capital-1032031785
+204.0,2/7/2023 3:01:13 PM,Eaton earnings: here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-q4-earnings-preview-stock-1032074145
+205.0,2/7/2023 3:38:31 PM,Notable earnings before Wednesday's open,Seeking Alpha,https://seekingalpha.com/news/3932905-notable-earnings-before-wednesdays-open?utm_source=businessinsider&utm_medium=referral
+206.0,2/7/2023 4:47:44 PM,Eaton Q4 2022 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3932939-eaton-q4-2022-earnings-preview?utm_source=businessinsider&utm_medium=referral
+207.0,2/8/2023 11:33:41 AM,"Eaton Non-GAAP EPS of $2.06 beats by $0.01, revenue of $5.38B beats by $40M, initiates Q1 and full year outlook",Seeking Alpha,https://seekingalpha.com/news/3933394-eaton-non-gaap-eps-of-2_06-beats-0_01-revenue-of-5_38b-beats-40m?utm_source=businessinsider&utm_medium=referral
+208.0,2/8/2023 12:35:18 PM,"Eaton Corp. Q4 Profit Increases, beats estimates",RTTNews,/news/stocks/eaton-corp-q4-profit-increases-beats-estimates-1032078008
+209.0,2/8/2023 12:57:20 PM,"Eaton Guides Q1, FY23 Adj. EPS Well Below Estimates - Update ",RTTNews,/news/stocks/eaton-guides-q1-fy23-adj-eps-well-below-estimates-update-1032078118
+210.0,2/8/2023 5:59:00 PM,"Eaton on the rise after narrow Q4 earnings beat, strong backlog growth",Seeking Alpha,https://seekingalpha.com/news/3933710-eaton-on-the-rise-after-narrow-q4-earnings-beat-strong-backlog-growth?utm_source=businessinsider&utm_medium=referral
+211.0,2/9/2023 10:11:42 AM,"Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN), Patterson-UTI (PTEN) and AZEK Company (AZEK)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-patterson-uti-pten-and-azek-company-azek-1032082202
+212.0,2/9/2023 4:30:48 PM,"Analysts Are Bullish on These Industrial Goods Stocks: Eaton (ETN), Forward Air (FWRD)",TipRanks,/news/stocks/analysts-are-bullish-on-these-industrial-goods-stocks-eaton-etn-forward-air-fwrd-1032083723
+213.0,2/22/2023 5:39:38 PM,National Instruments ticks lower on report Honeywell no longer interested (update),Seeking Alpha,https://seekingalpha.com/news/3939084-national-instruments-ticks-lower-on-report-honeywell-no-longer-interested?utm_source=businessinsider&utm_medium=referral
+214.0,2/23/2023 4:46:31 PM,Eaton raises dividend by 6% to $0.86,Seeking Alpha,https://seekingalpha.com/news/3940066-eaton-raises-dividend-by-6-to-086?utm_source=businessinsider&utm_medium=referral
+215.0,3/2/2023 1:45:32 AM,RBC Capital Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/rbc-capital-reaffirms-their-hold-rating-on-eaton-etn-1032138137
+216.0,3/3/2023 4:30:17 PM,"Analysts’ Opinions Are Mixed on These Industrial Goods Stocks: Eaton (ETN), United Parcel (UPS) and ESS Tech (GWH)",TipRanks,/news/stocks/analysts-opinions-are-mixed-on-these-industrial-goods-stocks-eaton-etn-united-parcel-ups-and-ess-tech-gwh-1032144360
+217.0,3/3/2023 7:01:09 PM,The Latest Analyst Ratings for Eaton Corp,Benzinga,/news/stocks/the-latest-analyst-ratings-for-eaton-corp-1032144570
+218.0,3/14/2023 7:42:38 PM,7 Tantalizing Technology Stocks to Buy for Long-Term Growth,InvestorPlace,/news/stocks/7-tantalizing-technology-stocks-to-buy-for-long-term-growth-1032167441
+219.0,4/4/2023 2:00:00 PM,Leaf Home™ Welcomes Accomplished Human Resources Executive Ernest Marshall to its Board of Directors,PR Newswire,/news/stocks/leaf-home-welcomes-accomplished-human-resources-executive-ernest-marshall-to-its-board-of-directors-1032213486
+220.0,4/5/2023 7:15:11 PM,"Class 8 truck orders for March skid 19% M/M, related stocks decline",Seeking Alpha,https://seekingalpha.com/news/3954776-class-8-truck-orders-for-march-skid-19-mm-related-stocks-decline?utm_source=businessinsider&utm_medium=referral
+221.0,4/6/2023 3:09:09 PM,"Morgan Stanley cuts Comcast, adds Becton Dickinson to its model portfolio",Seeking Alpha,https://seekingalpha.com/news/3954991-morgan-stanley-cuts-comcast-adds-becton-dickinson-to-its-model-portfolio?utm_source=businessinsider&utm_medium=referral
+222.0,4/6/2023 9:00:56 PM,What 8 Analyst Ratings Have To Say About Eaton Corp,Benzinga,/news/stocks/what-8-analyst-ratings-have-to-say-about-eaton-corp-1032219924
+223.0,4/13/2023 1:45:44 AM,Eaton (ETN) Receives a Hold from RBC Capital,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-rbc-capital-1032228608
+224.0,4/14/2023 1:55:16 AM,Eaton (ETN) Receives a Buy from Berenberg Bank,TipRanks,/news/stocks/eaton-etn-receives-a-buy-from-berenberg-bank-1032231462
+225.0,4/24/2023 11:28:52 AM,Eaton acquires 49% stake in Chia-based Jiangsu Ryan Electrical,Seeking Alpha,https://seekingalpha.com/news/3958989-eaton-acquires-49-stake-in-chia-based-jiangsu-ryan-electrical?utm_source=businessinsider&utm_medium=referral
+226.0,4/24/2023 1:00:18 PM,Eaton Completes Acquisition Of 49% Stake In Jiangsu Ryan Electrical ,RTTNews,/news/stocks/eaton-completes-acquisition-of-49-stake-in-jiangsu-ryan-electrical-1032253636
+227.0,4/25/2023 10:20:25 AM,Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN) and Schlumberger (SLB),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-and-schlumberger-slb-1032257636
+228.0,4/25/2023 3:31:55 PM,Eaton declares $0.86 dividend,Seeking Alpha,https://seekingalpha.com/news/3959788-eaton-corporation-plc-declares-0_86-dividend?utm_source=businessinsider&utm_medium=referral
+229.0,4/28/2023 5:30:26 PM,"Earnings Week Ahead: Apple, Ford, Starbucks, Anheuser Busch, and more",Seeking Alpha,https://seekingalpha.com/news/3962032-earnings-week-ahead-apple-ford-starbucks-anheuser-busch-and-more?utm_source=businessinsider&utm_medium=referral
+230.0,5/1/2023 3:01:13 PM,Here's what Wall Street expects from Eaton's earnings,Markets Insider Automation,/news/stocks/eaton_1-quarter-earnings-preview-q1-1032278146
+231.0,5/1/2023 5:27:16 PM,Eaton Q1 2023 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3962785-eaton-q1-2023-earnings-preview?utm_source=businessinsider&utm_medium=referral
+232.0,5/2/2023 10:31:19 AM,"Eaton Non-GAAP EPS of $1.88 beats by $0.10, revenue of $5.48B beats by $250M",Seeking Alpha,https://seekingalpha.com/news/3963167-eaton-non-gaap-eps-of-1_88-beats-0_10-revenue-of-5_48b-beats-250m?utm_source=businessinsider&utm_medium=referral
+233.0,5/2/2023 12:44:12 PM,"Eaton Corp. Q1 Profit Increases, beats estimates",RTTNews,/news/stocks/eaton-corp-q1-profit-increases-beats-estimates-1032281563
+234.0,5/2/2023 1:02:44 PM,"Eaton Sees Higher Q2 Results, Lifts FY23 Forecast; Stock Up In Premarket ",RTTNews,/news/stocks/eaton-sees-higher-q2-results-lifts-fy23-forecast-stock-up-in-premarket-1032281641
+235.0,5/2/2023 10:25:05 PM,Goldman Sachs Sticks to Their Buy Rating for Eaton (ETN),TipRanks,/news/stocks/goldman-sachs-sticks-to-their-buy-rating-for-eaton-etn-1032284377
+236.0,5/3/2023 9:55:09 AM,Barclays Remains a Sell on Eaton (ETN),TipRanks,/news/stocks/barclays-remains-a-sell-on-eaton-etn-1032286693
+237.0,5/3/2023 7:00:35 PM,RBC Capital Maintains Sector Perform Rating for Eaton Corp: Here's What You Need To Know,Benzinga,/news/stocks/rbc-capital-maintains-sector-perform-rating-for-eaton-corp-here-s-what-you-need-to-know-1032288573
+238.0,5/3/2023 9:00:45 PM,Where Eaton Corp Stands With Analysts,Benzinga,/news/stocks/where-eaton-corp-stands-with-analysts-1032288875
+239.0,6/4/2023 12:18:21 AM,"Barron's Weekend Stock Picks: IBM, Twilio And The Rise Of Electrification",Benzinga,/news/stocks/barron-s-weekend-stock-picks-ibm-twilio-and-the-rise-of-electrification-1032368738
+240.0,6/6/2023 5:00:50 PM,"Benzinga's Top Ratings Upgrades, Downgrades For June 6, 2023",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-june-6-2023-1032373505
+241.0,6/6/2023 10:00:59 PM,Analyst Expectations for Eaton Corp's Future,Benzinga,/news/stocks/analyst-expectations-for-eaton-corp-s-future-1032374068
+242.0,6/13/2023 1:20:10 AM,Analysts Have Conflicting Sentiments on These Industrial Goods Companies: Eaton (ETN) and 3M (MMM),TipRanks,/news/stocks/analysts-have-conflicting-sentiments-on-these-industrial-goods-companies-eaton-etn-and-3m-mmm-1032384710
+243.0,6/28/2023 9:10:19 AM,Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN) and Spirit AeroSystems (SPR),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-and-spirit-aerosystems-spr-1032414319
+244.0,6/28/2023 9:35:09 PM,Goldman Sachs Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/goldman-sachs-sticks-to-its-buy-rating-for-eaton-etn-1032416363
+245.0,6/28/2023 10:16:02 PM,ETF Returns: Mid-Cap Winners And Losers,Benzinga,/news/stocks/etf-returns-mid-cap-winners-and-losers-1032416257
+246.0,7/10/2023 10:45:23 AM,Eaton (ETN) Receives a Rating Update from a Top Analyst,TipRanks,/news/stocks/eaton-etn-receives-a-rating-update-from-a-top-analyst-1032434517
+247.0,7/10/2023 7:00:41 PM,Barclays Maintains Underweight Rating for Eaton Corp: Here's What You Need To Know,Benzinga,/news/stocks/barclays-maintains-underweight-rating-for-eaton-corp-here-s-what-you-need-to-know-1032435588
+248.0,7/11/2023 9:55:09 AM,Wolfe Research downgrades Eaton (ETN) to a Hold,TipRanks,/news/stocks/wolfe-research-downgrades-eaton-etn-to-a-hold-1032437171
+249.0,7/11/2023 5:02:24 PM,"Benzinga's Top Ratings Upgrades, Downgrades For July 11, 2023",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-july-11-2023-1032438287
+250.0,7/12/2023 5:00:32 PM,Analyst Ratings for Eaton Corp,Benzinga,/news/stocks/analyst-ratings-for-eaton-corp-1032441830
+251.0,7/21/2023 4:00:58 PM,Jim Cramer Says It's Time To Buy This Financial Services Stock Down 32% YTD,Benzinga,/news/stocks/jim-cramer-says-it-s-time-to-buy-this-financial-services-stock-down-32-ytd-1032466285
+252.0,7/26/2023 3:56:53 PM,Eaton declares $0.86 dividend,Seeking Alpha,https://seekingalpha.com/news/3991237-eaton-corporation-plc-declares-0_86-dividend?utm_source=businessinsider&utm_medium=referral
+253.0,7/31/2023 10:20:28 AM,"Analysts Offer Insights on Industrial Goods Companies: ASGN (ASGN), Eaton (ETN) and Olin (OLN)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-asgn-asgn-eaton-etn-and-olin-oln-1032494720
+254.0,7/31/2023 2:46:05 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/3993451-notable-earnings-before-tuesdays-open?utm_source=businessinsider&utm_medium=referral
+255.0,7/31/2023 3:01:13 PM,Eaton earnings: here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-q2-earnings-preview-1032495347
+256.0,7/31/2023 7:01:02 PM,Eaton Q2 2023 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/3993648-eaton-q2-2023-earnings-preview?utm_source=businessinsider&utm_medium=referral
+257.0,8/1/2023 10:35:02 AM,Eaton beats Q2 top and bottom line estimates; initiates Q3 and raises FY23 outlook,Seeking Alpha,https://seekingalpha.com/news/3993983-eaton-beats-q2-top-and-bottom-line-estimates-initiates-q3-and-raises-fy23-outlook?utm_source=businessinsider&utm_medium=referral
+258.0,8/1/2023 1:10:36 PM,Eaton Q2 Profit Climbs; Lifts FY23 Earnings View Above Estimates ,RTTNews,/news/stocks/eaton-q2-profit-climbs-lifts-fy23-earnings-view-above-estimates-1032500070
+259.0,8/2/2023 12:45:07 AM,Goldman Sachs Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/goldman-sachs-sticks-to-its-buy-rating-for-eaton-etn-1032502908
+260.0,8/2/2023 9:25:46 AM,Barclays Sticks to Their Sell Rating for Eaton (ETN),TipRanks,/news/stocks/barclays-sticks-to-their-sell-rating-for-eaton-etn-1032505705
+261.0,8/2/2023 9:00:30 PM,Analyst Expectations for Eaton Corp's Future,Benzinga,/news/stocks/analyst-expectations-for-eaton-corp-s-future-1032508362
+262.0,8/14/2023 12:35:31 PM,Wells Fargo Sticks to Its Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-its-hold-rating-for-eaton-etn-1032551303
+263.0,8/28/2023 1:03:35 PM,Eaton Announces Investments In North American Manufacturing And Operations ,RTTNews,/news/stocks/eaton-announces-investments-in-north-american-manufacturing-and-operations-1032585484
+264.0,8/28/2023 1:05:44 PM,Wells Fargo Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-keeps-their-hold-rating-on-eaton-etn-1032586015
+265.0,8/31/2023 1:37:49 PM,Salesforce To Rally Around 25%? Here Are 10 Other Analyst Forecasts For Thursday,Benzinga,/news/stocks/salesforce-to-rally-around-25-here-are-10-other-analyst-forecasts-for-thursday-1032595967
+266.0,8/31/2023 2:00:23 PM,13 Analysts Have This to Say About Eaton Corp,Benzinga,/news/stocks/13-analysts-have-this-to-say-about-eaton-corp-1032596039
+267.0,9/11/2023 10:35:44 AM,Eaton (ETN) Receives a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-wells-fargo-1032619534
+268.0,9/13/2023 1:11:39 PM,Eaton Invests $150 Mln Towards Increased Power Distribution; To Add 600 Jobs ,RTTNews,/news/stocks/eaton-invests-150-mln-towards-increased-power-distribution-to-add-600-jobs-1032626496
+269.0,9/18/2023 9:55:23 AM,Wells Fargo Sticks to Its Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-its-hold-rating-for-eaton-etn-1032636259
+270.0,9/25/2023 9:58:18 AM,Wells Fargo Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-their-hold-rating-for-eaton-etn-1032652349
+271.0,9/25/2023 9:00:56 PM,Expert Ratings for Eaton Corp,Benzinga,/news/stocks/expert-ratings-for-eaton-corp-1032654062
+272.0,10/2/2023 8:46:51 AM,Wells Fargo Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-keeps-their-hold-rating-on-eaton-etn-1032669535
+273.0,10/5/2023 11:21:02 AM,Barclays Keeps Their Sell Rating on Eaton (ETN),TipRanks,/news/stocks/barclays-keeps-their-sell-rating-on-eaton-etn-1032680984
+274.0,10/6/2023 5:00:45 PM,"Benzinga's Top Ratings Upgrades, Downgrades For October 6, 2023",Benzinga,/news/stocks/benzinga-s-top-ratings-upgrades-downgrades-for-october-6-2023-1032685106
+275.0,10/6/2023 7:29:12 PM,"JP Morgan Upgraded Eaton, Says Company Will Enjoy Organic & EPS Growth Amid Sluggish Electrical Equipment Industry Fundaments",Benzinga,/news/stocks/jp-morgan-upgraded-eaton-says-company-will-enjoy-organic-eps-growth-amid-sluggish-electrical-equipment-industry-fundaments-1032685424
+276.0,10/9/2023 10:38:36 AM,Wells Fargo Issues a Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-issues-a-hold-rating-on-eaton-etn-1032688254
+277.0,10/16/2023 10:07:36 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1032707717
+278.0,10/24/2023 9:04:09 AM,Homebound Winners: Who will Benefit from the Reshoring Mega-Trend?,TipRanks,/news/stocks/homebound-winners-who-will-benefit-from-the-reshoring-mega-trend-1032735213
+279.0,10/27/2023 11:20:53 AM,"Analysts’ Opinions Are Mixed on These Industrial Goods Stocks: Carrier Global (CARR), Eaton (ETN) and Visteon (VC)",TipRanks,/news/stocks/analysts-opinions-are-mixed-on-these-industrial-goods-stocks-carrier-global-carr-eaton-etn-and-visteon-vc-1032750127
+280.0,10/30/2023 3:01:13 PM,Eaton earnings: here's what Wall Street expects,Markets Insider Automation,/news/stocks/eaton_1-stock-price-quarter-earnings-preview-q3-1032754393
+281.0,10/31/2023 11:38:05 AM,"Eaton Corp. Q3 Profit Increases, beats estimates",RTTNews,/news/stocks/eaton-corp-q3-profit-increases-beats-estimates-1032758526
+282.0,10/31/2023 12:21:19 PM,"Eaton Sees Q4 Earnings Above Market, Lifts FY23 Forecast; Stock Up In Premarket - Update ",RTTNews,/news/stocks/eaton-sees-q4-earnings-above-market-lifts-fy23-forecast-stock-up-in-premarket-update-1032758728
+283.0,11/1/2023 7:26:03 AM,KeyBanc Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/keybanc-keeps-their-hold-rating-on-eaton-etn-1032767040
+284.0,11/1/2023 10:32:57 AM,RBC Capital Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/rbc-capital-sticks-to-their-hold-rating-for-eaton-etn-1032767564
+285.0,11/1/2023 5:15:39 PM,"Buy Rating for Eaton Corp.: Positive Q3 Results, Raised FY23 EPS Guide, and Mega Project Acceleration",TipRanks,/news/stocks/buy-rating-for-eaton-corp-positive-q3-results-raised-fy23-eps-guide-and-mega-project-acceleration-1032768082
+286.0,11/2/2023 5:46:30 AM,Eaton’s Strong Electrification Position and Investment Drive Buy Rating: An Analysis of Brett Linzey’s Recommendation,TipRanks,/news/stocks/eaton-s-strong-electrification-position-and-investment-drive-buy-rating-an-analysis-of-brett-linzey-s-recommendation-1032771816
+287.0,11/13/2023 12:16:57 PM,Eaton (ETN) Receives a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-wells-fargo-1032814914
+288.0,11/27/2023 9:57:03 AM,Eaton (ETN) Gets a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-wells-fargo-1032852644
+289.0,12/4/2023 3:17:01 PM,Wells Fargo Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-their-hold-rating-for-eaton-etn-1032872386
+290.0,12/11/2023 10:39:32 AM,Wells Fargo Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-reaffirms-their-hold-rating-on-eaton-etn-1032891082
+291.0,12/19/2023 12:25:36 PM,Eaton (ETN) Gets a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-wells-fargo-1032914348
+292.0,12/19/2023 3:00:31 PM,Unveiling 5 Analyst Insights On Eaton Corp,Benzinga,/news/stocks/unveiling-5-analyst-insights-on-eaton-corp-1032912533
+293.0,12/22/2023 12:54:00 PM,Best Flying Cars Stocks 2024: 3 Names to Add to Your Must-Buy List,InvestorPlace,/news/stocks/best-flying-cars-stocks-2024-3-names-to-add-to-your-must-buy-list-1032922089
+294.0,1/3/2024 10:27:41 AM,Eaton (ETN) Receives a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-wells-fargo-1032941321
+295.0,1/8/2024 12:17:13 PM,Eaton (ETN) Receives a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-wells-fargo-1032951853
+296.0,1/17/2024 2:13:00 PM,"Eaton CFO Thomas Okray Resigns, Names Olivier Leonetti Replacement; Expects Strong Q4, FY23 Results ",RTTNews,/news/stocks/eaton-cfo-thomas-okray-resigns-names-olivier-leonetti-replacement-expects-strong-q4-fy23-results-1032973808
+297.0,1/31/2024 3:01:13 PM,Eaton earnings preview: what Wall Street is expecting,Markets Insider Automation,/news/stocks/eaton_1-q4-quarterly-earnings-preview-stock-1033015182
+298.0,1/31/2024 6:24:23 PM,Eaton Q4 2023 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/4060841-eaton-q4-2023-earnings-preview?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+299.0,2/1/2024 11:31:51 AM,Eaton beats and top and bottom line estimates,Seeking Alpha,https://seekingalpha.com/news/4061126-eaton-beats-and-top-and-bottom-line-estimates?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+300.0,2/1/2024 12:37:35 PM,"Eaton Corp. Q4 Profit Increases, beats estimates",RTTNews,/news/stocks/eaton-corp-q4-profit-increases-beats-estimates-1033019918
+301.0,2/1/2024 1:25:13 PM,Eaton Sees Q1 Adj. EPS Above Market Estimates; Stock Up In Pre-market ,RTTNews,/news/stocks/eaton-sees-q1-adj-eps-above-market-estimates-stock-up-in-pre-market-1033020187
+302.0,2/1/2024 4:46:03 PM,"Eaton Posts Strong Results, Joins Ferrari, Boot Barn And Other Big Stocks Moving Higher On Thursday",Benzinga,/news/stocks/eaton-posts-strong-results-joins-ferrari-boot-barn-and-other-big-stocks-moving-higher-on-thursday-1033021550
+303.0,2/2/2024 8:05:33 AM,Eaton (ETN) Gets a Hold from KeyBanc,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-keybanc-1033024374
+304.0,2/2/2024 8:36:50 AM,Barclays Keeps Their Sell Rating on Eaton (ETN),TipRanks,/news/stocks/barclays-keeps-their-sell-rating-on-eaton-etn-1033024544
+305.0,2/2/2024 10:05:24 AM,Eaton’s Strong Performance and Growth Prospects Earn a ‘Buy’ Rating from Analyst Joe Ritchie,TipRanks,/news/stocks/eaton-s-strong-performance-and-growth-prospects-earn-a-buy-rating-from-analyst-joe-ritchie-1033024858
+306.0,2/2/2024 12:26:42 PM,RBC Capital Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/rbc-capital-keeps-their-hold-rating-on-eaton-etn-1033025729
+307.0,2/2/2024 1:01:49 PM,"Analysts’ Top Industrial Goods Picks: Trane Technologies (TT), Eaton (ETN)",TipRanks,/news/stocks/analysts-top-industrial-goods-picks-trane-technologies-tt-eaton-etn-1033025932
+308.0,2/2/2024 2:44:15 PM,Eton announces commercial availability of Nitisinone capsules,Seeking Alpha,https://seekingalpha.com/news/4062162-eton-announces-commercial-availability-of-nitisinone-capsules?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+309.0,2/2/2024 8:00:16 PM,The Latest Analyst Ratings For Eaton Corp,Benzinga,/news/stocks/the-latest-analyst-ratings-for-eaton-corp-1033026366
+310.0,2/4/2024 8:26:07 PM,Wells Fargo Issues a Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-issues-a-hold-rating-on-eaton-etn-1033027483
+311.0,2/12/2024 11:46:40 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033057277
+312.0,2/20/2024 5:01:14 PM,A Closer Look at 5 Analyst Recommendations For Eaton Corp,Benzinga,/news/stocks/a-closer-look-at-5-analyst-recommendations-for-eaton-corp-1033084110
+313.0,2/26/2024 11:30:50 AM,Eaton (ETN) Gets a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-wells-fargo-1033102864
+314.0,2/29/2024 5:48:51 PM,Eaton increases dividend by ~9% to $0.94,Seeking Alpha,https://seekingalpha.com/news/4074056-eaton-corporation-plc-declares-0_94-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+315.0,3/4/2024 10:26:55 AM,Wells Fargo Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-keeps-their-hold-rating-on-eaton-etn-1033128327
+316.0,3/6/2024 12:21:56 PM,Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN) and V2X (VVX),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-and-v2x-vvx-1033138372
+317.0,3/6/2024 1:00:00 PM,7 Stocks to Buy for Exponential Growth Through 2030,InvestorPlace,/news/stocks/7-stocks-to-buy-for-exponential-growth-through-2030-1033137338
+318.0,3/7/2024 2:30:12 PM,Trump Stocks vs. Biden Stocks: A Cheat Sheet,TipRanks,/news/stocks/trump-stocks-vs-biden-stocks-a-cheat-sheet-1033143545
+319.0,3/11/2024 9:26:44 AM,Wells Fargo Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-reaffirms-their-hold-rating-on-eaton-etn-1033150599
+320.0,3/13/2024 9:51:03 AM,"Analysts Conflicted on These Industrial Goods Names: Archer Daniels Midland (ADM), NET Power (NPWR) and Eaton (ETN)",TipRanks,/news/stocks/analysts-conflicted-on-these-industrial-goods-names-archer-daniels-midland-adm-net-power-npwr-and-eaton-etn-1033159360
+321.0,3/13/2024 12:10:13 PM,Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN) and Geo Group (GEO),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-and-geo-group-geo-1033160446
+322.0,3/13/2024 12:25:13 PM,Eaton (ETN) Secures Buy Rating on Growth Potential and Strategic Investments: Analyst Stephen Volkmann’s Perspective,TipRanks,/news/stocks/eaton-etn-secures-buy-rating-on-growth-potential-and-strategic-investments-analyst-stephen-volkmann-s-perspective-1033160495
+323.0,3/13/2024 8:00:00 PM,Sky-High Returns: 3 Flying Car Stocks to Elevate Your Portfolio,InvestorPlace,/news/stocks/sky-high-returns-3-flying-car-stocks-to-elevate-your-portfolio-1033161309
+324.0,3/14/2024 8:20:26 AM,Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN) and KBR (KBR),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-and-kbr-kbr-1033163399
+325.0,3/14/2024 9:51:15 AM,Analysts Offer Insights on Industrial Goods Companies: Archer Daniels Midland (ADM) and Eaton (ETN),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-archer-daniels-midland-adm-and-eaton-etn-1033163860
+326.0,3/14/2024 11:37:16 AM,Oppenheimer Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/oppenheimer-keeps-their-hold-rating-on-eaton-etn-1033164432
+327.0,3/14/2024 5:01:06 PM,Navigating 7 Analyst Ratings For Eaton Corp,Benzinga,/news/stocks/navigating-7-analyst-ratings-for-eaton-corp-1033165010
+328.0,3/14/2024 6:35:18 PM,Eaton’s Growth Trajectory: A Buy Rating Reinforced by Long-Term Trends and Positive Earnings Outlook,TipRanks,/news/stocks/eaton-s-growth-trajectory-a-buy-rating-reinforced-by-long-term-trends-and-positive-earnings-outlook-1033165925
+329.0,3/15/2024 5:41:39 AM,"Analysts Are Bullish on These Industrial Goods Stocks: ESS Tech (GWH), Eaton (ETN)",TipRanks,/news/stocks/analysts-are-bullish-on-these-industrial-goods-stocks-ess-tech-gwh-eaton-etn-1033166985
+330.0,3/18/2024 8:55:33 AM,Eaton’s Growth Prospects Bolstered by Diverse Portfolio and Market Expansion: Maintaining Buy Rating,TipRanks,/news/stocks/eaton-s-growth-prospects-bolstered-by-diverse-portfolio-and-market-expansion-maintaining-buy-rating-1033172014
+331.0,3/18/2024 9:16:12 AM,Wells Fargo Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-their-hold-rating-for-eaton-etn-1033172146
+332.0,3/19/2024 4:02:35 PM,Eaton Gets FAA Approval For Oxygen Sensor For Boeing 737 NG/737 MAX ,RTTNews,/news/stocks/eaton-gets-faa-approval-for-oxygen-sensor-for-boeing-737-ng-737-max-1033177310
+333.0,3/25/2024 9:46:38 AM,Wells Fargo Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-reaffirms-their-hold-rating-on-eaton-etn-1033193056
+334.0,4/2/2024 7:50:07 AM,"Analysts Have Conflicting Sentiments on These Industrial Goods Companies: MSC Industrial (MSM), Cintas (CTAS) and Eaton (ETN)",TipRanks,/news/stocks/analysts-have-conflicting-sentiments-on-these-industrial-goods-companies-msc-industrial-msm-cintas-ctas-and-eaton-etn-1033214266
+335.0,4/2/2024 1:50:05 PM,Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN) and Dycom (DY),TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-and-dycom-dy-1033216269
+336.0,4/2/2024 9:01:10 PM,Deep Dive Into Eaton Corp Stock: Analyst Perspectives (10 Ratings),Benzinga,/news/stocks/deep-dive-into-eaton-corp-stock-analyst-perspectives-10-ratings-1033216508
+337.0,4/3/2024 10:01:00 AM,Power Up: 3 Stocks to Ride the Massive Wave of Electricity Demand,InvestorPlace,/news/stocks/power-up-3-stocks-to-ride-the-massive-wave-of-electricity-demand-1033218163
+338.0,4/5/2024 2:25:29 PM,Netflix To Rally Around 24%? Here Are 10 Top Analyst Forecasts For Friday,Benzinga,/news/stocks/netflix-to-rally-over-24-here-are-10-top-analyst-forecasts-for-friday-1033225617
+339.0,4/5/2024 5:18:35 PM,"Eaton Is Poised To Benefit From 'Ongoing Electrical Super-Cycle,' Says Bullish Analyst",Benzinga,/news/stocks/eaton-is-poised-to-benefit-from-ongoing-electrical-super-cycle-says-bullish-analyst-1033226395
+340.0,4/8/2024 10:18:51 AM,Wells Fargo Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-keeps-their-hold-rating-on-eaton-etn-1033229807
+341.0,4/15/2024 10:18:17 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033249415
+342.0,4/16/2024 5:15:53 PM,Bank of America Securities Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/bank-of-america-securities-sticks-to-its-buy-rating-for-eaton-etn-1033254942
+343.0,4/18/2024 3:25:26 PM,Jim Cramer Recommends Buying Ethereum Or Bitcoin Instead Of This Stock: 'Let's Not Fool Around',Benzinga,/news/stocks/jim-cramer-recommends-buying-ethereum-or-bitcoin-instead-of-this-stock-let-s-not-fool-around-1033262243
+344.0,4/22/2024 10:37:54 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033271230
+345.0,4/23/2024 1:50:38 AM,RBC Capital Remains a Buy on Eaton (ETN),TipRanks,/news/stocks/rbc-capital-remains-a-buy-on-eaton-etn-1033273837
+346.0,4/23/2024 3:28:13 PM,Eaton declares $0.94 dividend,Seeking Alpha,https://seekingalpha.com/news/4092583-eaton-corporation-plc-declares-0_94-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+347.0,4/25/2024 1:09:11 PM,Eaton awarded $26.6M in federal tax credits supporting clean energy projects,Seeking Alpha,https://seekingalpha.com/news/4094096-eaton-awarded-266m-in-federal-tax-credits-supporting-clean-energy-projects?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+348.0,4/29/2024 11:28:16 AM,Analysts’ Opinions Are Mixed on These Industrial Goods Stocks: Eaton (ETN) and Air Canada (OtherACDVF),TipRanks,/news/stocks/analysts-opinions-are-mixed-on-these-industrial-goods-stocks-eaton-etn-and-air-canada-otheracdvf-1033301041
+349.0,4/29/2024 3:01:13 PM,Here's what to expect from Eaton's earnings report,Markets Insider Automation,/news/stocks/eaton_1-quarter-earnings-preview-q1-1033300232
+350.0,4/29/2024 3:15:34 PM,Notable earnings before Tuesday's open,Seeking Alpha,https://seekingalpha.com/news/4095553-notable-earnings-before-tuesdays-open?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+351.0,4/29/2024 4:28:08 PM,Eaton Q1 2024 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/4095670-eaton-q1-2024-earnings-preview?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+352.0,4/29/2024 6:37:42 PM,AI Data Centers Drive Electricity Demand: Goldman Sachs Picks 16 Stocks To Play The Trend,Benzinga,/news/stocks/ai-data-centers-drive-electricity-demand-goldman-sachs-picks-16-stocks-to-play-the-trend-1033301604
+353.0,4/30/2024 10:33:12 AM,Eaton reports mixed Q1 results; initiates Q2 and raises FY24 outlook,Seeking Alpha,https://seekingalpha.com/news/4096051-eaton-reports-mixed-q1-results-initiates-q2-and-raises-fy24-outlook?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+354.0,4/30/2024 12:36:51 PM,"Eaton Corp. Q1 Profit Increases, beats estimates",RTTNews,/news/stocks/eaton-corp-q1-profit-increases-beats-estimates-1033305268
+355.0,4/30/2024 12:51:39 PM,Eaton Boosts FY24 Outlook - Update ,RTTNews,/news/stocks/eaton-boosts-fy24-outlook-update-1033305321
+356.0,4/30/2024 2:53:52 PM,"ETN Stock Earnings: Eaton Corp Beats EPS, Beats Revenue for Q1 2024",InvestorPlace,/news/stocks/etn-stock-earnings-eaton-corp-for-q1-of-2024-1033307489
+357.0,4/30/2024 7:35:14 PM,"Stocks Dive On Fears Of Hawkish Fed; Treasury Yields Rise, Bitcoin Tumbles To $60,000: What's Driving Markets Tuesday?",Benzinga,/news/stocks/stocks-dive-on-fears-of-hawkish-fed-treasury-yields-rise-bitcoin-tumbles-to-60-000-what-s-driving-markets-tuesday-1033308411
+358.0,5/1/2024 6:55:17 AM,KeyBanc Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/keybanc-reaffirms-their-hold-rating-on-eaton-etn-1033312151
+359.0,5/1/2024 7:51:22 AM,Barclays Sticks to Its Hold Rating for Eaton (ETN),TipRanks,/news/stocks/barclays-sticks-to-its-hold-rating-for-eaton-etn-1033312340
+360.0,5/1/2024 10:09:45 AM,Eaton Corporation: A Balanced Outlook with Growth and Challenges Ahead,TipRanks,/news/stocks/eaton-corporation-a-balanced-outlook-with-growth-and-challenges-ahead-1033313432
+361.0,5/1/2024 10:38:48 AM,RBC Capital Reaffirms Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/rbc-capital-reaffirms-their-buy-rating-on-eaton-etn-1033313604
+362.0,5/1/2024 12:14:15 PM,Analysts Conflicted on These Industrial Goods Names: Timken Company (TKR) and Eaton (ETN),TipRanks,/news/stocks/analysts-conflicted-on-these-industrial-goods-names-timken-company-tkr-and-eaton-etn-1033314378
+363.0,5/1/2024 5:00:21 PM,Assessing Eaton Corp: Insights From 14 Financial Analysts,Benzinga,/news/stocks/assessing-eaton-corp-insights-from-14-financial-analysts-1033314281
+364.0,5/2/2024 7:16:51 AM,Eaton Corporation Poised for Growth: A Strong Buy Recommendation,TipRanks,/news/stocks/eaton-corporation-poised-for-growth-a-strong-buy-recommendation-1033318733
+365.0,5/2/2024 9:22:33 AM,"Analysts Offer Insights on Industrial Goods Companies: ArcBest (ARCB), Eaton (ETN) and Armstrong World (AWI)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-arcbest-arcb-eaton-etn-and-armstrong-world-awi-1033319528
+366.0,5/7/2024 5:25:14 AM,Eaton (ETN) Receives a Buy from Berenberg Bank,TipRanks,/news/stocks/eaton-etn-receives-a-buy-from-berenberg-bank-1033337919
+367.0,5/7/2024 5:03:54 PM,3 Industrial Stocks to Sell in May Before They Crash & Burn,InvestorPlace,/news/stocks/3-industrial-stocks-to-sell-in-may-before-they-crash-burn-1033341451
+368.0,5/10/2024 10:27:00 AM,Overlooked AI Gems: 3 Under-the-Radar Stocks With Massive Potential,InvestorPlace,/news/stocks/overlooked-ai-gems-3-under-the-radar-stocks-with-massive-potential-1033362358
+369.0,5/14/2024 7:00:02 PM,19 Stocks and ETFs to benefit from the electrification theme and future energy technologies - BofA,Seeking Alpha,https://seekingalpha.com/news/4105948-19-stocks-and-etfs-to-benefit-from-the-electrification-theme-and-future-energy-technologies-bofa?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+370.0,5/15/2024 11:20:00 AM,3 Electrifying Electrical Equipment Stocks to Supercharge Your Portfolio,InvestorPlace,/news/stocks/3-electrifying-electrical-equipment-stocks-to-supercharge-your-portfolio-1033383622
+371.0,5/20/2024 9:51:21 AM,Wells Fargo Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-reaffirms-their-hold-rating-on-eaton-etn-1033403219
+372.0,5/24/2024 12:50:33 PM,"Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN), Napco Security Technologies (NSSC) and Titan Machinery (TITN)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-napco-security-technologies-nssc-and-titan-machinery-titn-1033420704
+373.0,5/28/2024 10:46:57 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033427224
+374.0,5/29/2024 4:15:35 PM,PLTR Stock Alert: Palantir Strikes New Deal With Eaton,InvestorPlace,/news/stocks/pltr-stock-alert-palantir-strikes-new-deal-with-eaton-1033432900
+375.0,5/29/2024 5:00:26 PM,"Eaton, Palantir expand partnership to enhance AI use in operations",Seeking Alpha,https://seekingalpha.com/news/4111214-eaton-palantir-expand-partnership-to-enhance-ai-use-in-operations?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+376.0,6/3/2024 9:27:46 AM,Wells Fargo Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-reaffirms-their-hold-rating-on-eaton-etn-1033445598
+377.0,6/3/2024 7:46:52 PM,EXCLUSIVE: Tema American Reshoring ETF Outshines S&P 500 Without Owning Magnificent 7 Stocks — 'They Can No Longer Manufacture In China',Benzinga,/news/stocks/exclusive-tema-american-reshoring-etf-outshines-s-p-500-without-owning-magnificent-7-stocks-—-they-can-no-longer-manufacture-in-china-1033446965
+378.0,6/5/2024 8:33:57 PM,The 2030’s Millionaire Club: 3 Hyper-Growth Stocks to Buy Now,InvestorPlace,/news/stocks/the-2030s-millionaire-club-3-hyper-growth-stocks-to-buy-now-1033455391
+379.0,6/7/2024 11:00:00 AM,Under the Radar: 3 AI Sleeper Stocks to Own Now,InvestorPlace,/news/stocks/under-the-radar-3-ai-sleeper-stocks-to-own-now-1033460748
+380.0,6/10/2024 12:35:00 PM,The Ticker Tape All-Stars: 3 ETFs With Clever Names and Impressive Returns,InvestorPlace,/news/stocks/the-ticker-tape-all-stars-3-etfs-with-clever-names-and-impressive-returns-1033465462
+381.0,6/12/2024 9:46:32 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033472580
+382.0,6/12/2024 2:15:00 PM,3 Unshakeable Stocks to Buy for Slowing U.S. Growth,InvestorPlace,/news/stocks/3-unshakeable-stocks-to-buy-for-slowing-u-s-growth-1033473345
+383.0,6/14/2024 10:35:52 AM,Why Little-Known Eaton Stock Is a Hidden AI Gem Worth Discovering,InvestorPlace,/news/stocks/why-little-known-eaton-stock-is-a-hidden-ai-gem-worth-discovering-1033479166
+384.0,6/17/2024 9:49:05 AM,Wells Fargo Sticks to Its Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-its-hold-rating-for-eaton-etn-1033483574
+385.0,6/19/2024 10:35:00 AM,Why the Palantir Stock Rebound Is Just Getting Started,InvestorPlace,/news/stocks/why-the-palantir-stock-rebound-is-just-getting-started-1033489976
+386.0,6/25/2024 1:05:33 PM,Eaton (ETN) Gets a Buy from Bank of America Securities,TipRanks,/news/stocks/eaton-etn-gets-a-buy-from-bank-of-america-securities-1033504874
+387.0,6/26/2024 10:22:06 AM,Eaton (ETN) Receives a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-wells-fargo-1033507653
+388.0,6/28/2024 2:00:56 PM,What 8 Analyst Ratings Have To Say About Eaton Corp,Benzinga,/news/stocks/what-8-analyst-ratings-have-to-say-about-eaton-corp-1033514727
+389.0,7/10/2024 8:49:12 AM,Eaton (ETN) Receives a Hold from Barclays,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-barclays-1033542864
+390.0,7/10/2024 9:18:29 AM,Wells Fargo Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-keeps-their-hold-rating-on-eaton-etn-1033543088
+391.0,7/11/2024 12:36:32 PM,Jefferies Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/jefferies-sticks-to-its-buy-rating-for-eaton-etn-1033547954
+392.0,7/11/2024 5:47:47 PM,AZZ Q1 Earnings and Revenues Beat Estimates,Benzinga,/news/stocks/azz-q1-earnings-and-revenues-beat-estimates-1033548000
+393.0,7/19/2024 9:47:34 AM,3 Overlooked Infrastructure Stocks You’ll Regret Not Buying in 2024,InvestorPlace,/news/stocks/3-overlooked-infrastructure-stocks-youll-regret-not-buying-in-2024-1033571628
+394.0,7/22/2024 9:03:22 AM,Wells Fargo Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-keeps-their-hold-rating-on-eaton-etn-1033577406
+395.0,7/22/2024 1:47:53 PM,Bank of America Securities Reaffirms Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/bank-of-america-securities-reaffirms-their-buy-rating-on-eaton-etn-1033578945
+396.0,7/24/2024 4:39:04 PM,Eaton declares $0.94 dividend,Seeking Alpha,https://seekingalpha.com/news/4127674-eaton-corporation-plc-declares-0_94-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+397.0,7/29/2024 10:19:58 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033606360
+398.0,7/31/2024 2:10:27 PM,Notable earnings before Thursday's open,Seeking Alpha,https://seekingalpha.com/news/4131090-notable-earnings-before-thursdays-open?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+399.0,7/31/2024 3:01:13 PM,Here's what Wall Street expects from Eaton's earnings,Markets Insider Automation,/news/stocks/eaton_1-q2-quarterly-earnings-preview-stock-1033618183
+400.0,7/31/2024 3:29:44 PM,Eaton Q2 2024 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/4131169-eaton-q2-2024-earnings-preview?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+401.0,8/1/2024 10:39:26 AM,Eaton beats top-line and bottom-line estimates; initiates Q3 and raises FY24 outlook,Seeking Alpha,https://seekingalpha.com/news/4132031-eaton-beats-top-line-and-bottom-line-estimates-initiates-q3-and-raises-fy24-outlook?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+402.0,8/1/2024 12:47:43 PM,"Eaton Corp. Q2 Profit Increases, Beats Estimates ",RTTNews,/news/stocks/eaton-corp-q2-profit-increases-beats-estimates-1033625479
+403.0,8/1/2024 1:26:03 PM,Eaton Raises Full Year Guidance ,RTTNews,/news/stocks/eaton-raises-full-year-guidance-1033625899
+404.0,8/1/2024 8:33:15 PM,The Top 3 EV Charging Stocks to Buy Now: Summer 2024,InvestorPlace,/news/stocks/the-top-3-ev-charging-stocks-to-buy-now-summer-2024-1033629097
+405.0,8/2/2024 8:40:31 AM,Eaton (ETN) Receives a Hold from KeyBanc,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-keybanc-1033631470
+406.0,8/2/2024 8:50:39 AM,Barclays Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/barclays-remains-a-hold-on-eaton-etn-1033631587
+407.0,8/2/2024 8:51:18 AM,"Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN), Thomson Reuters (TRI) and XPO (XPO)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-thomson-reuters-tri-and-xpo-xpo-1033631579
+408.0,8/2/2024 10:44:21 AM,RBC Capital Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/rbc-capital-sticks-to-its-buy-rating-for-eaton-etn-1033632279
+409.0,8/2/2024 10:53:57 AM,Eaton (ETN) Receives a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-wells-fargo-1033632224
+410.0,8/5/2024 5:26:29 AM,Berenberg Bank Keeps Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/berenberg-bank-keeps-their-buy-rating-on-eaton-etn-1033637703
+411.0,8/5/2024 8:25:13 AM,Eaton’s Strong Financials and Upbeat Guidance Justify Buy Recommendation,TipRanks,/news/stocks/eaton-s-strong-financials-and-upbeat-guidance-justify-buy-recommendation-1033638397
+412.0,8/9/2024 10:29:00 AM,The 3 Best Blue-Chip Stocks to Buy in August 2024,InvestorPlace,/news/stocks/the-3-best-blue-chip-stocks-to-buy-in-august-2024-1033668342
+413.0,8/11/2024 10:28:00 AM,3 High-Potential Industrial Stocks Poised to Rise,InvestorPlace,/news/stocks/3-high-potential-industrial-stocks-poised-to-rise-1033671662
+414.0,8/12/2024 1:25:05 PM,"Eaton Appoints Paulo Ruiz As COO, To Succeed Arnold As CEO In May ",RTTNews,/news/stocks/eaton-appoints-paulo-ruiz-as-coo-to-succeed-arnold-as-ceo-in-may-1033676544
+415.0,8/12/2024 1:49:35 PM,Bank of America Securities Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/bank-of-america-securities-sticks-to-its-buy-rating-for-eaton-etn-1033678370
+416.0,8/12/2024 8:08:37 PM,3 Infrastructure Stocks to Put on Your Buy List Now,InvestorPlace,/news/stocks/3-infrastructure-stocks-to-put-on-your-buy-list-now-1033678767
+417.0,8/13/2024 8:49:10 AM,Eaton (ETN) Receives a Rating Update from a Top Analyst,TipRanks,/news/stocks/eaton-etn-receives-a-rating-update-from-a-top-analyst-1033681421
+418.0,8/13/2024 4:26:03 PM,Eaton Corporation Leadership Transition: A Smooth Handover Expected to Sustain Success,TipRanks,/news/stocks/eaton-corporation-leadership-transition-a-smooth-handover-expected-to-sustain-success-1033683683
+419.0,8/14/2024 11:56:10 AM,Argus Research Keeps Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/argus-research-keeps-their-buy-rating-on-eaton-etn-1033688986
+420.0,8/20/2024 9:10:40 AM,Wells Fargo Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-their-hold-rating-for-eaton-etn-1033707055
+421.0,8/21/2024 7:45:04 PM,Industrial and financial stocks with the largest net increases in hedge fund popularity - GS,Seeking Alpha,https://seekingalpha.com/news/4142520-industrial-and-financial-stocks-with-the-largest-net-increases-in-hedge-fund-popularity-gs?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+422.0,8/23/2024 12:56:33 PM,Eaton (ETN) Gets a Buy from Bank of America Securities,TipRanks,/news/stocks/eaton-etn-gets-a-buy-from-bank-of-america-securities-1033718834
+423.0,8/26/2024 8:47:18 AM,Wells Fargo Sticks to Its Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-its-hold-rating-for-eaton-etn-1033721669
+424.0,8/30/2024 9:26:05 AM,Is it time to make portfolio changes before the 2024 U.S. election?,Seeking Alpha,https://seekingalpha.com/news/4145383-is-it-time-to-make-portfolio-changes-before-the-2024-us-election?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+425.0,9/3/2024 8:59:20 AM,Wells Fargo Keeps Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-keeps-their-hold-rating-on-eaton-etn-1033743281
+426.0,9/6/2024 9:10:42 AM,Analysts Have Conflicting Sentiments on These Industrial Goods Companies: Eve Holding (EVEX) and Eaton (ETN),TipRanks,/news/stocks/analysts-have-conflicting-sentiments-on-these-industrial-goods-companies-eve-holding-evex-and-eaton-etn-1033753536
+427.0,9/6/2024 9:10:47 AM,Eaton (ETN) was upgraded to a Hold Rating at Wolfe Research,TipRanks,/news/stocks/eaton-etn-was-upgraded-to-a-hold-rating-at-wolfe-research-1033753535
+428.0,9/6/2024 6:53:43 PM,"Hubbell hiked to Buy at Deutsche Bank as headwinds fade, paving way for beats-and-raises",Seeking Alpha,https://seekingalpha.com/news/4147746-hubbell-hiked-to-buy-at-deutsche-bank-as-headwinds-fade-paving-way-for-beats-and-raises?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+429.0,9/9/2024 9:47:35 AM,Wells Fargo Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-their-hold-rating-for-eaton-etn-1033757240
+430.0,9/10/2024 7:21:12 PM,UBS updates its ‘election watch’ stocks to match new winning probabilities,Seeking Alpha,https://seekingalpha.com/news/4148454-ubs-updates-its-election-watch-stocks-to-match-new-winning-probabilities?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+431.0,9/16/2024 9:37:42 AM,Wells Fargo Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-reaffirms-their-hold-rating-on-eaton-etn-1033774034
+432.0,9/16/2024 1:10:48 PM,Eaton rated Buy in new coverage at Citi on AI electrical demand,Seeking Alpha,https://seekingalpha.com/news/4149953-eaton-etn-rated-buy-in-new-coverage-at-citi-on-ai-electrical-demand?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+433.0,9/23/2024 9:17:08 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033790009
+434.0,9/23/2024 1:25:31 PM,Bank of America Securities Reaffirms Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/bank-of-america-securities-reaffirms-their-buy-rating-on-eaton-etn-1033791374
+435.0,9/30/2024 9:07:59 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1033807252
+436.0,10/2/2024 8:19:13 AM,Eaton (ETN) Receives a Hold from Barclays,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-barclays-1033814586
+437.0,10/4/2024 12:55:55 PM,Bank of America Securities Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/bank-of-america-securities-sticks-to-its-buy-rating-for-eaton-etn-1033821928
+438.0,10/7/2024 10:06:59 AM,Eaton (ETN) Gets a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-wells-fargo-1033824693
+439.0,10/14/2024 10:02:47 AM,Eaton (ETN) Gets a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-wells-fargo-1033842932
+440.0,10/18/2024 1:48:05 AM,RBC Capital Keeps Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/rbc-capital-keeps-their-buy-rating-on-eaton-etn-1033857639
+441.0,10/21/2024 10:09:25 AM,Wells Fargo Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/wells-fargo-sticks-to-their-hold-rating-for-eaton-etn-1033864453
+442.0,10/22/2024 3:26:41 PM,Eaton declares $0.94 dividend,Seeking Alpha,https://seekingalpha.com/news/4190657-eaton-declares-0_94-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+443.0,10/22/2024 9:27:49 PM,Eaton Appoints P&G CFO Andre Schulten to Board,TipRanks,/news/stocks/eaton-appoints-p-g-cfo-andre-schulten-to-board-1033873820
+444.0,10/26/2024 3:58:21 PM,Eaton (ETN) Receives a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-receives-a-hold-from-wells-fargo-1033896055
+445.0,10/30/2024 5:30:36 PM,Eaton Q3 2024 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/4224991-eaton-q3-2024-earnings-preview?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+446.0,10/30/2024 6:00:59 PM,Notable companies reporting before tomorrow’s open,TipRanks,/news/stocks/notable-companies-reporting-before-tomorrow-s-open-1033921038
+447.0,10/30/2024 10:00:58 PM,Here's the major earnings before the open tomorrow,Seeking Alpha,https://seekingalpha.com/news/4223412-heres-the-major-earnings-before-the-open-tomorrow?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+448.0,10/31/2024 10:32:20 AM,Eaton misses Q3 revenue estimates,Seeking Alpha,https://seekingalpha.com/news/4227629-eaton-misses-q3-revenue-estimates?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+449.0,10/31/2024 10:35:30 AM,"Eaton reports Q3 adjusted EPS $2.84, consensus $2.80",TipRanks,/news/stocks/eaton-reports-q3-adjusted-eps-2-84-consensus-2-80-1033928431
+450.0,10/31/2024 11:37:33 AM,"Eaton Corp. Q3 Profit Increases, Beats Estimates ",RTTNews,/news/stocks/eaton-corp-q3-profit-increases-beats-estimates-1033926714
+451.0,10/31/2024 12:25:21 PM,Eaton Corporation Plc Raises 2024 Guidance - Update ,RTTNews,/news/stocks/eaton-corporation-plc-raises-2024-guidance-update-1033927045
+452.0,10/31/2024 1:01:20 PM,Morning Movers: Roblox surges and Estee Lauder sinks following earnings,TipRanks,/news/stocks/morning-movers-roblox-surges-and-estee-lauder-sinks-following-earnings-1033930078
+453.0,11/1/2024 4:17:42 AM,Eaton Corporation Achieves Record Third Quarter Results,TipRanks,/news/stocks/eaton-corporation-achieves-record-third-quarter-results-1033934437
+454.0,11/1/2024 7:19:30 AM,KeyBanc Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/keybanc-sticks-to-their-hold-rating-for-eaton-etn-1033935548
+455.0,11/1/2024 7:25:54 AM,Eaton (ETN) Receives a Rating Update from a Top Analyst,TipRanks,/news/stocks/eaton-etn-receives-a-rating-update-from-a-top-analyst-1033935507
+456.0,11/1/2024 9:10:27 AM,Eaton’s Balanced Outlook: Strengths in Electrical Americas Amid Challenges in Aerospace and Valuation Concerns,TipRanks,/news/stocks/eaton-s-balanced-outlook-strengths-in-electrical-americas-amid-challenges-in-aerospace-and-valuation-concerns-1033936004
+457.0,11/1/2024 9:40:18 AM,Eaton price target lowered to $320 from $327 at Barclays,TipRanks,/news/stocks/eaton-price-target-lowered-to-320-from-327-at-barclays-1033936223
+458.0,11/1/2024 10:03:23 AM,Eaton’s Strong Growth and Positive Outlook Drive Outperform Rating and Increased Price Target,TipRanks,/news/stocks/eaton-s-strong-growth-and-positive-outlook-drive-outperform-rating-and-increased-price-target-1033936510
+459.0,11/1/2024 10:32:24 AM,RBC Capital Sticks to Their Buy Rating for Eaton (ETN),TipRanks,/news/stocks/rbc-capital-sticks-to-their-buy-rating-for-eaton-etn-1033936761
+460.0,11/1/2024 12:45:41 PM,Jefferies Sticks to Their Buy Rating for Eaton (ETN),TipRanks,/news/stocks/jefferies-sticks-to-their-buy-rating-for-eaton-etn-1033937974
+461.0,11/1/2024 12:55:24 PM,Eaton price target raised to $385 from $365 at Mizuho,TipRanks,/news/stocks/eaton-price-target-raised-to-385-from-365-at-mizuho-1033937930
+462.0,11/5/2024 2:15:09 AM,Eaton initiated with an Outperform at Bernstein,TipRanks,/news/stocks/eaton-initiated-with-an-outperform-at-bernstein-1033948216
+463.0,11/5/2024 12:11:12 PM,"Analysts Offer Insights on Industrial Goods Companies: Manitowoc Company (MTW), ArcBest (ARCB) and Eaton (ETN)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-manitowoc-company-mtw-arcbest-arcb-and-eaton-etn-1033952729
+464.0,11/5/2024 2:51:43 PM,"Dollar Tree downgraded, eBay upgraded: Wall Street’s top analyst calls",TipRanks,/news/stocks/dollar-tree-downgraded-ebay-upgraded-wall-street-s-top-analyst-calls-1033954048
+465.0,11/7/2024 1:54:06 PM,Largest borrow rate increases among liquid names,TipRanks,/news/stocks/largest-borrow-rate-increases-among-liquid-names-1033972382
+466.0,11/12/2024 9:05:13 PM,Eaton selected by U.S. AFRL to design aerial refueling system,TipRanks,/news/stocks/eaton-selected-by-u-s-afrl-to-design-aerial-refueling-system-1034002839
+467.0,11/13/2024 10:35:18 AM,Eaton downgraded to In Line from Outperform at Evercore ISI,TipRanks,/news/stocks/eaton-downgraded-to-in-line-from-outperform-at-evercore-isi-1034008130
+468.0,11/13/2024 12:55:47 PM,Eaton assumed with a Buy at UBS,TipRanks,/news/stocks/eaton-assumed-with-a-buy-at-ubs-1034009545
+469.0,11/13/2024 1:06:11 PM,Eaton’s Strategic Investments and Portfolio Optimization Drive Buy Rating Amid Supply Chain Challenges,TipRanks,/news/stocks/eaton-s-strategic-investments-and-portfolio-optimization-drive-buy-rating-amid-supply-chain-challenges-1034009736
+470.0,11/13/2024 2:25:24 PM,Eaton price target raised to $410 from $350 at BofA,TipRanks,/news/stocks/eaton-price-target-raised-to-410-from-350-at-bofa-1034010410
+471.0,11/13/2024 2:45:37 PM,"Starbucks, Spotify downgraded: Wall Street’s top analyst calls",TipRanks,/news/stocks/starbucks-spotify-downgraded-wall-street-s-top-analyst-calls-1034010579
+472.0,11/14/2024 1:41:42 PM,Eaton teams with Treehouse to enable residential electrification projects,TipRanks,/news/stocks/eaton-teams-with-treehouse-to-enable-residential-electrification-projects-1034019359
+473.0,11/14/2024 10:30:32 PM,Eaton propellant tanks selected by MDA Space for satellite technology,TipRanks,/news/stocks/eaton-propellant-tanks-selected-by-mda-space-for-satellite-technology-1034021439
+474.0,11/15/2024 3:32:00 PM,Least shorted S&P 500 stocks in October,Seeking Alpha,https://seekingalpha.com/news/4294512-least-shorted-sp-500-stocks-in-october?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+475.0,11/18/2024 10:15:50 AM,Wells Fargo Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-reaffirms-their-hold-rating-on-eaton-etn-1034030297
+476.0,11/18/2024 4:45:31 PM,Quality cyclicals are expected to continue going up; here are the top-rated by Morgan Stanley,Seeking Alpha,https://seekingalpha.com/news/4303258-quality-cyclicals-are-expected-to-continue-going-up-here-are-the-top-rated-by-morgan-stanley?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+477.0,11/20/2024 4:20:28 PM,Trump Trade: Apollo CEO to be interviewed for Treasury Secretary role,TipRanks,/news/stocks/trump-trade-apollo-ceo-to-be-interviewed-for-treasury-secretary-role-1034044233
+478.0,11/24/2024 1:20:22 PM,"Trump Weekly: Trump looks to drop EV tax credit, fuel-efficiency requirements",TipRanks,/news/stocks/trump-weekly-trump-looks-to-drop-ev-tax-credit-fuel-efficiency-requirements-1034057726
+479.0,11/25/2024 11:27:19 AM,Wells Fargo Remains a Hold on Eaton (ETN),TipRanks,/news/stocks/wells-fargo-remains-a-hold-on-eaton-etn-1034060564
+480.0,11/25/2024 2:56:17 PM,Eaton (ETN) Gets a Buy from Bank of America Securities,TipRanks,/news/stocks/eaton-etn-gets-a-buy-from-bank-of-america-securities-1034062180
+,12/5/2024 11:13:02 AM,Eaton price target raised to $353 from $320 at Barclays,TipRanks,/news/stocks/eaton-price-target-raised-to-353-from-320-at-barclays-1034101820
+,12/5/2024 5:02:30 PM,"Analysts Offer Insights on Industrial Goods Companies: Eaton (ETN), FTAI Aviation (FTAI) and Eos Energy Enterprises (EOSE)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-eaton-etn-ftai-aviation-ftai-and-eos-energy-enterprises-eose-1034104366
+,12/5/2024 10:45:25 PM,Eaton (ETN) Gets a Buy from Jefferies,TipRanks,/news/stocks/eaton-etn-gets-a-buy-from-jefferies-1034105657
+,12/5/2024 11:05:10 PM,Eaton price target raised to $440 from $400 at Jefferies,TipRanks,/news/stocks/eaton-price-target-raised-to-440-from-400-at-jefferies-1034105687
+,12/9/2024 11:46:18 AM,Eaton price target raised to $440 from $394 at Citi,TipRanks,/news/stocks/eaton-price-target-raised-to-440-from-394-at-citi-1034114025
+,12/9/2024 4:20:43 PM,Trump Trade: Analyst moves to sidelines on Capital One after Trump rally,TipRanks,/news/stocks/trump-trade-analyst-moves-to-sidelines-on-capital-one-after-trump-rally-1034115705
+,12/9/2024 8:05:55 PM,The case for Grid Electrification for 2025 – Barclays,Seeking Alpha,https://seekingalpha.com/news/4379520-the-case-for-grid-electrification-for-2025-barclays?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+,12/13/2024 1:05:09 PM,Eaton price target raised to $431 from $330 at UBS,TipRanks,/news/stocks/eaton-price-target-raised-to-431-from-330-at-ubs-1034136008
+,12/17/2024 11:40:16 PM,Eaton director sells $3.56M in common stock,TipRanks,/news/stocks/eaton-director-sells-3-56m-in-common-stock-1034148565
+,12/20/2024 10:05:24 AM,"Caterpillar, Epam among additions to Jefferies Franchise Picks list",TipRanks,/news/stocks/caterpillar-epam-among-additions-to-jefferies-franchise-picks-list-1034161351
+,12/20/2024 6:18:01 PM,Wall Street Analysts Are Bullish on Top Industrial Goods Picks,TipRanks,/news/stocks/wall-street-analysts-are-bullish-on-top-industrial-goods-picks-1034164037
+,1/3/2025 1:46:18 AM,RBC Capital Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/rbc-capital-sticks-to-its-buy-rating-for-eaton-etn-1034188737
+,1/3/2025 1:10:46 PM,Eaton price target raised to $392 from $374 at RBC Capital,TipRanks,/news/stocks/eaton-price-target-raised-to-392-from-374-at-rbc-capital-1034190783
+,1/7/2025 11:42:10 AM,Eaton (ETN) Gets a Hold from Wells Fargo,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-wells-fargo-1034200082
+,1/7/2025 1:57:06 PM,Eaton price target lowered to $350 from $365 at Wells Fargo,TipRanks,/news/stocks/eaton-price-target-lowered-to-350-from-365-at-wells-fargo-1034201627
+,1/8/2025 10:21:51 AM,Eaton (ETN) Gets a Hold from Barclays,TipRanks,/news/stocks/eaton-etn-gets-a-hold-from-barclays-1034204837
+,1/8/2025 12:07:25 PM,Bernstein Remains a Buy on Eaton (ETN),TipRanks,/news/stocks/bernstein-remains-a-buy-on-eaton-etn-1034205989
+,1/11/2025 3:46:26 PM,Bank of America Securities Remains a Buy on Eaton (ETN),TipRanks,/news/stocks/bank-of-america-securities-remains-a-buy-on-eaton-etn-1034217302
+,1/13/2025 11:35:42 AM,Eaton price target lowered to $410 from $440 at Citi,TipRanks,/news/stocks/eaton-price-target-lowered-to-410-from-440-at-citi-1034220745
+,1/14/2025 2:06:52 PM,Eaton awarded $20M contract to support NY CREATES facility in New York,TipRanks,/news/stocks/eaton-awarded-20m-contract-to-support-ny-creates-facility-in-new-york-1034226848
+,1/15/2025 12:41:33 PM,Eaton price target lowered to $348 from $350 at JPMorgan,TipRanks,/news/stocks/eaton-price-target-lowered-to-348-from-350-at-jpmorgan-1034231297
+,1/17/2025 1:16:25 PM,Eaton (ETN) Gets a Buy from Morgan Stanley,TipRanks,/news/stocks/eaton-etn-gets-a-buy-from-morgan-stanley-1034240908
+,1/23/2025 11:08:42 AM,Eaton (ETN) Gets a Buy from Bernstein,TipRanks,/news/stocks/eaton-etn-gets-a-buy-from-bernstein-1034259742
+,1/26/2025 1:01:00 PM,"Earnings week ahead: TSLA, META, AAPL, MSFT, INTC, MA, XOM, LUV and more",Seeking Alpha,https://seekingalpha.com/news/4398397-earnings-week-ahead-tsla-meta-aapl-msft-intc-ma-xom-luv-and-more?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+,1/28/2025 11:20:29 AM,"Analysts Offer Insights on Industrial Goods Companies: Equifax (EFX), Eaton (ETN) and CSX (CSX)",TipRanks,/news/stocks/analysts-offer-insights-on-industrial-goods-companies-equifax-efx-eaton-etn-and-csx-csx-1034277054
+,1/28/2025 12:00:37 PM,Eaton downgraded to Hold from Buy at Melius Research,TipRanks,/news/stocks/eaton-downgraded-to-hold-from-buy-at-melius-research-1034277739
+,1/28/2025 12:20:38 PM,Melius downgrades four ‘capex thematic’ stocks as AI momentum trade stalls,TipRanks,/news/stocks/melius-downgrades-four-capex-thematic-stocks-as-ai-momentum-trade-stalls-1034277809
+,1/28/2025 1:25:57 PM,Eaton’s Strategic Positioning and AI-Driven Growth Prospects Support Buy Rating,TipRanks,/news/stocks/eaton-s-strategic-positioning-and-ai-driven-growth-prospects-support-buy-rating-1034278172
+,1/28/2025 2:41:29 PM,"AMD downgraded, Cisco upgraded: Wall Street’s top analyst calls",TipRanks,/news/stocks/amd-downgraded-cisco-upgraded-wall-street-s-top-analyst-calls-1034278641
+,1/30/2025 5:07:48 PM,Eaton Q4 2024 Earnings Preview,Seeking Alpha,https://seekingalpha.com/news/4400891-eaton-q4-2024-earnings-preview?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+,1/30/2025 11:00:01 PM,Here's the major earnings before the open tomorrow,Seeking Alpha,https://seekingalpha.com/news/4400942-heres-the-major-earnings-before-the-open-tomorrow?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+,1/31/2025 11:33:53 AM,Eaton reports mixed Q4 earnings; initiates Q1 and FY25 outlook,Seeking Alpha,https://seekingalpha.com/news/4401301-eaton-reports-mixed-q4-earnings-initiates-q1-and-fy25-outlook?utm_source=businessinsider&utm_medium=referral&feed_item_type=news
+,1/31/2025 11:35:31 AM,"Eaton sees Q1 adjusted EPS $2.65-$2.75, consensus $2.70",TipRanks,/news/stocks/eaton-sees-q1-adjusted-eps-2-65--2-75-consensus-2-70-1034294839
+,1/31/2025 11:35:47 AM,"Eaton sees FY25 adjusted EPS $11.80-$12.20, consensus $12.00",TipRanks,/news/stocks/eaton-sees-fy25-adjusted-eps-11-80--12-20-consensus-12-00-1034294835
+,1/31/2025 11:36:10 AM,"Eaton reports Q4 adjusted EPS $2.83, consensus $2.81",TipRanks,/news/stocks/eaton-reports-q4-adjusted-eps-2-83-consensus-2-81-1034294830
+,1/31/2025 12:05:23 PM,"Options Volatility and Implied Earnings Moves Today, January 31, 2025",TipRanks,/news/stocks/options-volatility-and-implied-earnings-moves-today-january-31-2025-1034295092
+,1/31/2025 1:09:49 PM,"Eaton Q4 Profit Rises, Beats Market; Issues Q1 View, Sees FY25 Earnings Above Street; Stock Up ",RTTNews,/news/stocks/eaton-q4-profit-rises-beats-market-issues-q1-view-sees-fy25-earnings-above-street-stock-up-1034295018
+,2/3/2025 12:25:35 AM,Hold Recommendation for Eaton Amid Growth Potential and Execution Risks,TipRanks,/news/stocks/hold-recommendation-for-eaton-amid-growth-potential-and-execution-risks-1034299268
+,2/3/2025 6:25:25 AM,Eaton’s Strong Financial Performance and Growth Prospects Justify Buy Rating,TipRanks,/news/stocks/eaton-s-strong-financial-performance-and-growth-prospects-justify-buy-rating-1034301433
+,2/3/2025 7:47:36 AM,Barclays Sticks to Their Hold Rating for Eaton (ETN),TipRanks,/news/stocks/barclays-sticks-to-their-hold-rating-for-eaton-etn-1034301731
+,2/3/2025 7:49:29 AM,KeyBanc Reaffirms Their Hold Rating on Eaton (ETN),TipRanks,/news/stocks/keybanc-reaffirms-their-hold-rating-on-eaton-etn-1034301705
+,2/3/2025 11:45:35 AM,Eaton price target lowered to $335 from $350 at Wells Fargo,TipRanks,/news/stocks/eaton-price-target-lowered-to-335-from-350-at-wells-fargo-1034302790
+,2/3/2025 11:48:02 AM,Eaton (ETN) Receives a Rating Update from a Top Analyst,TipRanks,/news/stocks/eaton-etn-receives-a-rating-update-from-a-top-analyst-1034302768
+,2/3/2025 12:16:29 PM,RBC Capital Sticks to Its Buy Rating for Eaton (ETN),TipRanks,/news/stocks/rbc-capital-sticks-to-its-buy-rating-for-eaton-etn-1034303069
+,2/3/2025 2:50:26 PM,Eaton price target lowered to $405 from $407 at RBC Capital,TipRanks,/news/stocks/eaton-price-target-lowered-to-405-from-407-at-rbc-capital-1034304075
+,2/4/2025 12:07:54 PM,J.P. Morgan Reaffirms Their Buy Rating on Eaton (ETN),TipRanks,/news/stocks/j-p-morgan-reaffirms-their-buy-rating-on-eaton-etn-1034308645
