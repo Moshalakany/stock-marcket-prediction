@@ -1,0 +1,85 @@
+<!-- <div class="stock-price-container">
+    <div class="s">
+        <i class="fa-brands fa-apple"></i>
+        <h1>Apple (AAPL) Stock Price</h1>
+    </div>
+    
+    <div class="price-box">
+      <p>${{ appleStockPrice }}</p>
+    </div>
+  
+  
+  <div class="chart-container">
+    <canvas baseChart
+        [datasets]="chartData"
+        [labels]="chartLabels"
+        [options]="chartOptions"
+        chartType="line">
+</canvas>
+
+    </div>
+    
+
+
+
+</div>
+   -->
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="stock-price-container">
+    <!-- Tabs for Overview and Prediction above the heading -->
+    <div class="tabs">
+      <button class="tab-button" [class.active]="activeTab === 'overview'" (click)="selectTab('overview')">Overview</button>
+      <button class="tab-button" [class.active]="activeTab === 'prediction'" (click)="selectTab('prediction')">Prediction</button>
+    </div>
+  
+    <!-- Header Section with Apple Icon and Title -->
+    <div class="s">
+      <i class="fa-brands fa-apple"></i>
+      <h1>Apple (AAPL) Stock Price</h1>
+    </div>
+  
+    <!-- Tab Content -->
+    <div *ngIf="activeTab === 'overview'">
+      <!-- Simple price display for the Overview tab -->
+      <div class="price-box">
+        <p>${{ appleStockPrice }}</p>
+      </div>
+  
+      <!-- Chart Container -->
+      <div class="chart-container">
+        <canvas baseChart
+                [datasets]="chartData"
+                [labels]="chartLabels"
+                [options]="chartOptions"
+                chartType="line">
+        </canvas>
+      </div>
+    </div>
+  
+    <!-- Prediction Section -->
+    <div *ngIf="activeTab === 'prediction'" class="prediction-content">
+      <h2>Stock Prediction Coming Soon...</h2>
+      <p>We are currently working on providing accurate stock predictions for the future. Stay tuned!</p>
+  
+      <!-- Placeholder or prediction model -->
+      <!-- <div class="prediction-placeholder">
+        <img src="assets/placeholder-image.png" alt="Prediction placeholder" class="prediction-image" />
+        <p class="loading-message">Loading prediction model...</p>
+      </div> -->
+  
+      <!-- Button or action for users to get notified -->
+      <!-- <button class="notify-button" (click)="subscribeForUpdates()">Get Notified When Available</button>
+    </div> -->
+  </div>
+  

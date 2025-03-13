@@ -1,0 +1,66 @@
+.recently-viewed-container {
+     /* dark background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 1.3rem;
+  }
+  .icon{
+    font-size: 2.7rem;
+  }
+
+   .fa-apple{
+    color: #c4c4c4;
+  }
+
+  .fa-bitcoin{
+    color: orange;
+  }
+  
+  .recently-viewed-container h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .recently-viewed-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .recently-viewed-item .icon {
+    margin-right: 15px;
+  }
+  
+  
+  
+  .recently-viewed-item .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recently-viewed-item .info .name {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .recently-viewed-item .info .price {
+    color: #ffffff;
+  }
+  
+  .recently-viewed-item .info .change {
+    font-size: 0.9rem;
+  }
+  
+  .recently-viewed-item .info .change.negative {
+    color: red;
+  }
+  
+  .recently-viewed-item .info .change.positive {
+    color: green;
+  }
+  

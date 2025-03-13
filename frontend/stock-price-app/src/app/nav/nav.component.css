@@ -1,0 +1,170 @@
+/************************************
+ * Base navbar styles (desktop view)
+ ************************************/
+ .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+
+.navbar-brand {
+  margin-left: 20px;
+}
+i {
+  color: #04e82a;
+  text-decoration: none;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+
+#menu-toggle {
+  display: none;
+}
+
+/* The hamburger icon – hidden on desktop by default */
+.menu-icon {
+  display: none; 
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.menu-icon span {
+  height: 3px;
+  width: 25px;
+  background: #ffffff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+
+.signUp{
+ outline: 1px solid #04e82a;
+ outline-offset: 6px;
+  border-radius: 5px;
+  border-color: #04e82a;
+}
+
+/************************************
+ * Nav links (desktop styles)
+ ************************************/
+.nav-menu {
+  display: flex; 
+  align-items: center;
+  
+
+}
+
+.navbar-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+.navbar-actions {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.navbar-links a,
+.auth-link {
+  color: #f0f2f5;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.2s ease;
+}
+
+
+.navbar-links a:hover,
+.auth-link:hover {
+  color: #04e82a;
+
+}
+
+/************************************
+ * Responsive (mobile) styles
+ ************************************/
+@media screen and (max-width: 768px) {
+  
+  .menu-icon {
+    display: flex;
+  }
+
+  
+  .nav-menu {
+    position: absolute;
+    top: 80px; 
+    left: 0;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0); 
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    padding: 10px 0;
+  }
+
+  /* Expand the nav links and actions vertically on mobile */
+  .navbar-links,
+  .navbar-actions {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+  }
+
+  /* When #menu-toggle is checked, show the .nav-menu */
+  #menu-toggle:checked + .menu-icon + .nav-menu {
+    display: flex;
+  }
+}
+
+
+
+
+.moving-line-container {
+  width: 100%;
+  background-color: #efefef; 
+  padding: 0px;
+  margin-top: 20px;
+  border-radius: 4px;
+  overflow: hidden; 
+  position: relative;
+  z-index: 10; 
+  
+
+}
+
+.moving-line {
+  display: inline-block;
+  white-space: nowrap;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-left: 100%; 
+  animation: moveLine 16s linear infinite; 
+
+}
+
+@keyframes moveLine {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
