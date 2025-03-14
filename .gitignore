@@ -3,3 +3,4 @@
 news/sentiment_model_output/enhanced_hybrid_model/preprocessed_stock_news.csv
 news/sentiment_model_output/enhanced_hybrid_model/combined_stock_news.csv
 news/sentiment_evaluation_results/sentiment_evaluation_results.csv
+stcok_Forcast/sentiment_data/
