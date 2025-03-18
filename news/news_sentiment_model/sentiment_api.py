@@ -4,6 +4,7 @@ from pydantic import BaseModel, Field, validator
 from typing import List, Dict, Optional
 import os
 import logging
+import statistics as st
 from enhanced_sentiment_model import EnhancedStockSentimentAnalyzer
 import uvicorn
 
@@ -63,6 +64,7 @@ class SentimentResponse(BaseModel):
 class BatchSentimentResponse(BaseModel):
     results: List[SentimentResponse]
     count: int
+    sentiment_mod: str
 
 class HealthResponse(BaseModel):
     status: str
@@ -176,7 +178,9 @@ def batch_analyze_sentiment(request: BatchSentimentRequest):
     try:
         analyzer = get_analyzer()
         results = analyzer.predict_sentiment(request.texts, return_scores=True)
-        
+        sentiment_arr = []
+        for result in results:
+            sentiment_arr.append(result['sentiment'])
         return BatchSentimentResponse(
             results=[
                 SentimentResponse(
@@ -186,7 +190,8 @@ def batch_analyze_sentiment(request: BatchSentimentRequest):
                     scores=result['scores']
                 ) for result in results
             ],
-            count=len(results)
+            count=len(results),
+            sentiment_mod =st.mode(sentiment_arr)            
         )
     except Exception as e:
         logger.error(f"Error batch analyzing sentiment: {str(e)}")

@@ -1,9 +1,11 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 from scraper import get_latest_news, get_news_by_date_range, get_latest_page_news
 import pandas as pd
 import os
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 # Ensure news_data directory exists
 if not os.path.exists('news_data'):
