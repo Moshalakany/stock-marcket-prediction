@@ -1,0 +1,15 @@
+.news-card {
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  
+  .news-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Truncate text to 3 lines */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }

@@ -1,0 +1,50 @@
+<div class="bg-black-900 rounded-xl p-6 shadow-xl max-w-4xl mx-auto">
+  
+    <div class="flex gap-2">
+      <button (click)="onTimeRangeChange('1D')" 
+        class="px-3 py-1 text-sm rounded"
+        [ngClass]="{'bg-blue-600 text-white': selectedTimeRange === '1D', 'bg-gray-100 text-gray-700 hover:bg-gray-200': selectedTimeRange !== '1D'}">
+        1D
+      </button>
+      <button (click)="onTimeRangeChange('1W')" 
+        class="px-3 py-1 text-sm rounded"
+        [ngClass]="{'bg-blue-600 text-white': selectedTimeRange === '1W', 'bg-gray-100 text-gray-700 hover:bg-gray-200': selectedTimeRange !== '1W'}">
+        1W
+      </button>
+      <button (click)="onTimeRangeChange('1M')" 
+        class="px-3 py-1 text-sm rounded"
+        [ngClass]="{'bg-blue-600 text-white': selectedTimeRange === '1M', 'bg-gray-100 text-gray-700 hover:bg-gray-200': selectedTimeRange !== '1M'}">
+        1M
+      </button>
+      <button (click)="onTimeRangeChange('1Y')" 
+        class="px-3 py-1 text-sm rounded"
+        [ngClass]="{'bg-blue-600 text-white': selectedTimeRange === '1Y', 'bg-gray-100 text-gray-700 hover:bg-gray-200': selectedTimeRange !== '1Y'}">
+        1Y
+      </button>
+    </div>
+  
+  
+  
+  
+      <!-- Chart -->
+      <div class="bg-black-900 rounded-xl p-6 shadow-xl max-w-4xl mx-auto">
+          <div class="chart-container" tabindex="0" (focus)="onChartFocus()" (blur)="onChartBlur()">
+            <div class="bg-gray-800 rounded-lg p-4">
+              <apx-chart
+                [series]="series"
+                [chart]="chartOptions"
+                [xaxis]="xaxis"
+                [yaxis]="yaxis"
+                [dataLabels]="dataLabels"
+                [tooltip]="tooltip"
+                [stroke]="stroke"
+                [title]="title"
+                [fill]="fill"
+                [legend]="legend"
+                [colors]="['#3B82F6']"
+              ></apx-chart>
+            </div>
+          </div>
+        </div>
+    </div>
+    

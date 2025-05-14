@@ -1,0 +1,146 @@
+<!-- news-page.component.html -->
+<div class="container mx-auto px-4 py-8">
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-800 mb-4">Financial News</h1>
+      
+      <!-- Search and Filter Controls -->
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center space-y-4 md:space-y-0 mb-6">
+        <div class="flex space-x-1 overflow-x-auto pb-2 whitespace-nowrap">
+          <button *ngFor="let category of categories" 
+                  [ngClass]="{'bg-blue-600 text-white': activeCategory === category.id, 
+                             'bg-gray-100 text-gray-700 hover:bg-gray-200': activeCategory !== category.id}"
+                  (click)="setCategory(category.id)"
+                  class="px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200">
+            {{ category.name }}
+          </button>
+        </div>
+        
+        <div class="relative w-full md:w-64">
+          <input type="text" 
+                 [(ngModel)]="searchQuery"
+                 placeholder="Search news..." 
+                 class="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          <div class="absolute left-3 top-2.5 text-gray-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- News Content -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+      <div *ngIf="isLoading" class="flex justify-start items-center min-h-[400px] pr-4">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 ml-auto"
+             [ngClass]="{'border-blue-400': darkMode, 'border-blue-600': !darkMode}">
+        </div>
+      </div>
+      
+
+        <!-- Error State -->
+        <div *ngIf="errorMessage" class="error-state">
+            <div class="error-icon">⚠️</div>
+            <p>{{ errorMessage }}</p>
+            <button (click)="refreshNews()">Retry</button>
+        </div>
+
+      <!-- Left Column -->
+      <div *ngIf="!isLoading" class="space-y-0 border-t border-gray-200">
+        <div *ngFor="let article of newsArticles" class="border-b border-gray-200">
+          <div class="py-4">
+            <h2 class="text-lg font-semibold mb-1 hover:text-blue-600 cursor-pointer">
+              <a [href]="article.url">{{ article.title }}</a>
+            </h2>
+            
+            <div class="flex items-center text-sm text-gray-600 mb-2">
+              <span class="font-medium">{{ article.source }}</span>
+              <span class="mx-1">•</span>
+              <span>{{ article.publishedTime | timeAgo}}</span>
+            </div>
+            
+            <div *ngIf="article.relatedTickers && article.relatedTickers.length > 0" class="flex flex-wrap gap-2 mt-2">
+              <div *ngFor="let ticker of article.relatedTickers" 
+                  class="inline-flex items-center text-sm bg-gray-50 rounded px-2 py-1">
+                <span class="font-medium text-blue-600">{{ ticker.symbol }}</span>
+                <span [ngClass]="{'text-green-600': ticker.changePercent > 0, 
+                                'text-red-600': ticker.changePercent < 0, 
+                                'text-gray-500': ticker.changePercent === 0}"
+                      class="ml-1">
+                  {{ ticker.changePercent > 0 ? '+' : '' }}{{ ticker.changePercent.toFixed(2) }}%
+                </span>
+                
+                <span *ngIf="ticker.isFavorite" class="ml-1 text-yellow-500">★</span>
+              </div>
+            </div>
+            <div class="inline-flex items-center text-sm bg-gray-50 rounded px-2 py-1">
+              <p 
+                class="font-medium px-1"
+                [ngClass]="{
+                  'text-red-600': article.sentiment === 'negative',
+                  'text-green-600': article.sentiment === 'positive',
+                  'text-yellow-600': article.sentiment === 'neutral'
+                }"
+              >
+                Polarity: {{ article.sentiment }}
+              </p>
+              <p class="font-medium text-blue-600">&nbsp;&nbsp; Score: {{ article.confidence }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Column -->
+      <div *ngIf="!isLoading" class="space-y-0 border-t border-gray-200">
+        <div *ngFor="let article of newsArticles" class="border-b border-gray-200">
+          <div class="py-4">
+            <h2 class="text-lg font-semibold mb-1 hover:text-blue-600 cursor-pointer">
+              <a [href]="article.url">{{ article.title }}</a>
+            </h2>
+            
+            <div class="flex items-center text-sm text-gray-600 mb-2">
+              <span class="font-medium">{{ article.source }}</span>
+              <span class="mx-1">•</span>
+              <span>{{ article.publishedTime | timeAgo}}</span>
+            </div>
+            
+            <div *ngIf="article.relatedTickers && article.relatedTickers.length > 0" class="flex flex-wrap gap-2 mt-2">
+              <div *ngFor="let ticker of article.relatedTickers" 
+                  class="inline-flex items-center text-sm bg-gray-50 rounded px-2 py-1">
+                <span class="font-medium text-blue-600">{{ ticker.symbol }}</span>
+                <span [ngClass]="{'text-green-600': ticker.changePercent > 0, 
+                                'text-red-600': ticker.changePercent < 0, 
+                                'text-gray-500': ticker.changePercent === 0}"
+                      class="ml-1">
+                  {{ ticker.changePercent > 0 ? '+' : '' }}{{ ticker.changePercent.toFixed(2) }}%
+                </span>
+                <span *ngIf="ticker.isFavorite" class="ml-1 text-yellow-500">★</span>
+              </div>
+            </div>
+          </div>
+          <div class="inline-flex items-center text-sm bg-gray-50 rounded px-2 py-1">
+            <p 
+              class="font-medium px-1"
+              [ngClass]="{
+                'text-red-600': article.sentiment === 'negative',
+                'text-green-600': article.sentiment === 'positive',
+                'text-yellow-600': article.sentiment === 'neutral'
+              }"
+            >
+              Polarity: {{ article.sentiment }}
+            </p>
+            
+            <p class="font-medium text-blue-600">&nbsp;&nbsp; Score: {{ article.confidence }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Load More Button -->
+    <div class="mt-8 text-center">
+      <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium transition-colors duration-200">
+        Load More News
+      </button>
+    </div>
+  </div>

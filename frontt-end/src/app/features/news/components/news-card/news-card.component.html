@@ -1,0 +1,36 @@
+<!-- news-card.component.html -->
+<div class="border-b pb-4 mb-4 last:mb-0 last:pb-0 last:border-0">
+  <h3 class="text-lg font-medium mb-1 hover:text-blue-600 cursor-pointer">{{ article.title }}</h3>
+  
+  <div class="flex items-center text-sm text-gray-600 mb-2">
+    <span class="font-medium">{{ article.source }}</span>
+    <span class="mx-1">•</span>
+    <span>{{ article.publishedTime | timeAgo }}</span>
+  </div>
+  
+  <div *ngIf="article.relatedTickers && article.relatedTickers.length > 0" class="flex flex-wrap gap-2 mt-2" >
+    <div *ngFor="let ticker of article.relatedTickers" 
+         class="inline-flex items-center text-sm bg-gray-50 rounded px-2 py-1">
+      <span [routerLink]="['/stocks', ticker.symbol]" class="font-medium text-blue-600">{{ ticker.symbol }}</span>
+      <span [ngClass]="{'text-green-600': ticker.changePercent > 0, 'text-red-600': ticker.changePercent < 0, 'text-gray-600': ticker.changePercent === 0}"
+            class="ml-1">
+        {{ ticker.changePercent > 0 ? '+' : '' }}{{ ticker.changePercent }}%
+      </span>
+      <span *ngIf="ticker.isFavorite" class="ml-1 text-yellow-500">★</span>
+      <div class="inline-flex items-center text-sm bg-gray-50 rounded px-2 py-1">
+        <p 
+          class="font-medium px-1"
+          [ngClass]="{
+            'text-red-600': article.sentiment === 'negative',
+            'text-green-600': article.sentiment === 'positive',
+            'text-yellow-600': article.sentiment === 'neutral'
+          }"
+        >
+          Polarity: {{ article.sentiment }}
+        </p>
+        
+        <p class="font-medium text-blue-600">&nbsp;&nbsp; Score: {{ article.confidence }}</p>
+      </div>
+    </div>
+  </div>
+</div>
