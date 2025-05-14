@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Router , NavigationEnd } from '@angular/router';
 @Component({
   selector: 'app-nav-bar',
   standalone: false,
@@ -9,9 +9,15 @@ import { Component } from '@angular/core';
 export class NavBarComponent{
   darkMode = false;
   mobileMenuOpen = false;
+  hideBanner = false;
 
-  constructor() { }
-
+  constructor(private router: Router) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.hideBanner = this.router.url.includes('/auth/login') || this.router.url.includes('/auth/register');
+      }
+    });
+  }
   ngOnInit(): void {
     // Check user preference for dark mode
     const savedTheme = localStorage.getItem('theme');
@@ -36,5 +42,8 @@ export class NavBarComponent{
 
   toggleMobileMenu(): void {
     this.mobileMenuOpen = !this.mobileMenuOpen;
+  }
+  navigateToLogin() {
+    this.router.navigate(['/auth/login']);
   }
 }

@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'stocks', loadChildren: () => import('./features/stocks/stocks.module').then(m => m.StocksModule) },
   { path: 'news', loadChildren: () => import('./features/news/news.module').then(m => m.NewsModule) },
   { path: 'stocks/:ticker', component: CompanyProfileComponent },
+  { path: 'auth', loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule) },
 ];
 
 @NgModule({

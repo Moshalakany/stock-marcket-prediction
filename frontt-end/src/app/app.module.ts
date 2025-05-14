@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavBarComponent } from './shared/components/nav-bar/nav-bar.component';
 import { CoreModule } from './core/core.module';
 import { TimeAgoPipe } from './pipes/time-ago.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { TimeAgoPipe } from './pipes/time-ago.pipe';
     provideClientHydration(withEventReplay()),
     StockService
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA], 
   bootstrap: [AppComponent]
 })
 export class AppModule { }
