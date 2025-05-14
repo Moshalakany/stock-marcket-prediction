@@ -87,9 +87,14 @@
           </svg>
         </div>
 
-        <!-- User Menu -->
+        <!-- Make the entire button navigate -->
         <div class="flex items-center">
-          <button class="flex items-center space-x-1 py-1 px-3 rounded-md transition-colors duration-200" [ngClass]="{'hover:bg-gray-800': darkMode, 'hover:bg-gray-100': !darkMode}">
+          <button
+            [routerLink]="['/auth/login']"
+            routerLinkActive="font-semibold"
+            class="flex items-center space-x-1 py-1 px-3 rounded-md transition-colors duration-200"
+            [ngClass]="{ 'hover:bg-gray-800': darkMode, 'hover:bg-gray-100': !darkMode }"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
             </svg>
@@ -125,16 +130,16 @@
     </div>
   </div>
 </nav>
-<div class="fixed top-[60px] left-0 right-0 bg-blue-600 text-white py-2 overflow-hidden">
+<div *ngIf="!hideBanner" class="fixed top-[60px] left-0 right-0 bg-blue-600 text-white py-2 overflow-hidden">
   <div class="moving-line-container">
     <div class="moving-line whitespace-nowrap animate-marquee">
       <span>Get ready to make informed decisions with our Stock Market Prediction App – Let’s predict the future of stocks together!</span>
       <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-      <span>Elzrazer website </span>
       <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
     </div>
   </div>
 </div>
+
 
 <!-- Space for Content -->
 <div class="h-16"></div>
