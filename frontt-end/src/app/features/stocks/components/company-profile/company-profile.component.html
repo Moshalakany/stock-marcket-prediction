@@ -1,0 +1,211 @@
+<div class="container mx-auto px-4 py-8 overflow-x-hidden">
+    <!-- Loading state -->
+    <div *ngIf="isLoading" class="flex justify-center items-center min-h-[400px]">
+      <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2" [ngClass]="{'border-blue-400': darkMode, 'border-blue-600': !darkMode}"></div>
+    </div>
+  
+    <!-- Error state -->
+    <div *ngIf="error && !isLoading" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-6">
+      <strong class="font-bold">Error!</strong>
+      <span class="block sm:inline">{{ error }}</span>
+    </div>
+  
+    <!-- Company profile content -->
+    <div *ngIf="company && !isLoading" class="flex flex-col lg:flex-row gap-8">
+      <!-- Left column: Company info -->
+      <div class="flex-1 lg:max-w-md">
+        <!-- Company header -->
+        <div class="flex items-center mb-8">
+          <div class="h-16 w-16 rounded-full overflow-hidden bg-gray-100 flex items-center justify-center mr-4">
+            <img [src]="company.logoUrl || 'assets/placeholder-logo.png'" 
+                 [alt]="company.companyName + ' logo'" 
+                 class="h-16 w-16"
+                 onError="this.src='assets/placeholder-logo.png'">
+          </div>
+          <div>
+            <h1 class="text-3xl font-bold" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+              {{ company.companyName }}
+            </h1>
+            <div class="flex items-center">
+              <span class="text-xl font-mono font-semibold mr-2" [ngClass]="{'text-blue-400': darkMode, 'text-blue-600': !darkMode}">
+                {{ company.symbol }}
+              </span>
+              <span *ngIf="company.exchange" class="text-sm" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+                {{ company.exchange }}
+              </span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Current price info -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
+          <div class="flex items-baseline justify-between">
+            <span class="text-3xl font-bold" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+              {{ company.price | currency }}
+            </span>
+            <div class="flex items-center text-lg font-semibold" [ngClass]="getChangeClass(company.change)">
+              <mat-icon>{{ getChangeIcon(company.change) }}</mat-icon>
+              <span class="ml-1">
+                {{ company.change > 0 ? '+' : '' }}{{ company.change | number:'1.2-2' }} 
+                ({{ company.changePercent > 0 ? '+' : '' }}{{ company.changePercent | number:'1.2-2' }}%)
+              </span>
+            </div>
+          </div>
+          <p class="text-xs mt-1" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+            Last updated: {{ company.lastUpdated | date:'medium' }}
+          </p>
+        </div>
+  
+        <!-- Company description -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
+          <h2 class="text-lg font-semibold mb-3" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+            About {{ company.companyName }}
+          </h2>
+          <p class="leading-relaxed" [ngClass]="{'text-gray-300': darkMode, 'text-gray-600': !darkMode}">
+            {{ company.description || 'No company description available.' }}
+          </p>
+  
+          <!-- Company details -->
+          <div class="mt-6 grid grid-cols-2 gap-4">
+            <div *ngIf="company.sector" class="overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Sector</h3>
+              <p class="truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">{{ company.sector }}</p>
+            </div>
+  
+            <div *ngIf="company.industry" class="overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Industry</h3>
+              <p class="truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">{{ company.industry }}</p>
+            </div>
+  
+            <div *ngIf="company.employees" class="overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Employees</h3>
+              <p class="truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">{{ company.employees | number }}</p>
+            </div>
+  
+            <div *ngIf="company.country" class="overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Country</h3>
+              <p class="truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">{{ company.country }}</p>
+            </div>
+  
+            <div *ngIf="company.ceo" class="overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">CEO</h3>
+              <p class="truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">{{ company.ceo }}</p>
+            </div>
+  
+            <div *ngIf="company.website" class="overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Website</h3>
+              <a [href]="company.website" target="_blank" class="text-blue-500 hover:underline truncate">Visit Website</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Key financial metrics -->
+        <div *ngIf="keyMetrics" class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+          <h2 class="text-lg font-semibold mb-4" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+            Key Metrics
+          </h2>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Market Cap</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ formatLargeNumber(keyMetrics.marketCap) }}
+              </p>
+            </div>
+  
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">P/E Ratio</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ keyMetrics.pe === 'N/A' ? 'N/A' : (keyMetrics.pe | number:'1.2-2') }}
+              </p>
+            </div>
+  
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">EPS</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ keyMetrics.eps === 'N/A' ? 'N/A' : (keyMetrics.eps | currency) }}
+              </p>
+            </div>
+  
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Dividend Yield</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ keyMetrics.dividendYield === 'N/A' ? 'N/A' : (keyMetrics.dividendYield | percent:'1.2-2') }}
+              </p>
+            </div>
+  
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">52-Week High</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ keyMetrics.yearHigh === 'N/A' ? 'N/A' : (keyMetrics.yearHigh | currency) }}
+              </p>
+            </div>
+  
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">52-Week Low</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ keyMetrics.yearLow === 'N/A' ? 'N/A' : (keyMetrics.yearLow | currency) }}
+              </p>
+            </div>
+  
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Beta</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ keyMetrics.beta === 'N/A' ? 'N/A' : (keyMetrics.beta | number:'1.2-2') }}
+              </p>
+            </div>
+  
+            <div class="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg overflow-hidden">
+              <h3 class="text-sm font-medium" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">Profit Margin</h3>
+              <p class="font-semibold truncate" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                {{ keyMetrics.profitMargin === 'N/A' ? 'N/A' : (keyMetrics.profitMargin | percent:'1.2-2') }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Right column: Charts -->
+      <div class="flex-1 flex flex-col">
+        <!-- Time period selector -->
+        <!-- <div class="flex justify-center mb-8 bg-white dark:bg-gray-800 rounded-lg shadow-md p-2">
+          <div class="flex space-x-2">
+            <button *ngFor="let period of timePeriods"
+                    (click)="changePeriod(period)"
+                    [ngClass]="{'bg-blue-500 text-white': selectedPeriod === period, 
+                                'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300': selectedPeriod !== period}"
+                    class="px-3 py-1 rounded-md font-medium text-sm focus:outline-none transition duration-150">
+              {{ period }}
+            </button>
+          </div>
+        </div> -->
+  
+        <!-- Stock price chart -->
+        <div class="space-y-6">
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 min-h-80">
+              <h2 class="text-lg font-semibold mb-4" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                Stock Price History
+              </h2>
+              <app-chart-for-stock [symbol]="companySymbol"></app-chart-for-stock>
+            </div>
+          
+            <!-- AI Prediction chart -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 min-h-80">
+              <h2 class="text-lg font-semibold mb-4 flex items-center" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+                <!-- <mat-icon class="mr-2 text-blue-500">trending_up</mat-icon> -->
+                AI Price Prediction
+              </h2>
+              <app-prediction-chart></app-prediction-chart>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  
+    <!-- News section -->
+    <div *ngIf="company && !isLoading" class="mt-10">
+      <h2 class="text-2xl font-bold mb-6" [ngClass]="{'text-white': darkMode, 'text-gray-900': !darkMode}">
+        Latest News for {{ company.companyName }}
+      </h2>
+      <app-news-page-for-stock [symbol]="companySymbol"></app-news-page-for-stock>
+    </div>
+  </div>

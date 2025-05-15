@@ -1,0 +1,40 @@
+:host {
+    display: block;
+  }
+  
+  /* Smooth transitions for dark mode */
+  body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Enhance sticky sidebar behavior */
+  aside {
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+  }
+  
+  /* Custom scrollbar for the sidebar */
+  aside::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  aside::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  aside::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+  }
+  
+  aside::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+  
+  .dark aside::-webkit-scrollbar-thumb {
+    background: #4b5563;
+  }
+  
+  .dark aside::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+  }

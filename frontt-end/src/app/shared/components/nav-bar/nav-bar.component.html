@@ -1,0 +1,160 @@
+<!-- <nav class="navbar-container">
+  
+  <div class="navbar-brand">
+    
+    <i class="fa-solid fa-arrow-trend-up"></i>
+  </div>
+
+  <input type="checkbox" id="menu-toggle" />
+
+
+  <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+
+  <div class="nav-menu">
+    <ul class="navbar-links">
+      <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/stocks" routerLinkActive="active">Stocks</a></li>
+      <li><a routerLink="/news" routerLinkActive="active">News</a></li>
+      <li><a routerLink="/about">Subscribe</a></li>
+      <li><a routerLink="/about">Contact us</a></li>
+      <li><a routerLink="/about">Watchlist</a></li>
+      <li><a routerLink="/about">portfolio</a></li>
+    </ul>
+  </div>
+  <ul class="navbar-actions">
+    <li><a routerLink="/login" class="auth-link">Log in</a></li>
+    <div class="signUp"><li><a routerLink="/signup" class="auth-link">Sign up</a></li></div>
+    
+  </ul>
+
+
+
+</nav>
+
+<div class="moving-line-container">
+  <div class="moving-line">
+    <span>Get ready to make informed decisions with our Stock Market Prediction App – Let’s predict the future of stocks together!</span>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+    <span>Discount 20% for the first 100 subscriptions! </span>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+  </div>
+</div> 
+-->
+
+
+
+<nav class="fixed top-0 left-0 right-0 z-50 shadow-md transition-colors duration-300" [ngClass]="{'bg-gray-900 text-white': darkMode, 'bg-white text-gray-800': !darkMode}">
+  <div class="container mx-auto">
+    <div class="flex justify-between items-center px-4 py-3">
+      <!-- Logo and Brand -->
+      <div class="flex items-center space-x-2">
+        <a [routerLink]="['/']" class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" [ngClass]="{'text-blue-400': darkMode, 'text-blue-600': !darkMode}">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+          </svg>
+          <span class="ml-2 text-xl font-bold" [ngClass]="{'text-blue-400': darkMode, 'text-blue-600': !darkMode}">MarketPulse</span>
+        </a>
+      </div>
+
+      <!-- Navigation Links - Desktop -->
+      <div class="hidden md:flex items-center space-x-6">
+        <a [routerLink]="['/']" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{exact: true}" class="transition-colors duration-200" [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">Home</a>
+        <a [routerLink]="['/stocks']" routerLinkActive="font-semibold" class="transition-colors duration-200" [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">Stocks</a>
+        
+        <a [routerLink]="['/news']"
+        routerLinkActive="font-semibold"
+        [routerLinkActiveOptions]="{ exact: true }"
+        class="transition-colors duration-200"
+        [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">
+        News
+     </a>
+     
+        <a [routerLink]="['/predictions']" routerLinkActive="font-semibold" class="transition-colors duration-200" [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">Predictions</a>
+      </div>
+
+      <!-- Right Side - Search & User Menu -->
+      <div class="flex items-center space-x-4">
+        <!-- Search Bar -->
+        <div class="relative hidden md:block">
+          <input type="text" placeholder="Search stocks..." class="w-64 py-1 px-3 rounded-md focus:outline-none" [ngClass]="{'bg-gray-800 border-gray-700 focus:border-blue-500': darkMode, 'bg-gray-100 border-gray-300 focus:border-blue-400': !darkMode}">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute right-3 top-1.5 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+
+        <!-- Make the entire button navigate -->
+        <div class="flex items-center">
+          <button
+            [routerLink]="['/auth/login']"
+            routerLinkActive="font-semibold"
+            class="flex items-center space-x-1 py-1 px-3 rounded-md transition-colors duration-200"
+            [ngClass]="{ 'hover:bg-gray-800': darkMode, 'hover:bg-gray-100': !darkMode }"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+            <span class="hidden md:inline">Account</span>
+          </button>
+        </div>
+
+        <button class="md:hidden focus:outline-none" (click)="toggleMobileMenu()">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+     
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="md:hidden overflow-hidden transition-all duration-300 ease-in-out" 
+         [ngClass]="{'max-h-64 pb-4': mobileMenuOpen, 'max-h-0': !mobileMenuOpen}">
+      <div class="flex flex-col space-y-3 px-4">
+        <a [routerLink]="['/']" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{exact: true}" class="py-2 transition-colors duration-200" [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">Home</a>
+        <a [routerLink]="['/stocks']" routerLinkActive="font-semibold" class="py-2 transition-colors duration-200" [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">Stocks</a>
+        <a [routerLink]="['/news']" routerLinkActive="font-semibold" class="py-2 transition-colors duration-200" [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">News</a>
+        <a [routerLink]="['/predictions']" routerLinkActive="font-semibold" class="py-2 transition-colors duration-200" [ngClass]="{'hover:text-blue-400': darkMode, 'hover:text-blue-600': !darkMode}">Predictions</a>
+        <div class="relative pt-2 pb-4">
+          <input type="text" placeholder="Search stocks..." class="w-full py-1 px-3 rounded-md focus:outline-none" [ngClass]="{'bg-gray-800 border-gray-700': darkMode, 'bg-gray-100 border-gray-300': !darkMode}">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute right-3 top-3.5 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</nav>
+<div *ngIf="!hideBanner" class="fixed top-[60px] left-0 right-0 bg-blue-600 text-white py-2 overflow-hidden">
+  <div class="moving-line-container">
+    <div class="moving-line whitespace-nowrap animate-marquee">
+      <span>Get ready to make informed decisions with our Stock Market Prediction App – Let’s predict the future of stocks together!</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+    </div>
+  </div>
+</div>
+
+
+<!-- Space for Content -->
+<div class="h-16"></div>
+
+<!-- Tailwind Animation for Moving Line -->
+<style>
+  @keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+  }
+  
+  .animate-marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+  }
+</style>
+<div class="h-16"></div> 

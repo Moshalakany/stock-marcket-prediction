@@ -1,0 +1,56 @@
+.company-selection {
+    background-color: #000; /* bg-black */
+    padding: 1rem; /* p-4 */
+    border-radius: 0.75rem; /* rounded-lg */
+    margin-bottom: 1.5rem; /* mb-6 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company-dropdown {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: 1px solid #374151; /* Gray border */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+   
+    outline: none;
+   
+    background-position: right 0.75rem center;
+    background-size: 1.25rem;
+    padding-right: 2.5rem; /* Ensure space for the arrow */
+  }
+  
+  .company-dropdown:hover {
+    background-color: #1f2937; /* Dark gray on hover */
+  }
+  
+  .company-dropdown:focus {
+    border-color: #10b981; /* Green border on focus */
+  }
+  
+  .chart-container {
+    position: relative;
+    outline: none; /* Remove default focus outline if unwanted */
+  }
+  
+  /* When focused, prevent page scroll and highlight */
+  .chart-container:focus {
+    border: 2px solid #3B82F6 ;
+    border-radius: 0.7rem;
+     /* Optional: Visual feedback */
+  }
+  
+  /* Prevent scroll propagation */
+  .chart-container:focus .bg-gray-800 {
+    overflow: hidden; /* Contain scroll events within chart */
+  }
+  
+  /* Ensure chart stays within bounds */
+  .bg-gray-800 {
+    background-color: #1F2937;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }

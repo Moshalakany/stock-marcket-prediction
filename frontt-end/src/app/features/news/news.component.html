@@ -1,0 +1,165 @@
+<!-- home.component.html -->
+<div class="container mx-auto px-4 py-6">
+    <!-- Hero Section -->
+    <section class="mb-8">
+      <div class="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-lg shadow-lg overflow-hidden">
+        <div class="px-6 py-8 md:py-12 md:px-12">
+          <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">Welcome to MarketPulse</h1>
+          <p class="text-white text-lg md:text-xl opacity-90 mb-6">Your complete solution for real-time market data, in-depth analysis, and breaking financial news</p>
+          <!-- <div class="flex flex-wrap gap-4">
+            <button class="bg-white text-blue-700 hover:bg-blue-50 px-6 py-2 rounded-md font-medium transition">
+              Get Started
+            </button>
+            <button class="bg-transparent border border-white text-white hover:bg-white/10 px-6 py-2 rounded-md font-medium transition">
+              Learn More
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </section>
+  
+    <!-- Market Overview Section -->
+    <section class="mb-8">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-bold text-gray-800">Market Overview</h2>
+        <div class="text-sm">
+          <span class="text-gray-500">Last updated: </span>
+          <span class="font-medium">{{currentTime | date:'medium'}}</span>
+        </div>
+      </div>
+      
+      <!-- Market Indices Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+        <div class="bg-white rounded-lg shadow p-4 border-l-4 border-green-500">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-gray-700">S&P 500</h3>
+              <p class="text-2xl font-bold">4,927.21</p>
+            </div>
+            <div class="text-right">
+              <span class="text-green-600 font-medium">+1.23%</span>
+              <p class="text-sm text-gray-500">+59.81</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow p-4 border-l-4 border-red-500">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-gray-700">NASDAQ</h3>
+              <p class="text-2xl font-bold">15,982.11</p>
+            </div>
+            <div class="text-right">
+              <span class="text-red-600 font-medium">-0.48%</span>
+              <p class="text-sm text-gray-500">-76.73</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow p-4 border-l-4 border-green-500">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-gray-700">DOW JONES</h3>
+              <p class="text-2xl font-bold">38,157.67</p>
+            </div>
+            <div class="text-right">
+              <span class="text-green-600 font-medium">+0.92%</span>
+              <p class="text-sm text-gray-500">+347.12</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow p-4 border-l-4 border-green-500">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-gray-700">RUSSELL 2000</h3>
+              <p class="text-2xl font-bold">2,043.90</p>
+            </div>
+            <div class="text-right">
+              <span class="text-green-600 font-medium">+1.45%</span>
+              <p class="text-sm text-gray-500">+29.16</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Main Content Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Stock Chart Section -->
+      <section class="lg:col-span-2">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
+          <div class="p-4 border-b">
+            <div class="flex justify-between items-center">
+              <h2 class="text-xl font-bold text-gray-800">Stock Performance</h2>
+              <!-- <div class="flex gap-2">
+                <button class="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700">1D</button>
+                <button class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded hover:bg-gray-200">1W</button>
+                <button class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded hover:bg-gray-200">1M</button>
+                <button class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded hover:bg-gray-200">1Y</button>
+              </div> -->
+            </div>
+          </div>
+          <div class="p-4">
+            <app-stock-chart></app-stock-chart>
+          </div>
+        </div>
+  
+        <!-- Trending Stocks Section -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
+          <div class="p-4 border-b">
+            <div class="flex justify-between items-center">
+              <h2 class="text-xl font-bold text-gray-800">Trending Stocks</h2>
+              <button [routerLink]="['/stocks']" class="text-blue-600 hover:text-blue-800 text-sm font-medium">View All</button>
+            </div>
+          </div>
+          <div class="p-4">
+            <app-company-list></app-company-list>
+          </div>
+        </div>
+      </section>
+  
+      <!-- News Section -->
+      <section class="lg:col-span-1">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
+          <div class="p-4 border-b">
+            <div class="flex justify-between items-center">
+              <h2 class="text-xl font-bold text-gray-800">Market News</h2>
+              <button [routerLink]="['/news']" class="text-blue-600 hover:text-blue-800 text-sm font-medium">View All</button>
+            </div>
+          </div>
+          <div class="p-4">
+            <app-news-list></app-news-list>
+          </div>
+        </div>
+  
+        <!-- Watchlist Section -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="p-4 border-b">
+            <div class="flex justify-between items-center">
+              <h2 class="text-xl font-bold text-gray-800">Your Watchlist</h2>
+              <button class="text-blue-600 hover:text-blue-800 text-sm font-medium">Edit</button>
+            </div>
+          </div>
+          <div class="p-4">
+            <!-- Empty State -->
+            <div *ngIf="watchlistEmpty" class="py-6 text-center">
+              <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                </svg>
+              </div>
+              <h3 class="text-gray-500 font-medium mb-2">No stocks in watchlist</h3>
+              <p class="text-gray-400 text-sm mb-4">Add stocks to track their performance</p>
+              <button class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-medium">Add Stocks</button>
+            </div>
+            
+            <!-- If watchlist has items -->
+            <div *ngIf="!watchlistEmpty" class="space-y-4">
+              <!-- Watchlist items would go here -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>

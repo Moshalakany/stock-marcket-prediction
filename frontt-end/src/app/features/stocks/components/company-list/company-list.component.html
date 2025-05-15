@@ -1,0 +1,61 @@
+<div class="overflow-x-auto">
+  <table class="min-w-full divide-y" [ngClass]="{'divide-gray-700': darkMode, 'divide-gray-200': !darkMode}">
+    <thead [ngClass]="{'bg-gray-800': darkMode, 'bg-gray-50': !darkMode}">
+      <tr>
+        <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+          Symbol
+        </th>
+        <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+          Company
+        </th>
+        <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+          Price
+        </th>
+        <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+          Change
+        </th>
+        <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+          % Change
+        </th>
+        <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider" [ngClass]="{'text-gray-400': darkMode, 'text-gray-500': !darkMode}">
+          Market Cap
+        </th>
+      </tr>
+    </thead>
+    <tbody class="divide-y" [ngClass]="{'divide-gray-700 bg-gray-800': darkMode, 'divide-gray-200 bg-white': !darkMode}">
+      <tr *ngFor="let company of stocks" class="hover:opacity-90 cursor-pointer transition-colors duration-150"
+          [ngClass]="{'hover:bg-gray-700': darkMode, 'hover:bg-gray-50': !darkMode}"
+          [routerLink]="['/stocks', company.symbol]">
+        <td class="px-6 py-4 whitespace-nowrap">
+          <div class="flex items-center">
+            <div class="flex-shrink-0 h-8 w-8 rounded-full overflow-hidden bg-gray-100 flex items-center justify-center">
+              <img [src]="company.logoUrl" [alt]="company.companyName + ' logo'" class="h-8 w-8" onError="this.src='assets/placeholder-logo.png'">
+            </div>
+            <div class="ml-4 font-medium" [ngClass]="{'text-blue-400': darkMode, 'text-blue-600': !darkMode}">
+              {{ company.symbol }}
+            </div>
+          </div>
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap">
+          <div class="text-sm">{{ company.companyName }}</div>
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap">
+          <div class="text-sm font-medium">{{ company.price | currency }}</div>
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap">
+          <div class="text-sm" [ngClass]="{'text-green-400': company.change > 0, 'text-red-400': company.change < 0, 'text-gray-500': company.change === 0}">
+            {{ company.change > 0 ? '+' : '' }}{{ company.change | number:'1.2-2' }}
+          </div>
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap">
+          <div class="text-sm" [ngClass]="{'text-green-400': company.changePercent > 0, 'text-red-400': company.changePercent < 0, 'text-gray-500': company.changePercent === 0}">
+            {{ company.changePercent > 0 ? '+' : '' }}{{ company.changePercent | number:'1.2-2' }}%
+          </div>
+        </td>
+        <td  class="px-6 py-4 whitespace-nowrap text-sm">
+          {{ (company.marketCap / 1000000000).toFixed(1) }}B
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

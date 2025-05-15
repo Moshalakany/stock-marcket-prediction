@@ -1,0 +1,174 @@
+<div class="stocks-container">
+    <!-- Page Header -->
+    <header class="stocks-header">
+      <h1>S&P 500 Companies</h1>
+      <div class="header-description">
+        Track the performance of the top 500 companies in the US stock market
+      </div>
+    </header>
+  
+    <!-- Filter and Search Section -->
+    <!-- <section class="filter-section">
+      <div class="search-container">
+        <mat-form-field appearance="outline">
+          <mat-label>Search by symbol or company name</mat-label>
+          <input matInput [formControl]="searchControl" placeholder="Search stocks...">
+          <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+      </div>
+  
+      <div class="filter-options">
+        <mat-form-field appearance="outline">
+          <mat-label>Filter by sector</mat-label>
+          <mat-select [(value)]="selectedSector" (selectionChange)="onSectorChange($event.value)">
+            <mat-option value="All">All Sectors</mat-option>
+            <mat-option *ngFor="let sector of sectors" [value]="sector">{{sector}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </section> -->
+  
+    <!-- Loading Indicator -->
+    <div *ngIf="isLoading" class="flex justify-center items-center min-h-[400px]">
+      <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2" [ngClass]="{'border-blue-400': darkMode, 'border-blue-600': !darkMode}"></div>
+    </div>
+  
+    <!-- Error Message -->
+    <div class="error-container" *ngIf="error">
+      <mat-icon color="warn">error</mat-icon>
+      <span>{{error}}</span>
+      <button mat-button color="primary" (click)="loadStocks()">Try Again</button>
+    </div>
+  
+    <!-- Market Summary Cards -->
+    <section class="market-summary" *ngIf="!isLoading && !error">
+      <div class="summary-card">
+        <div class="card-title">S&P 500</div>
+        <div class="card-value">4,795.56</div>
+        <div class="card-change positive-change">+0.76%</div>
+      </div>
+      <div class="summary-card">
+        <div class="card-title">Today's Volume</div>
+        <div class="card-value">5.2B</div>
+      </div>
+      <div class="summary-card">
+        <div class="card-title">Market Status</div>
+        <div class="card-value">
+          <span class="status-indicator active"></span>
+          Open
+        </div>
+      </div>
+    </section>
+  
+    <!-- Stocks Table -->
+    <section class="stocks-table-container" *ngIf="!isLoading && !error">
+      <table mat-table [dataSource]="filteredStocks" class="stocks-table mat-elevation-z2">
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="symbol">
+          <th mat-header-cell *matHeaderCellDef (click)="onSortChange('symbol')">
+            Symbol
+            <mat-icon *ngIf="sortField === 'symbol'">
+              {{sortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward'}}
+            </mat-icon>
+          </th>
+          <td mat-cell *matCellDef="let stock" routerLink="/stocks/{{stock.symbol}}">
+            <div class="symbol-cell">
+              <span class="stock-symbol">{{stock.symbol}}</span>
+              <mat-icon class="watchlist-icon" (click)="toggleWatchlist(stock.symbol)">
+                {{isInWatchlist(stock.symbol) ? 'star' : 'star_border'}}
+              </mat-icon>
+            </div>
+          </td>
+        </ng-container>
+  
+        <!-- Company Name Column -->
+        <ng-container matColumnDef="companyName">
+          <th  mat-header-cell *matHeaderCellDef (click)="onSortChange('companyName')">
+            Company
+            <mat-icon *ngIf="sortField === 'companyName'">
+              {{sortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward'}}
+            </mat-icon>
+          </th>
+          <td routerLink="/stocks/{{stock.symbol}}" mat-cell *matCellDef="let stock">{{stock.companyName}}</td>
+        </ng-container>
+  
+        <!-- Price Column -->
+        <ng-container matColumnDef="price">
+          <th mat-header-cell *matHeaderCellDef (click)="onSortChange('price')">
+            Price
+            <mat-icon *ngIf="sortField === 'price'">
+              {{sortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward'}}
+            </mat-icon>
+          </th>
+          <td routerLink="/stocks/{{stock.symbol}}" mat-cell *matCellDef="let stock">${{stock.price.toFixed(2)}}</td>
+        </ng-container>
+  
+        <!-- Change Column -->
+        <ng-container matColumnDef="change">
+          <th mat-header-cell *matHeaderCellDef (click)="onSortChange('change')">
+            Change
+            <mat-icon *ngIf="sortField === 'change'">
+              {{sortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward'}}
+            </mat-icon>
+          </th>
+          <td routerLink="/stocks/{{stock.symbol}}" mat-cell *matCellDef="let stock" [ngClass]="getChangeClass(stock.change)">
+            {{stock.change > 0 ? '+' : ''}}{{stock.change.toFixed(2)}} ({{stock.changePercent.toFixed(2)}}%)
+          </td>
+        </ng-container>
+  
+        <!-- Volume Column -->
+        <ng-container matColumnDef="volume">
+          <th mat-header-cell *matHeaderCellDef (click)="onSortChange('volume')">
+            Volume
+            <mat-icon *ngIf="sortField === 'volume'">
+              {{sortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward'}}
+            </mat-icon>
+          </th>
+          <td routerLink="/stocks/{{stock.symbol}}" mat-cell *matCellDef="let stock">{{(stock.volume / 1000000).toFixed(1)}}M</td>
+        </ng-container>
+  
+        <!-- Market Cap Column -->
+        <ng-container matColumnDef="marketCap">
+          <th mat-header-cell *matHeaderCellDef (click)="onSortChange('marketCap')">
+            Market Cap
+            <mat-icon *ngIf="sortField === 'marketCap'">
+              {{sortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward'}}
+            </mat-icon>
+          </th>
+          <td routerLink="/stocks/{{stock.symbol}}" mat-cell *matCellDef="let stock">{{(stock.marketCap / 1000000000).toFixed(1)}}B</td>
+        </ng-container>
+  
+        <!-- Sector Column -->
+        <ng-container matColumnDef="sector">
+          <th mat-header-cell *matHeaderCellDef (click)="onSortChange('sector')">
+            Dividend
+            <mat-icon *ngIf="sortField === 'sector'">
+              {{sortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward'}}
+            </mat-icon>
+          </th>
+          <td mat-cell *matCellDef="let stock">
+            <span class="sector-chip">{{stock.dividend}}</span>
+          </td>
+        </ng-container>
+  
+        <tr mat-header-row *matHeaderRowDef="['symbol', 'companyName', 'price', 'change', 'volume', 'marketCap', 'sector']"></tr>
+        <tr mat-row *matRowDef="let row; columns: ['symbol', 'companyName', 'price', 'change', 'volume', 'marketCap', 'sector'];"></tr>
+      </table>
+  
+      <!-- Empty State -->
+      <div class="empty-state" *ngIf="filteredStocks.length === 0">
+        <mat-icon>search_off</mat-icon>
+        <h3>No stocks found</h3>
+        <p>Try adjusting your search or filter criteria</p>
+      </div>
+  
+      <!-- Pagination -->
+      <mat-paginator 
+        [length]="totalItems"
+        [pageSize]="pageSize"
+        
+        (page)="onPageChange($event.pageIndex + 1)" 
+        showFirstLastButtons>
+      </mat-paginator>
+    </section>
+  </div>

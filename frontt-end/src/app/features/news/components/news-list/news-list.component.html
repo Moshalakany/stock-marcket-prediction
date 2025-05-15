@@ -1,0 +1,6 @@
+<!-- news-list.component.html -->
+<div class="grid grid-cols-1 gap-0">
+  <div *ngFor="let article of newsArticles">
+    <app-news-card [article]="article"></app-news-card>
+  </div>
+</div>

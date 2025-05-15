@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\",
   "Documents": [
     {
@@ -7,6 +8,10 @@
       "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
+=======
+  "WorkspaceRootPath": "E:\\my Own projects repo\\c#\\StockMarket\\",
+  "Documents": [],
+>>>>>>> b684774d20d97c5f9ffe7e5d6ac9db54ab068c99
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,11 +19,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 286,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
+=======
+          "SelectedChildIndex": -1,
+>>>>>>> b684774d20d97c5f9ffe7e5d6ac9db54ab068c99
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -32,6 +42,8 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-15T13:23:59.933Z",
               "EditorCaption": ""
+=======
+>>>>>>> b684774d20d97c5f9ffe7e5d6ac9db54ab068c99
             }
           ]
         }

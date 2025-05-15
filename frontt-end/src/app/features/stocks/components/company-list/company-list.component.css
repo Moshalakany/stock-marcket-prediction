@@ -1,0 +1,7 @@
+.stock-card {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .stock-card:hover {
+    transform: translateY(-2px);
+  }
