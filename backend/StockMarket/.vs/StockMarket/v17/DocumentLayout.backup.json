@@ -1,38 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\my Own projects repo\\c#\\StockMarket\\",
+  "WorkspaceRootPath": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\stock market gp\\current\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\controllers\\newsarticlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\controllers\\newsarticlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\dtos\\newsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\dtos\\newsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\services\\interfaces\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\services\\interfaces\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\my own projects repo\\c#\\stockmarket\\stockmarket\\dtos\\portfolioitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\dtos\\portfolioitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|e:\\stock market gp\\current\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 286,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,100 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NewsArticleDto.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\DTOs\\NewsArticleDto.cs",
-              "RelativeDocumentMoniker": "StockMarket\\DTOs\\NewsArticleDto.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\DTOs\\NewsArticleDto.cs",
-              "RelativeToolTip": "StockMarket\\DTOs\\NewsArticleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:16:45.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Program.cs",
-              "RelativeDocumentMoniker": "StockMarket\\Program.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Program.cs",
-              "RelativeToolTip": "StockMarket\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:02:46.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PortfolioController.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Controllers\\PortfolioController.cs",
-              "RelativeDocumentMoniker": "StockMarket\\Controllers\\PortfolioController.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Controllers\\PortfolioController.cs",
-              "RelativeToolTip": "StockMarket\\Controllers\\PortfolioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T20:56:23.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NewsArticleController.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Controllers\\NewsArticleController.cs",
-              "RelativeDocumentMoniker": "StockMarket\\Controllers\\NewsArticleController.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Controllers\\NewsArticleController.cs",
-              "RelativeToolTip": "StockMarket\\Controllers\\NewsArticleController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAuwF4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T20:24:49.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "INewsArticleService.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Services\\Interfaces\\INewsArticleService.cs",
-              "RelativeDocumentMoniker": "StockMarket\\Services\\Interfaces\\INewsArticleService.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Services\\Interfaces\\INewsArticleService.cs",
-              "RelativeToolTip": "StockMarket\\Services\\Interfaces\\INewsArticleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:38:18.769Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NewsArticleService.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Services\\NewsArticleService.cs",
-              "RelativeDocumentMoniker": "StockMarket\\Services\\NewsArticleService.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Services\\NewsArticleService.cs*",
-              "RelativeToolTip": "StockMarket\\Services\\NewsArticleService.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Title": "PortfolioService.cs",
+              "DocumentMoniker": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Services\\PortfolioService.cs",
+              "RelativeDocumentMoniker": "StockMarket\\Services\\PortfolioService.cs",
+              "ToolTip": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Services\\PortfolioService.cs",
+              "RelativeToolTip": "StockMarket\\Services\\PortfolioService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:35:27.267Z",
+              "WhenOpened": "2025-05-15T14:14:43.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "StockMarket\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "StockMarket\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:34:34.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PortfolioItemDto.cs",
-              "DocumentMoniker": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\DTOs\\PortfolioItemDto.cs",
-              "RelativeDocumentMoniker": "StockMarket\\DTOs\\PortfolioItemDto.cs",
-              "ToolTip": "E:\\my Own projects repo\\c#\\StockMarket\\StockMarket\\DTOs\\PortfolioItemDto.cs",
-              "RelativeToolTip": "StockMarket\\DTOs\\PortfolioItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:33:39.661Z"
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StockMarket\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StockMarket\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T13:23:59.933Z",
+              "EditorCaption": ""
             }
           ]
         }
