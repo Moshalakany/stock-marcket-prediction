@@ -24,6 +24,9 @@ namespace StockMarket.Services
                     // PortfolioStock.TotalValue is a calculated property (Quantity * CurrentPrice).
                     // This relies on PortfolioStock.CurrentPrice being correctly populated/updated.
                     // For the purpose of GetPortfolioAsync, we sum the existing TotalValues.
+                    //var portofolioStocks=portfolio.PortfolioStocks.Select(ps=>ps.CurrentPrice=liveDataService.GetCurrentPriceAsync(ps.StockSymbol));
+                    
+
                     portfolio.TotalValue = portfolio.PortfolioStocks.Sum(ps => ps.TotalValue);
                 }
                 else
@@ -71,11 +74,11 @@ namespace StockMarket.Services
                 {
                     Portfolio = portfolio,
                     StockSymbol = stock.Symbol,
-                    Stock = stock, 
+                    Stock = stock,
                     Quantity = portfolioItemDto.Quantity,
-                    PurchaseDate = DateTime.UtcNow,  
-                    CurrentPrice = currentPrice,
-                    PurchasePrice = currentPrice
+                    PurchaseDate = DateTime.UtcNow,
+                    PurchasePrice = currentPrice,
+                    CurrentPrice = currentPrice
                 };
                 portfolio.PortfolioStocks?.Add(portfolioStock);
             }

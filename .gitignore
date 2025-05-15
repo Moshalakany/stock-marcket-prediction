@@ -13,10 +13,7 @@ news/sentiment_evaluation_results/sentiment_evaluation_results.csv
 stcok_Forcast/sentiment_data/
 preProcessing/MergedData/
 Stock_APIs/preProcessing/
-backend/StockMarket/WebApplication4/obj/
-backend/StockMarket/WebApplication4/bin/
-backend/StockMarket/WebApplication4/Debug/
-backend/StockMarket/WebApplication4/Release/
+
 backend/StockMarket/StockMarket/bin/
 backend/StockMarket/StockMarket/obj/
 backend/StockMarket/StockMarket/Properties/
