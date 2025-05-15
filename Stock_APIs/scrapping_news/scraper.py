@@ -21,13 +21,13 @@ def parse_articles(articles):
     """Extract information from article elements"""
     news_items = []
     for article in articles:
-        datetime_str = article.find('time', class_='latest-news__date').get('datetime')
+        datetime = datetime.strptime(article.find('time', class_='latest-news__date').get('datetime'))
         title = article.find('a', class_='news-link').text
         source = article.find('span', class_='latest-news__source').text
         link = article.find('a', class_='news-link').get('href')
         
         news_items.append({
-            'datetime': datetime_str,
+            'datetime': datetime,
             'title': title,
             'source': source,
             'link': link

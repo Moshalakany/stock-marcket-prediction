@@ -17,7 +17,7 @@ def get_page(url, retry=0):
     
     return articles
 
-def parse_articles(articles):
+def parse_articles(articles, symbol=None):
     """Extract information from article elements and parse datetime"""
     news_items = []
     for article in articles:
@@ -41,6 +41,7 @@ def parse_articles(articles):
                 parsed_datetime = datetime_str
         
         news_items.append({
+            'symbol': symbol,
             'datetime': parsed_datetime,
             'datetime_str': datetime_str,  # Keep original string for reference
             'title': title,
@@ -97,7 +98,7 @@ def get_news_by_date_range(symbol, start_date, end_date):
         if not articles:
             continue
             
-        page_news = parse_articles(articles)
+        page_news = parse_articles(articles, symbol)
         
         # Check each article's datetime and break if outside date range
         for item in page_news:
@@ -139,7 +140,7 @@ def get_latest_page_news(symbol):
         if not articles:
             return []
             
-        news_items = parse_articles(articles)
+        news_items = parse_articles(articles, symbol)
         return news_items
     except Exception as e:
         print(f"Error scraping news for {symbol}: {e}")
