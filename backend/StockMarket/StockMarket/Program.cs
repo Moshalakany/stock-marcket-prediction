@@ -73,6 +73,7 @@ builder.Services.AddScoped<IStockService, StockService>();
 builder.Services.AddScoped<IPortfolioService, PortfolioService>(); 
 builder.Services.AddScoped<IGetLiveDataService, GetLiveDataService>();
 builder.Services.AddSingleton<INewsArticleService, NewsArticleService>();
+builder.Services.AddScoped<IWatchlistService, WatchlistService>();
 
 //// Register NewsArticle-related services
 //builder.Services.AddScoped<INewsArticleService, NewsArticleService>();
