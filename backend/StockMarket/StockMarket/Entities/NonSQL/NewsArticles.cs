@@ -11,15 +11,15 @@ namespace StockMarket.Entities.NonSQL
         public string Id { get; set; }
         
         [Required]
-        public string Symbol { get; set; }
+        public string symbol { get; set; }
         
-        public DateTime DateTime { get; set; }
+        public DateTime datetime { get; set; }
         
-        public string Title { get; set; }
+        public string title { get; set; }
         
-        public string Source { get; set; }
+        public string source { get; set; }
         
-        public string Link { get; set; }
+        public string link { get; set; }
         
     }
 }

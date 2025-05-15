@@ -1,12 +1,13 @@
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using StockMarket.Data;
 using StockMarket.DTOs;
 using StockMarket.Entities.SQL;
+using StockMarket.Scripts;
 using StockMarket.Services.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 namespace StockMarket.Services
 {
@@ -14,25 +15,27 @@ namespace StockMarket.Services
     {
         public async Task<IEnumerable<Stock>> GetAllStocksAsync()
         {
+            LoadStocksToDb loadStocksToDb = new LoadStocksToDb(context);
+            loadStocksToDb.LoadStocks();
             return await context.Stocks.ToListAsync();
         }
 
         public async Task<Stock?> GetStockBySymbolAsync(string symbol)
         {
-            return await context.Stocks.FirstOrDefaultAsync(s => s.Symbol == symbol);
+            return await context.Stocks.FirstOrDefaultAsync(s => s.symbol == symbol);
         }
 
         public async Task<Stock?> CreateStockAsync(StockDto stockDto)
         {
             // Check if a stock with the same symbol already exists
-            if (stockDto.Symbol == null || await context.Stocks.AnyAsync(s => s.Symbol == stockDto.Symbol))
+            if (stockDto.Symbol == null || await context.Stocks.AnyAsync(s => s.symbol == stockDto.Symbol))
             {
                 return null; // Symbol already exists or is null, cannot create stock
             }
 
             var stock = new Stock
             {
-                Symbol = stockDto.Symbol,
+                symbol = stockDto.Symbol,
                 CompanyName = stockDto.CompanyName,
                 Sector = stockDto.Sector
             };
@@ -44,7 +47,7 @@ namespace StockMarket.Services
 
         public async Task<Stock?> UpdateStockAsync(string symbol, StockDto stockDto)
         {
-            var stock = await context.Stocks.FirstOrDefaultAsync(s => s.Symbol == symbol);
+            var stock = await context.Stocks.FirstOrDefaultAsync(s => s.symbol == symbol);
             if (stock == null)
             {
                 return null;
@@ -103,7 +106,7 @@ namespace StockMarket.Services
 
         public async Task<bool> DeleteStockAsync(string symbol)
         {
-            var stock = await context.Stocks.FirstOrDefaultAsync(s => s.Symbol == symbol);
+            var stock = await context.Stocks.FirstOrDefaultAsync(s => s.symbol == symbol);
             if (stock == null)
             {
                 return false;

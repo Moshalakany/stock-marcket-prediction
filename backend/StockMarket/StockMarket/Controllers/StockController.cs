@@ -3,6 +3,7 @@ using StockMarket.DTOs;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using StockMarket.Services.Interfaces;
+using StockMarket.Scripts;
 
 namespace StockMarket.Controllers
 {
@@ -10,6 +11,7 @@ namespace StockMarket.Controllers
     [ApiController]
     public class StockController(IStockService stockService) : ControllerBase
     {
+      
         [HttpGet]
         public async Task<IActionResult> GetAllStocks()
         {
@@ -37,7 +39,7 @@ namespace StockMarket.Controllers
             {
                 return BadRequest("Could not create stock.");
             }
-            return CreatedAtAction(nameof(GetStockBySymbol), new { symbol = stock.Symbol }, stock);
+            return CreatedAtAction(nameof(GetStockBySymbol), new { symbol = stock.symbol }, stock);
         }
 
         [HttpPut("{symbol}")]

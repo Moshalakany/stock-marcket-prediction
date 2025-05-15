@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using StockMarket.Data;
+using StockMarket.Scripts;
 using StockMarket.Services;
 using StockMarket.Services.Interfaces;
 using System.Security.Claims;
@@ -67,7 +68,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             }
         };
     });
+//news articles script
+//System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+//StockNewsFromExcelToDb stockNewsFromExcelToDb = new StockNewsFromExcelToDb();
+//stockNewsFromExcelToDb.SaveToMongoCollection("E:\\Stock Market GP\\Current\\stock-marcket-prediction\\news\\news_data");
 //builder.Services.AddSingleton<RabbitMQService>();
+
+
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IStockService, StockService>();
 builder.Services.AddScoped<IPortfolioService, PortfolioService>(); 

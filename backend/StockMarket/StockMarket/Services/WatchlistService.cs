@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using StockMarket.Data;
 using StockMarket.Entities.SQL;
 using StockMarket.Services.Interfaces;
-
 namespace StockMarket.Services
 {
     public class WatchlistService : IWatchlistService
