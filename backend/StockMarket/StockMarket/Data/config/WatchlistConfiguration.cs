@@ -6,8 +6,6 @@ namespace StockMarket.Data.config
 {
     public class WatchlistConfiguration:IEntityTypeConfiguration<Watchlist>
     {
-
-
         public void Configure(EntityTypeBuilder<Watchlist> builder)
         {
             builder.HasKey(s => s.WatchlistId);
@@ -19,6 +17,10 @@ namespace StockMarket.Data.config
                 .IsRequired()
                 .HasColumnName("UserId")
                 .HasColumnType("int");
+            builder.Property(s => s.Name)
+                .HasMaxLength(100)
+                .HasColumnName("Name")
+                .HasColumnType("nvarchar(100)");
             builder.HasOne(s => s.User)
                 .WithOne(s => s.Watchlist)
                 .HasForeignKey<Watchlist>(s => s.UserId);
