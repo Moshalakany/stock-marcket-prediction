@@ -5,7 +5,6 @@ news/sentiment_model_output/enhanced_hybrid_model/combined_stock_news.csv
 news/sentiment_evaluation_results/sentiment_evaluation_results.csv
 stcok_Forcast/sentiment_data/
 preProcessing/MergedData/
-<<<<<<< HEAD
 *.log
 *.pyc
 news/sentiment_model_output/enhanced_hybrid_model/preprocessed_stock_news.csv
@@ -13,8 +12,6 @@ news/sentiment_model_output/enhanced_hybrid_model/combined_stock_news.csv
 news/sentiment_evaluation_results/sentiment_evaluation_results.csv
 stcok_Forcast/sentiment_data/
 preProcessing/MergedData/
-=======
->>>>>>> b684774d20d97c5f9ffe7e5d6ac9db54ab068c99
 Stock_APIs/preProcessing/
 backend/StockMarket/WebApplication4/obj/
 backend/StockMarket/WebApplication4/bin/
@@ -24,12 +21,9 @@ backend/StockMarket/StockMarket/bin/
 backend/StockMarket/StockMarket/obj/
 backend/StockMarket/StockMarket/Properties/
 backend/StockMarket/StockMarket/Debug/
-<<<<<<< HEAD
 backend/StockMarket/StockMarket/Release/
 frontt-end/node_modules/
 frontt-end/.angular/
 frontt-end/dist/
-
-=======
 backend/StockMarket/StockMarket/Release/
->>>>>>> b684774d20d97c5f9ffe7e5d6ac9db54ab068c99
+backend/StockMarket/.vs/
