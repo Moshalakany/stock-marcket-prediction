@@ -18,7 +18,7 @@ def get_page(url, retry=0):
     return articles
 
 def parse_articles(articles):
-    """Extract information from article elements"""
+    """Extract information from article elements and parse datetime"""
     news_items = []
     for article in articles:
         datetime_str = article.find('time', class_='latest-news__date').get('datetime')
@@ -26,8 +26,23 @@ def parse_articles(articles):
         source = article.find('span', class_='latest-news__source').text
         link = article.find('a', class_='news-link').get('href')
         
+        # Parse datetime string to datetime object
+        parsed_datetime = None
+        try:
+            # Try parsing in format "3/13/2025 6:23:33 AM"
+            parsed_datetime = datetime.strptime(datetime_str, '%m/%d/%Y %I:%M:%S %p')
+        except ValueError:
+            try:
+                # Fallback to ISO format if the above fails
+                parsed_datetime = datetime.fromisoformat(datetime_str)
+            except ValueError:
+                print(f"Could not parse date: {datetime_str}")
+                # Keep the original string if parsing fails
+                parsed_datetime = datetime_str
+        
         news_items.append({
-            'datetime': datetime_str,
+            'datetime': parsed_datetime,
+            'datetime_str': datetime_str,  # Keep original string for reference
             'title': title,
             'source': source,
             'link': link
@@ -51,7 +66,6 @@ def get_news_by_date_range(symbol, start_date, end_date):
         start_date: Start date string in format 'm/d/y'
         end_date: End date string in format 'm/d/y'
     """
-
     
     # Convert string dates to datetime objects using correct format
     start_dt = datetime.strptime(start_date, '%m/%d/%Y')
@@ -87,16 +101,20 @@ def get_news_by_date_range(symbol, start_date, end_date):
         
         # Check each article's datetime and break if outside date range
         for item in page_news:
-            try:
-                # Parse datetime in format "3/13/2025 6:23:33 AM"
-                article_dt = datetime.strptime(item['datetime'], '%m/%d/%Y %I:%M:%S %p')
-            except ValueError:
-                # Fallback to ISO format if the above fails
+            article_dt = item['datetime']
+            
+            # If datetime parsing failed and we have a string, try to parse it again
+            if isinstance(article_dt, str):
                 try:
-                    article_dt = datetime.fromisoformat(item['datetime'])
+                    # Parse datetime in format "3/13/2025 6:23:33 AM"
+                    article_dt = datetime.strptime(article_dt, '%m/%d/%Y %I:%M:%S %p')
                 except ValueError:
-                    print(f"Could not parse date: {item['datetime']}")
-                    continue
+                    # Fallback to ISO format if the above fails
+                    try:
+                        article_dt = datetime.fromisoformat(article_dt)
+                    except ValueError:
+                        print(f"Could not parse date: {article_dt}")
+                        continue
             
             if article_dt <= end_dt and article_dt >= start_dt:
                 filtered_news.append(item)
