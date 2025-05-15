@@ -19,12 +19,9 @@ backend/StockMarket/StockMarket/obj/
 backend/StockMarket/StockMarket/Properties/
 backend/StockMarket/StockMarket/Debug/
 backend/StockMarket/StockMarket/Release/
-<<<<<<< HEAD
 backend/StockMarket/.vs/
-=======
 frontt-end/node_modules/
 frontt-end/.angular/
 frontt-end/dist/
 backend/StockMarket/StockMarket/Release/
 backend/StockMarket/.vs
->>>>>>> 93a6dbd14816ed1da2f03119374a7c84cecc41df
