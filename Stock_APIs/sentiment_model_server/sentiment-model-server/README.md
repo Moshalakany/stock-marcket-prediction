@@ -23,23 +23,18 @@ sentiment-model-server
 
 ## Setup Instructions
 
-1. **Clone the repository**:
-   ```
-   git clone <repository-url>
-   cd sentiment-model-server
-   ```
 
-2. **Build the Docker image**:
+1. **Build the Docker image**:
    ```
    docker build -t sentiment-analysis-server .
    ```
 
-3. **Run the Docker container**:
+2. **Run the Docker container**:
    ```
    docker run -p 8000:8000 sentiment-analysis-server
    ```
 
-4. **Access the API**:
+3. **Access the API**:
    The API will be available at `http://localhost:8000`. You can use tools like Postman or curl to interact with the endpoints.
 
 ## API Endpoints
