@@ -3,7 +3,7 @@ from flask_cors import CORS
 import os
 import logging
 import statistics as st
-from enhanced_sentiment_model import EnhancedStockSentimentAnalyzer
+from app.enhanced_sentiment_model import EnhancedStockSentimentAnalyzer
 
 logging.basicConfig(
     level=logging.INFO,
@@ -171,10 +171,22 @@ def batch_analyze_sentiment():
                 "scores": result['scores']
             })
         
+        # Handle potential error if no results have the same sentiment
+        sentiment_mode = None
+        try:
+            sentiment_mode = st.mode(sentiment_arr)
+        except:
+            if sentiment_arr:
+                # Fallback if mode calculation fails
+                sentiment_counts = {}
+                for sentiment in sentiment_arr:
+                    sentiment_counts[sentiment] = sentiment_counts.get(sentiment, 0) + 1
+                sentiment_mode = max(sentiment_counts, key=sentiment_counts.get)
+        
         return jsonify({
             "results": responses,
             "count": len(results),
-            "sentiment_mod": st.mode(sentiment_arr)
+            "sentiment_mode": sentiment_mode
         })
     except Exception as e:
         logger.error(f"Error batch analyzing sentiment: {str(e)}")

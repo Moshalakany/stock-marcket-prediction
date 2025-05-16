@@ -23,6 +23,21 @@ sentiment-model-server
 
 ## Setup Instructions
 
+### Option 1: Local Development
+
+1. **Install the required dependencies**:
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. **Run the application**:
+   ```
+   python start_flask_sentiment_api.py
+   ```
+   
+   The server will start on http://0.0.0.0:8000
+
+### Option 2: Using Docker
 
 1. **Build the Docker image**:
    ```
@@ -34,8 +49,30 @@ sentiment-model-server
    docker run -p 8000:8000 sentiment-analysis-server
    ```
 
-3. **Access the API**:
-   The API will be available at `http://localhost:8000`. You can use tools like Postman or curl to interact with the endpoints.
+## Using the API
+
+The API will be available at `http://localhost:8000`. You can interact with the API using tools like Postman, curl, or any HTTP client.
+
+### Example API Calls:
+
+1. **Health Check**:
+   ```bash
+   curl http://localhost:8000/health
+   ```
+
+2. **Analyze Single Text**:
+   ```bash
+   curl -X POST http://localhost:8000/sentiment/analyze \
+     -H "Content-Type: application/json" \
+     -d '{"text": "Stock prices are expected to rise significantly next quarter due to increased earnings."}'
+   ```
+
+3. **Analyze Multiple Texts**:
+   ```bash
+   curl -X POST http://localhost:8000/sentiment/batch \
+     -H "Content-Type: application/json" \
+     -d '{"texts": ["Stock prices are rising", "Market is facing a downturn"]}'
+   ```
 
 ## API Endpoints
 
