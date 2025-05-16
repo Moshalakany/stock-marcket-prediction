@@ -16,6 +16,12 @@ COPY start_flask_sentiment_api.py .
 # Copy the model files
 COPY model_files/ ./model_files/
 
+# Set environment variables
+ENV MODEL_DIR=/app/model_files
+ENV DATA_DIR=/app/model_files
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
 # Expose the port the app runs on
 EXPOSE 8000
 
