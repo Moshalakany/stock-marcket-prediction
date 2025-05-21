@@ -10,15 +10,15 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code
-COPY app/ ./app/
+COPY . .
 COPY start_flask_sentiment_api.py .
 
 # Copy the model files
 COPY model_files/ ./model_files/
 
 # Set environment variables
-ENV MODEL_DIR=/app/model_files
-ENV DATA_DIR=/app/model_files
+ENV MODEL_DIR=model_files
+ENV DATA_DIR=model_files
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 

@@ -57,6 +57,7 @@ class EnhancedStockSentimentAnalyzer:
     def load_model(self):
         """Load the trained sentiment model"""
         model_path = os.path.join(self.model_dir, 'best_model.keras')
+        print(f"---------------------Loading model from {model_path}")
         if not os.path.exists(model_path):
             logger.warning(f"Model file not found at {model_path}")
             return None
