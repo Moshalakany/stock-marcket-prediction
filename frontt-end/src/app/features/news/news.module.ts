@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NgApexchartsModule } from 'ng-apexcharts';
@@ -45,5 +45,7 @@ import { TimeAgoPipe } from '../../pipes/time-ago.pipe';
     NewsPageForStockComponent,
     TimeAgoPipe
   ]
+  ,
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class NewsModule { }

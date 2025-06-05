@@ -18,12 +18,14 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { StocksRoutingModule } from './stocks-routing.module';
 import { ChartForStockComponent } from './components/chart-for-stock/chart-for-stock.component';
 import { PredictionChartComponent } from './components/prediction-chart/prediction-chart.component';
+import { IndexesSummaryComponent } from './components/indexes-summary/indexes-summary.component';
 @NgModule({
   declarations: [
     CompanyListComponent,
     StocksComponent,
     ChartForStockComponent,
-    PredictionChartComponent
+    PredictionChartComponent,
+    IndexesSummaryComponent
     
   ],
   imports: [
@@ -46,7 +48,8 @@ import { PredictionChartComponent } from './components/prediction-chart/predicti
   exports: [
     CompanyListComponent,
     ChartForStockComponent,
-    PredictionChartComponent
+    PredictionChartComponent,
+    IndexesSummaryComponent,
   ]
 })
 export class StocksModule { }
