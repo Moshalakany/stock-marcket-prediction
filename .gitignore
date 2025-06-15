@@ -25,3 +25,6 @@ frontt-end/.angular/
 frontt-end/dist/
 backend/StockMarket/StockMarket/Release/
 backend/StockMarket/.vs
+backend/StockMarket/StockMarket/appsettings.Development.json
+backend/StockMarket/StockMarket/appsettings.json
+backend/StockMarket/StockMarket/appsettings.Development.json
