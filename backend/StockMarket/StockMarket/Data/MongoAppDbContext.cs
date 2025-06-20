@@ -8,17 +8,27 @@ namespace StockMarket.Data
     {
         private readonly IMongoDatabase _database;
         private readonly MongoClient _client;
-
+        
+        public MongoAppDbContext(string connectionString, string databaseName)
+        {
+            // Create MongoDB client and get database
+            _client = new MongoClient(connectionString);
+            _database = _client.GetDatabase(databaseName);
+            
+            // Ensure collections exist and indexes are created
+            ConfigureCollections();
+        }
+        
         public MongoAppDbContext(IConfiguration configuration)
         {
             // Get MongoDB configuration from appsettings.json
             var connectionString = configuration.GetConnectionString("MongoDbConnection") ?? "mongodb://localhost:27017";
             var databaseName = configuration.GetConnectionString("MongoDbName") ?? "StockMarket";
-            
+
             // Create MongoDB client and get database
             _client = new MongoClient(connectionString);
             _database = _client.GetDatabase(databaseName);
-            
+
             // Ensure collections exist and indexes are created
             ConfigureCollections();
         }
