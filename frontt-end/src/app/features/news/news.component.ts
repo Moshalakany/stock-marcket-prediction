@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CompanyService } from '../../shared/services/company.service';
 import { NewsService } from './services/news.service';
+
 @Component({
   selector: 'app-news',
   standalone: false,
