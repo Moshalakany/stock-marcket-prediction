@@ -35,7 +35,7 @@ import { TimeAgoPipe } from '../../pipes/time-ago.pipe';
     FormsModule,
   
   ],
-  exports: [ // ✅ Make NewsListComponent and NewsDetailComponent available for other modules
+  exports: [ 
     NewsListComponent,
     NewsDetailComponent,
     NewsComponent,
