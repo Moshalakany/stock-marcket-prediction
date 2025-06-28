@@ -1,0 +1,44 @@
+.spline-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    z-index: 0;
+    overflow: hidden;
+  }
+  .main-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+ .spline-background {
+  position: fixed;
+  top: 0;
+  bottom: -100px; /* Adjust this value to crop the bottom part where the badge is */
+  left: 0;
+  right: -100px; /* Adjust this value to crop the right part where the badge is */
+  z-index: 0;
+  overflow: hidden;
+}
+
+.spline-background iframe {
+  width: 100%;
+  height: 100%;
+}
+  
+  @media (max-width: 768px) {
+    .login-container {
+      right: auto;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+    }
+
+    .spline-background {
+      left: 0;
+      right: 0;
+    }
+  }

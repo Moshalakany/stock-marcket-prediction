@@ -1,1 +1,32 @@
-<p>register works!</p>
+<div class="spline-background">
+    <iframe
+      src="https://my.spline.design/genkubgreetingrobot-LyA8Tu7wdk2QdjL4LDtvIN8c/"
+      frameborder="0"
+      width="100%"
+      height="100%"
+      allowfullscreen
+    ></iframe>
+  </div>
+  
+  <div class="login-container">
+    <div class="login-form">
+      <h2 class="form-title">Welcome Back</h2>
+      <form>
+         <div class="input-group">
+          <input id="usernameTextBox" type="text" placeholder="Username" required />
+        </div>
+        <div class="input-group">
+          <input id="emailTextBox" type="email" placeholder="Email" required />
+        </div>
+        <div class="input-group">
+          <input id="passwordTextBox" type="password" placeholder="Password" required />
+        </div>
+        <div class="input-group">
+          <input id="confirmPasswordTextBox" type="password" placeholder="Confirm Password" required />
+        </div>
+        <button id="submitButton" type="submit" class="login-button">Login</button>
+      </form>
+      <p class="signup-text">Already have an account? <a [routerLink]="['/auth/login']">Log in</a></p>
+    </div>
+  </div>
+ 

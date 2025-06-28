@@ -25,7 +25,13 @@ frontt-end/.angular/
 frontt-end/dist/
 backend/StockMarket/StockMarket/Release/
 backend/StockMarket/.vs
+<<<<<<< HEAD
 backend/StockMarket/StockMarket/.vscode
 backend/StockMarket/.vscode
 backend/StockMarket/.vs/StockMarket/v17/.suo
 backend/StockMarket/.vs/StockMarket/v17
+=======
+backend/StockMarket/StockMarket/appsettings.Development.json
+backend/StockMarket/StockMarket/appsettings.json
+backend/StockMarket/StockMarket/appsettings.Development.json
+>>>>>>> main

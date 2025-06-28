@@ -76,7 +76,7 @@ interface FinnhubSearchResponse {
   providedIn: 'root'
 })
 export class StockService {
-  private apiKey = '07BWIDLHE458SOXH'; // Replace with your actual API key
+  private apiKey = '07BWIDLHE458SOXH'; 
   private apiUrl = 'https://www.alphavantage.co/query';
   private useMockData = false; 
 

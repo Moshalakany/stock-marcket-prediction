@@ -13,13 +13,14 @@
       <h2 class="form-title">Welcome Back</h2>
       <form>
         <div class="input-group">
-          <input type="email" placeholder="Email" required />
+          <input id="UserNameTextBox" type="text" placeholder="Username" required />
         </div>
         <div class="input-group">
-          <input type="password" placeholder="Password" required />
+          <input id="passwordTextBox" type="password" placeholder="Password" required />
         </div>
-        <button type="submit" class="login-button">Login</button>
+        <button id="submitButton" type="submit" class="login-button">Login</button>
       </form>
-      <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+      <p class="signup-text">Don't have an account? <a [routerLink]="['/auth/register']">Sign up</a></p>
     </div>
   </div>
+ 

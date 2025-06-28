@@ -3,6 +3,7 @@ import { FormControl } from '@angular/forms';
 import { Observable, of, debounceTime, from, concatMap, reduce } from 'rxjs';
 import { StockService } from './services/stock.service';
 import { MarketDataService } from './services/market-data.service';
+import {IndexesSummaryService, StockIndex} from './services/indexes-summary.service';
 export interface Stock {
   symbol: string;
   companyName: string;
@@ -31,7 +32,12 @@ export class StocksComponent implements OnInit {
   // Loading and error states
   isLoading = true;
   error: string | null = null;
-  
+  loading = true;
+  stockIndices: StockIndex[] = [];
+  // Array of stock index symbols
+  private readonly indexSymbols = [
+    '^GSPC', // S&P 500
+  ];
   // Pagination
   currentPage = 1;
   pageSize = 20;
@@ -46,7 +52,7 @@ export class StocksComponent implements OnInit {
   // Watchlist functionality
   watchlist: Set<string> = new Set();
   
-  constructor(private stockService: StockService,private marketService: MarketDataService) {}
+  constructor(private stockService: StockService,private marketService: MarketDataService,private stockMarketService: IndexesSummaryService) {}
   
   ngOnInit(): void {
     this.loadStocks();
@@ -90,6 +96,17 @@ export class StocksComponent implements OnInit {
       error: (err) => {
         this.error = 'Failed to load stocks data: ' + err.message;
         this.isLoading = false;
+      }
+    });
+     this.stockMarketService.getStockIndices(this.indexSymbols).subscribe({
+      next: (data) => {
+        this.stockIndices = data;
+        this.loading = false;
+      },
+      error: (err) => {
+        this.error = 'Failed to load stock market data';
+        this.loading = false;
+        console.error('Error loading stock indices:', err);
       }
     });
   }
@@ -175,4 +192,5 @@ export class StocksComponent implements OnInit {
   getChangeClass(change: number): string {
     return change > 0 ? 'positive-change' : (change < 0 ? 'negative-change' : 'neutral-change');
   }
+  
 }

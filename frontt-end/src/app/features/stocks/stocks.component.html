@@ -42,15 +42,21 @@
   
     <!-- Market Summary Cards -->
     <section class="market-summary" *ngIf="!isLoading && !error">
-      <div class="summary-card">
-        <div class="card-title">S&P 500</div>
-        <div class="card-value">4,795.56</div>
-        <div class="card-change positive-change">+0.76%</div>
+     <div *ngFor="let index of stockIndices" class="summary-card">
+      <div class="card-title">{{ index.name }}</div>
+      <div class="card-value">{{ index.price | number: '1.2-2' }}</div>
+      <div 
+        class="card-change"
+        [ngClass]="{ 'positive-change': index.changePercentage > 0, 'negative-change': index.changePercentage < 0 }">
+        {{ index.changePercentage > 0 ? '+' : '' }}{{ index.changePercentage | number: '1.2-2' }}%
       </div>
-      <div class="summary-card">
-        <div class="card-title">Today's Volume</div>
-        <div class="card-value">5.2B</div>
+    </div>
+
+      <div *ngIf="stockIndices.length > 0" class="summary-card">
+        <div class="card-title">Today's Volume - {{ stockIndices[0].name }}</div>
+      <div class="card-value">{{ stockIndices[0].volume | shortNumber }}</div>
       </div>
+
       <div class="summary-card">
         <div class="card-title">Market Status</div>
         <div class="card-value">
