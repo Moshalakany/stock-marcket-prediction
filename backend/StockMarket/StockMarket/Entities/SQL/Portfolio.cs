@@ -1,4 +1,6 @@
-﻿namespace StockMarket.Entities.SQL
+﻿
+namespace StockMarket.Entities.SQL
+
 {
     public class Portfolio
     {

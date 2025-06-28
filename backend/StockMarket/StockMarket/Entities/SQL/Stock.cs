@@ -5,7 +5,11 @@ namespace StockMarket.Entities.SQL
     public class Stock
     {
         [Key]
-        public string Symbol { get; set; } = default!;
+        public string symbol { get; set; } = default!;
+        public string? Industry { get; set; }
+        public string? LongName { get; set; }
+        public string? Longbusinesssummary { get; set; }
+        public int FullTimeEmployees { get; set; }
         public string? CompanyName { get; set; }
         public string? Sector { get; set; }
         //navigation properties

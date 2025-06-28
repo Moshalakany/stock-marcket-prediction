@@ -8,9 +8,9 @@ namespace StockMarket.Data.config
     {
         public void Configure(EntityTypeBuilder<Stock> builder)
         {
-            builder.HasKey(s => s.Symbol);
+            builder.HasKey(s => s.symbol);
             
-            builder.Property(s => s.Symbol)
+            builder.Property(s => s.symbol)
                 .IsRequired();
             
             builder.Property(s => s.CompanyName);

@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using StockMarket.Data;
+using StockMarket.Scripts;
 using StockMarket.Services;
 using StockMarket.Services.Interfaces;
 using System.Security.Claims;
@@ -23,22 +24,39 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
     });
 builder.Services.AddHttpClient();
+
+// Get connection strings with environment variable support
+var sqlConnectionString = Environment.GetEnvironmentVariable("SQL_CONNECTION_STRING") 
+    ?? builder.Configuration.GetConnectionString("SqlDbConnection");
+var mongoConnectionString = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING") 
+    ?? builder.Configuration.GetConnectionString("MongoDbConnection");
+
+// Configure SQL database
 builder.Services.AddDbContextPool<SQLAppDbContext>(options => {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlDbConnection"));
+    options.UseSqlServer(sqlConnectionString);
 });
-builder.Services.AddSingleton<MongoAppDbContext>();
+
+// Configure MongoDB
+builder.Services.AddSingleton(provider => {
+    var mongoDbName = Environment.GetEnvironmentVariable("MONGO_DB_NAME") 
+        ?? builder.Configuration["ConnectionStrings:MongoDbName"] 
+        ?? "StockMarket";
+    return new MongoAppDbContext(mongoConnectionString, mongoDbName);
+});
+
+// JWT authentication configuration
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
-            ValidIssuer = builder.Configuration["AppSettings:Issuer"],
+            ValidIssuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? builder.Configuration["AppSettings:Issuer"],
             ValidateAudience = true,
-            ValidAudience = builder.Configuration["AppSettings:Audience"],
+            ValidAudience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") ?? builder.Configuration["AppSettings:Audience"],
             ValidateLifetime = true, 
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["AppSettings:Token"]!)),
+                Encoding.UTF8.GetBytes(Environment.GetEnvironmentVariable("JWT_TOKEN") ?? builder.Configuration["AppSettings:Token"]!)),
             ValidateIssuerSigningKey = true
         };
 
@@ -67,12 +85,21 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             }
         };
     });
+//news articles script
+//System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+//StockNewsFromExcelToDb stockNewsFromExcelToDb = new StockNewsFromExcelToDb();
+//stockNewsFromExcelToDb.SaveToMongoCollection("E:\\Stock Market GP\\Current\\stock-marcket-prediction\\news\\news_data");
 //builder.Services.AddSingleton<RabbitMQService>();
+
+
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IStockService, StockService>();
 builder.Services.AddScoped<IPortfolioService, PortfolioService>(); 
 builder.Services.AddScoped<IGetLiveDataService, GetLiveDataService>();
 builder.Services.AddSingleton<INewsArticleService, NewsArticleService>();
+builder.Services.AddScoped<ISentimentService, SentimentService>();
+
+builder.Services.AddScoped<IWatchlistService, WatchlistService>();
 
 //// Register NewsArticle-related services
 //builder.Services.AddScoped<INewsArticleService, NewsArticleService>();
@@ -85,7 +112,7 @@ builder.Services.AddSingleton<INewsArticleService, NewsArticleService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || Environment.GetEnvironmentVariable("ENABLE_SWAGGER")?.ToLower() == "true")
 {
 
     app.MapOpenApi();
@@ -96,10 +123,9 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty; 
     });
 }
+
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 await app.RunAsync();

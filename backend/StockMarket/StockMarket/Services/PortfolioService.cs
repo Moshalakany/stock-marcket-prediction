@@ -62,7 +62,7 @@ namespace StockMarket.Services
                 context.Portfolios.Add(portfolio);
             }
 
-            var portfolioStock = portfolio.PortfolioStocks?.FirstOrDefault(ps => ps.StockSymbol == stock.Symbol);            
+            var portfolioStock = portfolio.PortfolioStocks?.FirstOrDefault(ps => ps.StockSymbol == stock.symbol);            
             if (portfolioStock != null)
             {
                 var totalQuantity = portfolioStock.Quantity + portfolioItemDto.Quantity;
@@ -70,11 +70,11 @@ namespace StockMarket.Services
             }
             else
             {
-                var currentPrice = await liveDataService.GetCurrentPriceAsync(stock.Symbol);
+                var currentPrice = await liveDataService.GetCurrentPriceAsync(stock.symbol);
                 portfolioStock = new PortfolioStock
                 {
                     Portfolio = portfolio,
-                    StockSymbol = stock.Symbol,
+                    StockSymbol = stock.symbol,
                     Stock = stock,
                     Quantity = portfolioItemDto.Quantity,
                     PurchaseDate = DateTime.UtcNow,
@@ -87,7 +87,7 @@ namespace StockMarket.Services
             await context.SaveChangesAsync();
             return new PortfolioItemDto
             {
-                Symbol = stock.Symbol,
+                Symbol = stock.symbol,
                 Quantity = portfolioItemDto.Quantity,
                 PurchasePrice = portfolioItemDto.PurchasePrice 
             };
@@ -102,7 +102,7 @@ namespace StockMarket.Services
 
             if (portfolio == null || portfolio.PortfolioStocks == null) return false;
 
-            var stockToRemove = portfolio.PortfolioStocks.FirstOrDefault(ps => ps.Stock != null && ps.Stock.Symbol == symbol);
+            var stockToRemove = portfolio.PortfolioStocks.FirstOrDefault(ps => ps.Stock != null && ps.Stock.symbol == symbol);
 
             if (stockToRemove == null) return false;
 

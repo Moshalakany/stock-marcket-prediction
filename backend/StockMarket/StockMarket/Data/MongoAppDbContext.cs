@@ -8,17 +8,27 @@ namespace StockMarket.Data
     {
         private readonly IMongoDatabase _database;
         private readonly MongoClient _client;
-
+        
+        public MongoAppDbContext(string connectionString, string databaseName)
+        {
+            // Create MongoDB client and get database
+            _client = new MongoClient(connectionString);
+            _database = _client.GetDatabase(databaseName);
+            
+            // Ensure collections exist and indexes are created
+            ConfigureCollections();
+        }
+        
         public MongoAppDbContext(IConfiguration configuration)
         {
             // Get MongoDB configuration from appsettings.json
             var connectionString = configuration.GetConnectionString("MongoDbConnection") ?? "mongodb://localhost:27017";
             var databaseName = configuration.GetConnectionString("MongoDbName") ?? "StockMarket";
-            
+
             // Create MongoDB client and get database
             _client = new MongoClient(connectionString);
             _database = _client.GetDatabase(databaseName);
-            
+
             // Ensure collections exist and indexes are created
             ConfigureCollections();
         }
@@ -32,14 +42,14 @@ namespace StockMarket.Data
             var newsArticlesCollection = _database.GetCollection<NewsArticle>("NewsArticles");
             
             // Create index on Symbol field for faster lookups
-            var symbolIndexKeys = Builders<NewsArticle>.IndexKeys.Ascending(a => a.Symbol);
+            var symbolIndexKeys = Builders<NewsArticle>.IndexKeys.Ascending(a => a.symbol);
             var symbolIndexModel = new CreateIndexModel<NewsArticle>(symbolIndexKeys);
             newsArticlesCollection.Indexes.CreateOne(symbolIndexModel);
             
             // Create compound index on Symbol and Title for uniqueness checks
             var symbolTitleIndexKeys = Builders<NewsArticle>.IndexKeys
-                .Ascending(a => a.Symbol)
-                .Ascending(a => a.Title);
+                .Ascending(a => a.symbol)
+                .Ascending(a => a.title);
             var symbolTitleIndexModel = new CreateIndexModel<NewsArticle>(
                 symbolTitleIndexKeys, 
                 new CreateIndexOptions { Unique = true });
@@ -54,7 +64,7 @@ namespace StockMarket.Data
             }
             
             // Create index on DateTime field for sorting
-            var dateTimeIndexKeys = Builders<NewsArticle>.IndexKeys.Descending(a => a.DateTime);
+            var dateTimeIndexKeys = Builders<NewsArticle>.IndexKeys.Descending(a => a.datetime);
             var dateTimeIndexModel = new CreateIndexModel<NewsArticle>(dateTimeIndexKeys);
             newsArticlesCollection.Indexes.CreateOne(dateTimeIndexModel);
         }

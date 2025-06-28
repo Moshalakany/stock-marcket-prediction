@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  stockmarket-api:
+    build:
+      context: .
+      dockerfile: StockMarket/Dockerfile
+    ports:
+      - "8080:80"
+      - "8443:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - SQL_CONNECTION_STRING=Server=sqlserver;Database=StockMarket;User Id=sa;Password=StockMarket@123;TrustServerCertificate=True;
+      - MONGO_CONNECTION_STRING=mongodb://mongodb:27017/StockMarket
+      - MONGO_DB_NAME=StockMarket
+      - ENABLE_SWAGGER=true
+    depends_on:
+      - sqlserver
+      - mongodb
+      - rabbitmq
+    networks:
+      - stockmarket-network
+    restart: unless-stopped
+    
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=StockMarket@123
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    ports:
+      - "1433:1433"
+    networks:
+      - stockmarket-network
+    restart: unless-stopped
+    
+  mongodb:
+    image: mongo:latest
+    volumes:
+      - mongodb-data:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - stockmarket-network
+    restart: unless-stopped
+    
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - stockmarket-network
+    restart: unless-stopped
+
+volumes:
+  sqlserver-data:
+  mongodb-data:
+
+networks:
+  stockmarket-network:
+    driver: bridge

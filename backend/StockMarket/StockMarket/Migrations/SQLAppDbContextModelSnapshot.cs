@@ -77,16 +77,28 @@ namespace StockMarket.Migrations
 
             modelBuilder.Entity("StockMarket.Entities.SQL.Stock", b =>
                 {
-                    b.Property<string>("Symbol")
+                    b.Property<string>("symbol")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CompanyName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("FullTimeEmployees")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Industry")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LongName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Longbusinesssummary")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Sector")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("Symbol");
+                    b.HasKey("symbol");
 
                     b.HasIndex("Sector");
 
@@ -150,6 +162,11 @@ namespace StockMarket.Migrations
                         .HasColumnName("WatchlistId");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WatchlistId"));
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("Name");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int")
