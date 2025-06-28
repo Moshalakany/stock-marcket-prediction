@@ -19,14 +19,15 @@ import { StocksRoutingModule } from './stocks-routing.module';
 import { ChartForStockComponent } from './components/chart-for-stock/chart-for-stock.component';
 import { PredictionChartComponent } from './components/prediction-chart/prediction-chart.component';
 import { IndexesSummaryComponent } from './components/indexes-summary/indexes-summary.component';
+import { ShortNumberPipe } from '../../pipes/short-number.pipe';
 @NgModule({
   declarations: [
     CompanyListComponent,
     StocksComponent,
     ChartForStockComponent,
     PredictionChartComponent,
-    IndexesSummaryComponent
-    
+    IndexesSummaryComponent,
+    ShortNumberPipe
   ],
   imports: [
     CommonModule,

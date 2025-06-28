@@ -12,11 +12,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavBarComponent } from './shared/components/nav-bar/nav-bar.component';
 import { CoreModule } from './core/core.module';
 import { TimeAgoPipe } from './pipes/time-ago.pipe';
+import { ShortNumberPipe } from './pipes/short-number.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-   
     NavBarComponent,
   ],
   exports: [

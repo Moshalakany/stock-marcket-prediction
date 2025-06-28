@@ -225,4 +225,11 @@
     .mat-column-volume, .mat-column-marketCap {
       display: none;
     }
+    .positive-change {
+      color: green;
+    }
+    .negative-change {
+      color: red;
+    }
+
   }
