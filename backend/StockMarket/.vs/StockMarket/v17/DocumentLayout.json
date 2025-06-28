@@ -87,7 +87,7 @@
               "RelativeDocumentMoniker": "StockMarket\\Entities\\SQL\\WatchlistStock.cs",
               "ToolTip": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\WatchlistStock.cs",
               "RelativeToolTip": "StockMarket\\Entities\\SQL\\WatchlistStock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T22:04:51.203Z",
               "EditorCaption": ""
@@ -102,8 +102,7 @@
               "RelativeToolTip": "StockMarket\\Entities\\SQL\\Watchlist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T22:04:50.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T22:04:50.834Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "StockMarket\\Entities\\SQL\\Stock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T21:52:11.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T21:52:11.933Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "StockMarket\\Services\\AuthService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T12:40:16.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:40:16.899Z"
             },
             {
               "$type": "Document",

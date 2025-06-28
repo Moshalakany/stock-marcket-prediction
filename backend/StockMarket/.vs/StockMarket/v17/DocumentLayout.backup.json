@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|c:\\users\\sara shaker\\desktop\\graduationprojectremoterepo\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\entities\\sql\\watchliststock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\entities\\sql\\watchliststock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|c:\\users\\sara shaker\\desktop\\graduationprojectremoterepo\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\entities\\sql\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\entities\\sql\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|c:\\users\\sara shaker\\desktop\\graduationprojectremoterepo\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\entities\\sql\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\entities\\sql\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|c:\\users\\sara shaker\\desktop\\graduationprojectremoterepo\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Migrations\\20250615115700_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockMarket\\Migrations\\20250615115700_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|c:\\users\\sara shaker\\desktop\\graduationprojectremoterepo\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\stockmarket.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\stockmarket.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -56,6 +64,10 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|c:\\users\\sara shaker\\desktop\\graduationprojectremoterepo\\stock-marcket-prediction\\backend\\stockmarket\\stockmarket\\migrations\\20250615115700_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59160C3D-B618-4031-9041-0B6C34449CCA}|StockMarket\\StockMarket.csproj|solutionrelative:stockmarket\\migrations\\20250615115700_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,25 +76,64 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 286,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WatchlistStock.cs",
+              "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\WatchlistStock.cs",
+              "RelativeDocumentMoniker": "StockMarket\\Entities\\SQL\\WatchlistStock.cs",
+              "ToolTip": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\WatchlistStock.cs",
+              "RelativeToolTip": "StockMarket\\Entities\\SQL\\WatchlistStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T22:04:51.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Watchlist.cs",
+              "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\Watchlist.cs",
+              "RelativeDocumentMoniker": "StockMarket\\Entities\\SQL\\Watchlist.cs",
+              "ToolTip": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\Watchlist.cs",
+              "RelativeToolTip": "StockMarket\\Entities\\SQL\\Watchlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T22:04:50.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\Stock.cs",
+              "RelativeDocumentMoniker": "StockMarket\\Entities\\SQL\\Stock.cs",
+              "ToolTip": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\Stock.cs",
+              "RelativeToolTip": "StockMarket\\Entities\\SQL\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:52:11.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "StockMarket\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Services\\AuthService.cs",
               "RelativeToolTip": "StockMarket\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T12:40:16.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Services\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "StockMarket\\Services\\Interfaces\\IAuthService.cs",
@@ -90,12 +141,11 @@
               "RelativeToolTip": "StockMarket\\Services\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T12:38:16.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:38:16.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "StockMarket\\Controllers\\AuthController.cs",
@@ -103,12 +153,11 @@
               "RelativeToolTip": "StockMarket\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T12:37:28.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:37:28.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Entities\\SQL\\User.cs",
               "RelativeDocumentMoniker": "StockMarket\\Entities\\SQL\\User.cs",
@@ -116,12 +165,11 @@
               "RelativeToolTip": "StockMarket\\Entities\\SQL\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T12:36:15.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:36:15.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Data\\config\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "StockMarket\\Data\\config\\UserConfiguration.cs",
@@ -129,12 +177,11 @@
               "RelativeToolTip": "StockMarket\\Data\\config\\UserConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T12:28:18.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:28:18.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "appsettings.Testing.json",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\appsettings.Testing.json",
               "RelativeDocumentMoniker": "StockMarket\\appsettings.Testing.json",
@@ -142,12 +189,11 @@
               "RelativeToolTip": "StockMarket\\appsettings.Testing.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-15T12:06:25.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:06:25.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.Production.json",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\appsettings.Production.json",
               "RelativeDocumentMoniker": "StockMarket\\appsettings.Production.json",
@@ -155,12 +201,11 @@
               "RelativeToolTip": "StockMarket\\appsettings.Production.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-15T12:06:22.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:06:22.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\appsettings.Development.json",
               "RelativeDocumentMoniker": "StockMarket\\appsettings.Development.json",
@@ -168,12 +213,11 @@
               "RelativeToolTip": "StockMarket\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-15T12:06:08.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T12:06:08.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "20250615115700_test.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Migrations\\20250615115700_test.cs",
               "RelativeDocumentMoniker": "StockMarket\\Migrations\\20250615115700_test.cs",
@@ -181,12 +225,11 @@
               "RelativeToolTip": "StockMarket\\Migrations\\20250615115700_test.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:57:01.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:57:01.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\appsettings.json",
               "RelativeDocumentMoniker": "StockMarket\\appsettings.json",
@@ -194,12 +237,11 @@
               "RelativeToolTip": "StockMarket\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-15T11:54:55.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:54:55.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "StockMarket.http",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\StockMarket.http",
               "RelativeDocumentMoniker": "StockMarket\\StockMarket.http",
@@ -207,12 +249,11 @@
               "RelativeToolTip": "StockMarket\\StockMarket.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-15T11:54:50.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:54:50.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Program.cs",
               "RelativeDocumentMoniker": "StockMarket\\Program.cs",
@@ -220,12 +261,11 @@
               "RelativeToolTip": "StockMarket\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:42:04.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T11:42:04.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PortfolioService.cs",
               "DocumentMoniker": "C:\\Users\\sara shaker\\Desktop\\GraduationProjectRemoteRepo\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Services\\PortfolioService.cs",
               "RelativeDocumentMoniker": "StockMarket\\Services\\PortfolioService.cs",
@@ -233,12 +273,11 @@
               "RelativeToolTip": "StockMarket\\Services\\PortfolioService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:14:43.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T14:14:43.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Properties\\launchSettings.json",
               "ToolTip": "E:\\Stock Market GP\\Current\\stock-marcket-prediction\\backend\\StockMarket\\StockMarket\\Properties\\launchSettings.json",
