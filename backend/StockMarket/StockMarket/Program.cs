@@ -82,8 +82,18 @@ builder.Services.AddSingleton<INewsArticleService, NewsArticleService>();
 //// Optional: Add a Hosted Service to start consuming automatically
 //builder.Services.AddHostedService<NewsConsumerHostedService>();
 
-var app = builder.Build();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularApp",
+        policy => policy
+            .WithOrigins("http://localhost:4200") // Your Angular URL
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
 
+
+var app = builder.Build();
+app.UseCors("AllowAngularApp");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
