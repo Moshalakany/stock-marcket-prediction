@@ -8,19 +8,47 @@
     ></iframe>
   </div>
   
-  <div class="login-container">
-    <div class="login-form">
-      <h2 class="form-title">Welcome Back</h2>
-      <form>
-        <div class="input-group">
-          <input id="UserNameTextBox" type="text" placeholder="Username" required />
-        </div>
-        <div class="input-group">
-          <input id="passwordTextBox" type="password" placeholder="Password" required />
-        </div>
-        <button id="submitButton" type="submit" class="login-button">Login</button>
-      </form>
-      <p class="signup-text">Don't have an account? <a [routerLink]="['/auth/register']">Sign up</a></p>
+ <div class="login-container">
+  <div class="login-form">
+    <h2 class="form-title">Welcome Back</h2>
+    
+    <form (ngSubmit)="onLogin()" #loginForm="ngForm">
+      <div class="input-group">
+        <input
+          id="UserNameTextBox"
+          name="username"
+          type="text"
+          placeholder="Username"
+          required
+          [(ngModel)]="loginData.username"
+           (input)="clearError()"
+        />
+      </div>
+
+      <div class="input-group">
+        <input
+          id="passwordTextBox"
+          name="password"
+          type="password"
+          placeholder="Password"
+          required
+          [(ngModel)]="loginData.password"
+           (input)="clearError()"
+        />
+      </div>
+
+      <button id="submitButton" type="submit" class="login-button">Login</button>
+    </form>
+   <div *ngIf="errorMessage" class="error-message">
+      <span class="error-icon">⚠️</span>
+      <span class="error-text">{{ errorMessage }}</span>
     </div>
+
+    <p class="signup-text">
+      Don't have an account?
+      <a [routerLink]="['/auth/register']">Sign up</a>
+    </p>
   </div>
+</div>
+
  

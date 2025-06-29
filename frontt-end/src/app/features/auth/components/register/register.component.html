@@ -9,24 +9,61 @@
   </div>
   
   <div class="login-container">
-    <div class="login-form">
-      <h2 class="form-title">Welcome Back</h2>
-      <form>
-         <div class="input-group">
-          <input id="usernameTextBox" type="text" placeholder="Username" required />
-        </div>
-        <div class="input-group">
-          <input id="emailTextBox" type="email" placeholder="Email" required />
-        </div>
-        <div class="input-group">
-          <input id="passwordTextBox" type="password" placeholder="Password" required />
-        </div>
-        <div class="input-group">
-          <input id="confirmPasswordTextBox" type="password" placeholder="Confirm Password" required />
-        </div>
-        <button id="submitButton" type="submit" class="login-button">Login</button>
-      </form>
-      <p class="signup-text">Already have an account? <a [routerLink]="['/auth/login']">Log in</a></p>
-    </div>
+  <div class="login-form">
+    <h2 class="form-title">Create Your Account</h2>
+
+    <form (ngSubmit)="onRegister()" #registerForm="ngForm">
+      <div class="input-group">
+        <input
+          type="text"
+          placeholder="Username"
+          required
+          [(ngModel)]="registerData.username"
+          name="username"
+        />
+      </div>
+
+      <div class="input-group">
+        <input
+          type="email"
+          placeholder="Email"
+          required
+          [(ngModel)]="registerData.email"
+          name="email"
+        />
+      </div>
+
+      <div class="input-group">
+        <input
+          type="password"
+          placeholder="Password"
+          required
+          [(ngModel)]="registerData.password"
+          name="password"
+        />
+      </div>
+
+      <div class="input-group">
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          required
+          [(ngModel)]="registerData.confirmPassword"
+          name="confirmPassword"
+        />
+      </div>
+
+      <button type="submit" class="login-button">Sign Up</button>
+    </form>
+
+    <!-- Error / Success Messages -->
+    <p *ngIf="errorMessage" class="text-red-600 text-sm mt-3">{{ errorMessage }}</p>
+    <p *ngIf="successMessage" class="text-green-600 text-sm mt-3">{{ successMessage }}</p>
+
+    <p class="signup-text">
+      Already have an account?
+      <a [routerLink]="['/auth/login']">Log in</a>
+    </p>
   </div>
- 
+</div>
+
