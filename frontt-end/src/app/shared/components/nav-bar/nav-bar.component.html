@@ -88,7 +88,7 @@
         </div>
 
         <!-- Make the entire button navigate -->
-        <div class="flex items-center">
+        <!-- <div class="flex items-center">
           <button
             [routerLink]="['/auth/login']"
             routerLinkActive="font-semibold"
@@ -100,7 +100,87 @@
             </svg>
             <span class="hidden md:inline">Account</span>
           </button>
-        </div>
+        </div> -->
+        <!-- Show username if logged in -->
+        <!-- Show username and dropdown if logged in -->
+<ng-container *ngIf="userNameO$ | async as userName; else loginBtn">
+  <div class="relative group">
+    <button
+      class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700 transition duration-200"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5.121 17.804A7 7 0 0112 15a7 7 0 016.879 2.804M15 10a3 3 0 11-6 0 3 3 0 016 0z"
+        />
+      </svg>
+      <span class="hidden md:inline">{{ userName }}</span>
+      <!-- Optional: Down Arrow -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4 opacity-70"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+
+    <!-- Dropdown Menu -->
+    <div
+      class="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white text-gray-800 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-200 z-50"
+    >
+      <a
+        routerLink="/profile"
+        class="block px-4 py-2 text-sm hover:bg-gray-100 transition"
+      >
+        Profile
+      </a>
+      <button
+        (click)="logout()"
+        class="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+</ng-container>
+
+<!-- If not logged in -->
+<ng-template #loginBtn>
+  <a
+    [routerLink]="['/auth/login']"
+    class="flex items-center gap-2 py-1.5 px-3 rounded-md font-medium text-gray-700 hover:text-blue-600 transition"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-5 w-5"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+      />
+    </svg>
+    <span class="hidden md:inline">Login</span>
+  </a>
+</ng-template>
+
+
+
 
         <button class="md:hidden focus:outline-none" (click)="toggleMobileMenu()">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -141,7 +221,7 @@
 </div>
 
 
-<!-- Space for Content -->
+
 <div class="h-16"></div>
 
 <!-- Tailwind Animation for Moving Line -->
